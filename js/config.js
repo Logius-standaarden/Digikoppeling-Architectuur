@@ -13,11 +13,11 @@ var respecConfig = {
   // Als er geen publishDate is opgegeven, genereert ReSpec de datum o.b.v. de laatste wijzigingen
   // Belangrijk: als publishDate niet opgegeven is, wordt bij de link "Laatst gepubliceerde versie" "geen" gezet. Anders wordt een link opgebouwd voor de laatste versie, met het formaat:
   // https://docs.centrumvoorstandaarden.nl/{pubDomain}/{shortName}
-  publishDate: "2022-04-11",
-  previousPublishDate: "2021-03-04",
+  publishDate: "2022-08-12",
+  previousPublishDate: "2022-04-11",
 
-  publishVersion: "2.0.0",
-  previousPublishVersion: "1.5.1",
+  publishVersion: "2.0.1",
+  previousPublishVersion: "2.0.0",
 
   addSectionLinks: true,
   // otherLinks: [
