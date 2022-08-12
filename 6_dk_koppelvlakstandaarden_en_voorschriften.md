@@ -41,7 +41,7 @@ Door het gebruik van deze profielen worden deze aspecten correct afgehandeld en 
 | Koppelvlakstandaard WUS | het gebruik van WUS voor synchrone uitwisseling van gestructureerde berichten en de WUS profielen.|
 | Koppelvlakstandaard ebMS2 | Het gebruik van ebMS2 voor asynchrone uitwisseling en de ebMS2 profielen|
 |Koppelvlakstandaard REST API| Het gebruik van REST APIs voor het synchroon raadplegen en bewerken van resources|
-| Koppelvlakstandaard Grote Berichten | Voor de uitwisseling van grote berichten maakt gebruik van WUS met HTTPS bestandsoverdracht of ebMS2 met HTTPS bestandsoverdracht |
+| Koppelvlakstandaard Grote Berichten | De uitwisseling van grote berichten maakt gebruik van WUS, ebMS2 of (indien gewenst) REST met HTTPS bestandsoverdracht |
 | Beveiligingstandaarden en voorschriften  | Beschrijft de beveiligingstandaarden (TLS, signing en encryption) voor de Digikoppeling profielen WUS, ebMS2 en Grote berichten |
 | Identificatie en Authenticatie | Beschrijft de identificatie van partijen, het opzetten van een tweezijdige beveiligde TLS-verbinding en over het ondertekenen  en versleutelen van berichten en bijlagen. |
 | Overzicht Actuele Documentatie en Compliance | Overzicht van de actuele versie van de  Digikopeling specificaties (normatief en niet-normatief)  |
@@ -163,17 +163,17 @@ De wijze waarop een CPA wordt toegepast staat beschreven in Digikoppeling Best P
 
 ### Werking grote berichten
 
-De situatie kan zich voordoen dat een WUS, REST API, en/of ebMS2 bericht een grootte krijgt die niet meer efficiënt door de WUS / ebMS2 / REST API adapters en services verwerkt kan worden. Ook kan er behoefte zijn aan het buiten de normale procesgang ('out-of-band') sturen van aanvullende informatie naar systemen. In die gevallen zal dit “grote bericht” op een andere wijze verstuurd moeten worden: middels de Digikoppeling koppelvlakstandaard Grote Berichten.
+De situatie kan zich voordoen dat een Digikoppelingbericht een grootte krijgt die niet meer efficiënt door de Digikoppelingadapters en -services verwerkt kan worden. Ook kan er behoefte zijn aan het buiten de normale procesgang ('out-of-band') sturen van aanvullende informatie naar systemen. In die gevallen zal dit “grote bericht” op een andere wijze verstuurd moeten worden: middels de Digikoppeling koppelvlakstandaard Grote Berichten.
 
 De volgende standaard aanpak wordt hierbij gehanteerd:
 
-- Met WUS of ebMS2 wordt referentie (link) verstuurd;
+- Met WUS, ebMS2 of eventueel REST wordt referentie (link) verstuurd;
 
 - de referentie verwijst naar de locatie van het grote bestand. Het hangt af van het  gebruikte Digikoppeling Grote berichten profiel of de ontvanger het bestand moet downloaden of dat de zender het grote bestand inmiddels als naar de ontvanger heeft geupload.
 
-Het grote bericht zelf zal vaak volledig in het grote bestand zijn opgenomen; het WUS of ebMS2 bericht bevat dan alleen metadata (waaronder de link naar het bestand). Maar het kan ook gebeuren dat een klein deel van het oorspronkelijk grote bericht al in het WUS-bericht is opgenomen en de rest (bijvoorbeeld bijlagen bij het bericht) in een of meerdere bestanden is opgenomen.
+Het grote bericht zelf zal vaak volledig in het grote bestand zijn opgenomen; het WUS, ebMS2 of REST-bericht bevat dan alleen metadata (waaronder de link naar het bestand). Maar het kan ook gebeuren dat een klein deel van het oorspronkelijk grote bericht al in het WUS-bericht is opgenomen en de rest (bijvoorbeeld bijlagen bij het bericht) in een of meerdere bestanden is opgenomen.
 
-Het principe dat Digikoppeling grote berichten toepast is het ‘claim-check’ principe. Dit betekent dat het bericht zelf (WUS of ebMS2)
+Het principe dat Digikoppeling grote berichten toepast is het ‘claim-check’ principe. Dit betekent dat het bericht zelf (WUS/ebMS2/REST)
 
 alleen een referentie (claim-check) naar het grote bestand bevat. Deze referentie wordt vervolgens gebruikt om het bestand zelf op te halen.
 
@@ -183,8 +183,8 @@ De standaard doet geen uitspraak over gegevensstromen waarin kleine en grote ber
 
 ### Standaarden voor grote berichten
 
-De *Digikoppeling Koppelvlakstaard Grote Berichten* [[Digikoppeling Koppelvlakstandaard Grote Berichten]] maakt gebruik van WUS en ebMS2
- voor het verzenden van metadata. Voor ophalen van het grote bestand maakt de standaard gebruik van HTTPS-downloads. Daardoor zijn reliability en security gelijkwaardig aan WUS en ebMS2. Ook is het gebruik van transparante intermediairs mogelijk.
+De *Digikoppeling Koppelvlakstaard Grote Berichten* [[Digikoppeling Koppelvlakstandaard Grote Berichten]] maakt gebruik van WUS, ebMS2 of REST
+ voor het verzenden van metadata. Voor ophalen van het grote bestand maakt de standaard gebruik van HTTPS-downloads. Daardoor zijn reliability en security gelijkwaardig aan de andere koppelvlakstandaarden. Ook is het gebruik van transparante intermediairs mogelijk.
 
 [[Digikoppeling Koppelvlakstandaard Grote Berichten]] regelt de volgende functionaliteiten, in aanvulling op WUS of ebMS2
 
