@@ -27,6 +27,14 @@ Een bron van open data kan een overheidsorganisatie aanbieden via een voor ieder
 - Open Diensten: diensten zonder toegangsbeperking bijvoorbeeld open data.
 - Gesloten Diensten: diensten met toegangsbeperking bijvoorbeeld persoonsgegevens en vertrouwelijke gegevens of diensten voor specifieke partijen.
 
+### Open en Closed Netwerken
+
+Naast het onderscheid tussen open en closed data en diensten is het ook van belang om onderscheid te maken in publieke en afgeschermde netwerken. Voor closed data en diensten is het deels mogelijk deze via een versleutelde verbinding (TLS) op een open netwerken (het internet) aan te bieden. Digikoppeling voorziet hierbij dan in de beveiliging. Open data en open diensten worden bij vanzelfsprekend aangeboden op open netwerken.
+
+Daarnaast is het ook mogelijk om closed data en diensten over een closed netwerk zoals Diginetwerk of een eigen LAN of WAN aan te bieden. 
+
+De aanbieder van de closed data en diensten besluit welke mate van beveiliging wordt toegepast en welke netwerken worden gebruikt.
+
 ## Wanneer moet Digikoppeling toegepast worden
 
 Digikoppeling staat op de lijst *verplichte standaarden* van het Forum Standaardisatie. De lijst beschrijft het *Functioneel* toepassingsgebied en het *organisatorisch* werkingsgebied. Met het functioneel toepassingsgebied bedoelt het Forum de toepassing(en) waarvoor het gebruik van de standaard verplicht is of aanbevolen wordt.
