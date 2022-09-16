@@ -47,7 +47,7 @@ Het Forum Standaardisatie definieert het *functioneel toepassingsgebied* van Dig
 
 bron: [[Pas-toe-of-leg-uit]]
 
-Daarnaast benoemt het Forum de organisaties waarvoor de verplichting geldt. Dit wordt het *organisatorische werkinggebied* genoemd. Het werkingsgebied is als volgt gedefinieerd:
+Daarnaast benoemt het Forum de organisaties waarvoor de verplichting geldt. Dit wordt het *organisatorische werkingsgebied* genoemd. Het werkingsgebied is als volgt gedefinieerd:
 ## Organisatorisch werkingsgebied
 
 > Nederlandse overheden (Rijk, provincies, gemeenten en waterschappen) en instellingen uit de (semi-) publieke sector.
@@ -65,7 +65,7 @@ Met de toevoeging van het Digikoppeling REST API profiel komt de vergelijking me
 
 Het Forum beschrijft dat Digikoppeling gaat over het uitwisselen van gestructureerde berichten. Voor het gebruik van REST API's moet het concept van *berichten* wel erg uitgerekt worden om in deze definitie te passen. Een synchrone JSON response kan als een bericht worden gezien, maar of ook de request die hieraan voorafging als een gestructureerde *bericht* kan worden gezien vergt enige creativiteit. De uitwisseling van gegevens via REST API's is daarentegen in ieder geval wel *gestructureerd*, alleen al omdat elke interactie via een  API volgens een protocol, of standaard verloopt, zoals http [[?rfc7230]], https [[?rfc2818]], OpenAPI Specification [[?openapi]] of de (API Design Rules) [[?API Design Rules]].
 
-Voor Digikoppeling verleggen we daarom de focus van berichtverkeer naar het uitwisselen van gegevens. Vandaar dat we in het vervolg in dit document zullen spreken over gestructeerde *gegevensuitwisseling*, in plaats van gestructureerde berichtuitwisseling.
+Voor Digikoppeling verleggen we daarom de focus van berichtenverkeer naar het uitwisselen van gegevens. Vandaar dat we in het vervolg in dit document zullen spreken over gestructureerde *gegevensuitwisseling*, in plaats van gestructureerde berichtenuitwisseling.
 
 <!-- 
 - https://restfulapi.net/json-vs-xml/, 
