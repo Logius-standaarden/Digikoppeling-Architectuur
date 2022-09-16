@@ -2,15 +2,15 @@ Digikoppeling (DK) is sinds 2007 in gebruik en steeds meer overheidsorganisaties
 
 Digikoppeling standaardiseert de uitwisseling van gegevens (services) tussen overheidsorganisaties. Door Digikoppeling kunnen zij eenvoudiger, veiliger, sneller en goedkoper elkaars gegevens gebruiken dan wanneer alle organisaties bilateraal afspraken zouden maken. Het belang en de omvang van gegevensuitwisselingen in de e-overheid neemt alleen maar toe. Digikoppeling is een onmisbare voorwaarde om die uitwisseling efficiënt uit te voeren.
 
-Het College Standaardisatie (nu OBDO) heeft Digikoppeling daarom op de ‘Pas toe of leg uit’-lijst geplaatst. Deze lijst betreft onder meer de uitwisseling met wettelijke landelijke basisadministraties en gegevensuitwisseling tussen sectoren (intersectoraal). Daarnaast wisselen organisaties onderling of in samenwerkingsverbanden gegevens uit in de dienstverlening aan burgers en bedrijven op basis van Digikoppeling.
+Het [OBDO](https://www.digitaleoverheid.nl/nieuws/overheidsbrede-beleidsoverleg-digitale-overheid-obdo/) heeft Digikoppeling daarom op de [‘Pas toe of leg uit’-lijst](https://forumstandaardisatie.nl/open-standaarden/verplicht) geplaatst. Deze lijst betreft onder meer de uitwisseling met wettelijke landelijke basisadministraties en gegevensuitwisseling tussen sectoren (intersectoraal). Daarnaast wisselen organisaties onderling of in samenwerkingsverbanden gegevens uit in de dienstverlening aan burgers en bedrijven op basis van Digikoppeling.
 
 De *Architectuur Digikoppeling* beschrijft de kaders, de principes en voorschriften, de koppelvlakstandaarden, voorzieningen en de keten waarin via Digikoppeling gegevens worden uitgewisseld (de Digikoppeling keten).
 
-Digikoppeling is 'backwards compatible'\*. Partijen die Digikoppeling gebruiken, voldoen daardoor automatisch aan de nieuwste versie van Digikoppeling. De nieuwe functionaliteiten en profielen zijn dan echter niet beschikbaar.
+Digikoppeling is 'backwards compatible'\*. Partijen die Digikoppeling gebruiken, voldoen daardoor automatisch aan de nieuwste versie van Digikoppeling. De nieuwe functionaliteiten en profielen zijn dan echter niet beschikbaar. Voor het beheer van de Digikoppeling standaard en documenten wordt waar mogelijk om [SemVer](https://semver.org/spec/v2.0.0.html) toegepast
 
 De aanleiding van de vernieuwing van dit document is tweeledig: in 2019 is een RFC ingediend over relatie van de Digikoppeling profielen met *bevragen en melden*. Daarnaast is in 2020 een Rest API profiel uitgewerkt en opgenomen in de Digikoppeling Standaard.
 
-De belangrijkste wijzigingen in de nieuwe Digikoppeling Architectuur zijn: 
+De belangrijkste wijzigingen in de nieuwe Digikoppeling Architectuur versie 2.x.x zijn: 
 
 - Geen onderscheid meer in 'WUS voor bevragingen' en 'ebMS voor meldingen'
 - Toevoegen van een Digikoppeling REST API profiel, gebaseerd op de API Design Rules (uit de Nederlandse API Strategie)
