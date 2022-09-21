@@ -1,6 +1,6 @@
 # De Digikoppeling-keten
 
-Dit hoofdstuk beschrijft de Digikoppeling als bouwsteen van de Digitale Overheid. de keten van alle Digikoppeling-gerelateerde componenten die gegevensuitwisseling voor de Digitale Overheid invullen duiden we in dit document aan als de de Digikoppeling-keten. In dit hoofdstuk worden de vormen van gegevensuitwisseling op procesniveau beschreven.
+Dit hoofdstuk beschrijft de Digikoppeling als bouwsteen van de Digitale Overheid. De keten van alle Digikoppeling-gerelateerde componenten die gegevensuitwisseling voor de Digitale Overheid invullen duiden we in dit document aan als de de Digikoppeling-keten. In dit hoofdstuk worden de vormen van gegevensuitwisseling op procesniveau beschreven.
 
 ## Digikoppeling als bouwsteen van de Digitale Overheid
 
@@ -10,19 +10,25 @@ De basisinfrastructuur bestaat uit bouwstenen voor de dienstverlening aan burger
 
 - Loketten en voorzieningen voor burgers.
 - Loketten en voorzieningen voor bedrijven.
-- Registraties in algemene zin, waaronder het stelsel van basisregistraties, inclusief voorzieningen zoals onder meer Digilevering (abonnementen services) en Digimelding (terugmelding van wijzigingen of fouten aan basisregistraties).
+- Registraties in algemene zin, waaronder het stelsel van basisregistraties, inclusief voorzieningen zoals onder meer
+  - **Digilevering** (abonnementen services / Event Driven Notifications) en 
+  - **Digimelding** (terugmelding van wijzigingen of fouten aan basisregistraties).
 
-In dit document vatten we de loketten en voorzieningen voor burgers en bedrijven samen met het begrip ‘landelijke voorzieningen”. Om deze pijlers als samenhangend geheel te laten functioneren is het nodig dat zij informatie kunnen uitwisselen’.
 
-Digikoppeling maakt het mogelijk om berichten uit te wisselen, databronnen te raadplegen en te bewerken en services aan te roepen en is daarmee een essentiële bouwsteen van de basisinfrastructuur van de Digitale Overheid. Organisaties kunnen via Digikoppeling rechtstreeks (bilateraal) gegevens met elkaar uitwisselen. Vaak zijn er extra schakels betrokken, zoals een sectoraal knooppunt of een intermediair.
+In dit document vatten we de loketten en voorzieningen voor burgers en bedrijven samen met het begrip ‘landelijke voorzieningen”. Om deze pijlers als samenhangend geheel te laten functioneren is het nodig dat zij gegevens kunnen uitwisselen’.
 
-Digikoppeling biedt een standaard voor het veilig uitwisselen van berichten en gegevens tussen systemen. Het is dus niet bedoeld om gegevens aan een eindgebruiker te tonen; dat gebeurt via een applicatie bij de eindgebruiker zelf. Digikoppeling standaardiseert de inrichting van gegevensuitwisseling zodat verschillende partijen veilig gegevens kunnen uitwisselen,.
+Digikoppeling maakt het mogelijk om gegevens uit te wisselen, databronnen te raadplegen / bewerken en services aan te roepen. Het is daarmee een essentiële bouwsteen van de basisinfrastructuur van de Digitale Overheid. Organisaties kunnen via Digikoppeling rechtstreeks (bilateraal) infromatie met elkaar uitwisselen. Vaak zijn er extra schakels betrokken, zoals een sectoraal knooppunt of een intermediair.
+
+Digikoppeling biedt een standaard voor het veilig uitwisselen van berichten en gegevens tussen systemen. Het is dus niet bedoeld om gegevens aan een eindgebruiker te tonen; dat gebeurt via een applicatie bij de eindgebruiker zelf. Digikoppeling standaardiseert de inrichting van gegevensuitwisseling zodat verschillende partijen veilig gegevens kunnen uitwisselen.
 
 ## Opbouw van de Digikoppeling-keten
 
 De Digikoppeling-keten bestaat uit:
 
-- Deelnemende publieke organisaties die gegevens met elkaar uitwisselen (partijen). Een partij kan een service of resource aanbieden – in de rol van serviceaanbieder – of een service afnemen – in de rol van serviceafnemer.
+- Deelnemende publieke organisaties die gegevens met elkaar uitwisselen (partijen). Een partij kan 
+  - een service of resource aanbieden – in de rol van **serviceaanbieder** – of 
+
+  - een service afnemen – in de rol van **serviceafnemer**.
 
 - Intermediairs: organisaties die voor deze deelnemende organisaties bemiddelen in de uitwisseling van gegevens. Partijen maken onderling (of via een intermediair) afspraken over de inhoud en vorm van de gegevensuitwisseling.
 
@@ -30,7 +36,7 @@ De Digikoppeling-keten bestaat uit:
 
 ### Partijen en Rollen
 
-Een partij is een (publieke) organisatie die gegevensdiensten via Digikoppeling aanbiedt aan andere organisaties en/of afneemt van andere organisaties. Een partij (in de rol van serviceafnemer of serviceaanbieder) is tevens het eindpunt van de Digikoppeling-keten. Partijen maken onderling of via een intermediair afspraken over de samenwerking en over de gegevensuitwisseling.
+Een partij is een (publieke) organisatie die een service via Digikoppeling aanbiedt aan andere organisaties en/of afneemt van andere organisaties. Een partij (in de rol van serviceafnemer of serviceaanbieder) is tevens het eindpunt van de Digikoppeling-keten. Partijen maken onderling of via een intermediair afspraken over de samenwerking en over de gegevensuitwisseling.
 
 De uitwisseling tussen een serviceaanbieder en een serviceafnemer moet altijd betrouwbaar/vertrouwd zijn, ondanks of dankzij de betrokkenheid van intermediairs.
 
@@ -72,6 +78,11 @@ Tabel 4.1: Componenten van de Digikoppeling-keten
 
 N.B.: De Digikoppeling-voorzieningen (Het Digikoppeling portaal met de
 Compliance Voorziening, het OIN register en het CPA register) vormen geen onderdeel van de Digikoppeling-keten maar ondersteunen tijdens de ontwikkel- en testfasen en bij het uitgifte en raadplegen van OIN's.
+
+In meer detail zijn de componenten uitgewerkt in ee nreferentiemodel voor gegvensuitwisseling. hierin is de opsplitsing en samenhang weergegeven:
+![Referentiemodel gegevensuitwisseling](media/Referentiemodel_berichtuitwisseling.png "Referentiemodel gegevensuitwisseling")
+
+
 
 ## Uitwisselingsvormen
 
