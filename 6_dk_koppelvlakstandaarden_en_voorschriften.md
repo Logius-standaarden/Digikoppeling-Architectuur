@@ -74,7 +74,7 @@ Het Digikoppeling REST API profiel [[Digikoppeling Koppelvlakstandaard REST API]
 
 Een application programming interface (API) is een gestructureerd en gedocumenteerd koppelvlak voor communicatie tussen applicaties. In de laatste 10 jaar heeft *REpresentational State Transfer* (REST) zich ontwikkeld tot een bepalend principe voor het realiseren van API's.
 
-De standaard REST API Design Rules geeft een verzameling basisregels voor structuur en naamgeving waarmee de overheid op een uniforme en eenduidige manier REST API's aanbiedt. Dit maakt het voor ontwikkelaars gemakkelijker om betrouwbare applicaties met te ontwikkelen met API's van de overheid.
+De standaard REST API Design Rules geeft een verzameling basisregels voor structuur en naamgeving waarmee de overheid op een uniforme en eenduidige manier REST API's aanbiedt. Dit maakt het voor ontwikkelaars gemakkelijker om betrouwbare applicaties te ontwikkelen met API's van de overheid. REST API's kunnen worde ngebruikt voor het laagdrempelig bevragen van resources maar ook voor het creeren en muteren van resources.
 
 ### Digikoppeling REST API voor synchrone requests
 
@@ -82,11 +82,12 @@ De standaard REST API Design Rules geeft een verzameling basisregels voor struct
 
 - Vertrouwelijkheid
 - Identificatie en authenticatie van partijen
+- Versleuteling op basis van mTLS conform de Digikoppeling Beveiligings voorschriften
 - (Status)Responsecodes en Foutmeldingen
 
 ### OAS: OpenAPI Specification
 
-Een OpenAPI Specification [[openapi]] beschrijft de eigenschappen van de data die een API als input accepteert en als output teruggeeft. OAS 3.0 specificeert alleen welke attributen de API verwerkt en hun datatypen, niet welke implementatie er achter de API schuilgaat.
+Een OpenAPI Specification [[openapi]] beschrijft de eigenschappen van de data die een API als input accepteert en als output teruggeeft. OAS specificeert alleen welke attributen de API verwerkt en hun datatypen, niet welke implementatie er achter de API schuilgaat.
 
 Voor het beschrijven van DK-Rest API's is het gebruik van OAS verplicht. Op [[Pas-toe-of-leg-uit]] staat beschreven welke versie toegepast moet worden.
 
