@@ -150,6 +150,10 @@ Digikoppeling biedt twee mogelijkheden voor synchrone uitwisseling aan: bij sync
 
 Synchrone uitwisseling kan worden ingericht op basis van de Digikoppeling-koppelvlakstandaard WUS en het Digikoppeling REST API profiel.
 
+### Notificaties
+
+Een alternatieve vorm van synchrone uitwisseling die steeds vaker voorkomt is te omschrijven als notificatie. Hierbij stuurt de *data provider* via het REST patroon een HTTP POST bericht naar de service van de *data-consumer*. Door toevoeging van dit patroon in de gegevensuitwisseling wordt een zogenaamde *Event Driven Architecture* gerealiseerd. Eind 2022 is de Notificatiestandaard bij Logius in beheer genomen onder de noemer [NL-GOV-profile-for-CloudEvents](https://github.com/Logius-standaarden/NL-GOV-profile-for-CloudEvents).
+
 ### Asynchrone uitwisseling
 
 Een asynchroon verzoek is een enkelvoudig bericht waarop eventueel enige tijd later een retour-melding volgt. Het gebruikte protocol regelt de betrouwbare ontvangst. Bij asynchrone uitwisseling is de betrouwbare aflevering van het bericht essentieel. Als een partij het bericht niet direct kan aannemen, voorzien de protocollen erin dat het bericht nogmaals wordt aangeboden.
