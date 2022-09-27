@@ -74,7 +74,7 @@ Het Digikoppeling REST API profiel [[Digikoppeling Koppelvlakstandaard REST API]
 
 Een application programming interface (API) is een gestructureerd en gedocumenteerd koppelvlak voor communicatie tussen applicaties. In de laatste 10 jaar heeft *REpresentational State Transfer* (REST) zich ontwikkeld tot een bepalend principe voor het realiseren van API's.
 
-De standaard REST API Design Rules geeft een verzameling basisregels voor structuur en naamgeving waarmee de overheid op een uniforme en eenduidige manier REST API's aanbiedt. Dit maakt het voor ontwikkelaars gemakkelijker om betrouwbare applicaties te ontwikkelen met API's van de overheid. REST API's kunnen worde ngebruikt voor het laagdrempelig bevragen van resources maar ook voor het creeren en muteren van resources.
+De standaard REST API Design Rules geeft een verzameling basisregels voor structuur en naamgeving waarmee de overheid op een uniforme en eenduidige manier REST API's aanbiedt. Dit maakt het voor ontwikkelaars gemakkelijker om betrouwbare applicaties te ontwikkelen met API's van de overheid. REST API's kunnen worden gebruikt voor het laagdrempelig bevragen van resources maar ook voor het creëren en muteren van resources.
 
 ### Digikoppeling REST API voor synchrone requests
 

@@ -58,7 +58,7 @@ bron: [[Pas-toe-of-leg-uit]]
 
 Digikoppeling heeft zich vanaf het begin van haar ontstaan gericht op het uitwisselen van berichten, en dan specifiek op op de 'envelop' van een bericht en  niet op de inhoud. Iedere organisatie die Digikoppeling gebruikt kon daarmee de gegevensuitwisseling onafhankelijk van de inhoud inrichten.
 
-Met de toevoeging van het Digikoppeling REST API profiel komt de vergelijking met berichten in enveloppen in het gedrang. Envelop en bericht schuiven in elkaar, de metafoor van enveloppen en postverzending werkt niet meer in alle koppelvlakken van de standaard. Echter, het basisprincipe blijft bestaan: Digikoppeling bemoeit zich niet met de inhoud, Digikoppeling heeft *'Geen boodschap aan de boodschap'*. Het verschil wordt geilustreerd in onderstaande afbeelding:
+Met de toevoeging van het Digikoppeling REST API profiel komt de vergelijking met berichten in enveloppen in het gedrang. Envelop en bericht schuiven in elkaar; de metafoor van enveloppen en postverzending werkt niet meer in alle koppelvlakken van de standaard. Echter, het basisprincipe blijft bestaan: Digikoppeling bemoeit zich niet met de inhoud, Digikoppeling heeft *'Geen boodschap aan de boodschap'*. Het verschil wordt geïllustreerd in onderstaande afbeelding:
 
 ![Verschil SOAP en REST](media/Upwork-Envelop-postcard.png "Soap vs. REST APIs bron upwork.com")
 <div style="font-size:10pt;text-align:center;">bron: <a href="https://www.upwork.com/resources/soap-vs-rest-a-look-at-two-different-api-styles">https://www.upwork.com/resources/soap-vs-rest-a-look-at-two-different-api-styles</a></div>

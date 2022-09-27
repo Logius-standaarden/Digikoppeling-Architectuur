@@ -15,7 +15,7 @@ De basisinfrastructuur bestaat uit bouwstenen voor de dienstverlening aan burger
   - **Digimelding** (terugmelding van wijzigingen of fouten aan basisregistraties).
 
 
-In dit document vatten we de loketten en voorzieningen voor burgers en bedrijven samen met het begrip ‘landelijke voorzieningen”. Om deze pijlers als samenhangend geheel te laten functioneren is het nodig dat zij gegevens kunnen uitwisselen’.
+In dit document vatten we de loketten en voorzieningen voor burgers en bedrijven samen met het begrip ‘landelijke voorzieningen’. Om deze pijlers als samenhangend geheel te laten functioneren is het nodig dat zij gegevens kunnen uitwisselen.
 
 Digikoppeling maakt het mogelijk om gegevens uit te wisselen, databronnen te raadplegen / bewerken en services aan te roepen. Het is daarmee een essentiële bouwsteen van de basisinfrastructuur van de Digitale Overheid. Organisaties kunnen via Digikoppeling rechtstreeks (bilateraal) infromatie met elkaar uitwisselen. Vaak zijn er extra schakels betrokken, zoals een sectoraal knooppunt of een intermediair.
 
@@ -79,7 +79,7 @@ Tabel 4.1: Componenten van de Digikoppeling-keten
 N.B.: De Digikoppeling-voorzieningen (Het Digikoppeling portaal met de
 Compliance Voorziening, het OIN register en het CPA register) vormen geen onderdeel van de Digikoppeling-keten maar ondersteunen tijdens de ontwikkel- en testfasen en bij het uitgifte en raadplegen van OIN's.
 
-In meer detail zijn de componenten uitgewerkt in ee nreferentiemodel voor gegvensuitwisseling. hierin is de opsplitsing en samenhang weergegeven:
+In meer detail zijn de componenten uitgewerkt in een referentiemodel voor gegvensuitwisseling. Hierin is de opsplitsing en samenhang weergegeven:
 ![Referentiemodel gegevensuitwisseling](media/Referentiemodel_berichtuitwisseling.png "Referentiemodel gegevensuitwisseling")
 
 

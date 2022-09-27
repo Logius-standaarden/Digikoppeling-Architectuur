@@ -41,7 +41,7 @@ Bij een melding-bevestiging stuurt een service-requester informatie naar de serv
 |---|---|---|
 |Digikoppeling ebMS2| Digikoppeling ebMS heeft reliable profiel (osb-rm) dat de bevestiging van ontvangst borgt | formele overdracht van OLO/DSO naar bevoegd gezag |
 |Digikoppeling WUS| Digikoppeling WUS kent geen reliable profiel. Partijen in de keten moeten met elkaar afspraken hoe een melding wordt bevestigd in een antwoord door de ontvanger op een later tijdstip  |...|
-|Digikoppeling REST API| Digikoppeling REST API heeft een PUT en een POST methode waarmee synchrone requests kunnen uitgevoerd. Digikoppeling REST API kent geen reliable profiel. Partijen in de keten moeten met elkaar afspraken hoe een melding wordt bevestigd in een antwoord door de ontvanger op een later tijdstip. eventueel als onderdeel van een conversatie op business niveau | Door middel van de PUT methode kan een nieuw bedrijfsadres worden opgegeven bij de KVK  API en dmv POST kan het bedrijf worden genotificeerd over de status van de verhuismelding |
+|Digikoppeling REST API| Digikoppeling REST API heeft een PUT en een POST methode waarmee synchrone requests kunnen uitgevoerd. Digikoppeling REST API kent geen reliable profiel. Partijen in de keten moeten met elkaar afspraken hoe een melding wordt bevestigd in een antwoord door de ontvanger op een later tijdstip. Eventueel als onderdeel van een conversatie op business niveau | Door middel van de PUT methode kan een nieuw bedrijfsadres worden opgegeven bij de KVK API en d.m.v. POST kan het bedrijf worden genotificeerd over de status van de verhuismelding |
 
 Tabel 5.3: Asynchrone Melding-bevestiging
 
