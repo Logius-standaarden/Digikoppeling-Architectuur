@@ -1,6 +1,6 @@
 # De Digikoppeling-keten
 
-Dit hoofdstuk beschrijft de Digikoppeling als bouwsteen van de Digitale Overheid. de keten van alle Digikoppeling-gerelateerde componenten die gegevensuitwisseling voor de Digitale Overheid invullen duiden we in dit document aan als de de Digikoppeling-keten. In dit hoofdstuk worden de vormen van gegevensuitwisseling op procesniveau beschreven.
+Dit hoofdstuk beschrijft de Digikoppeling als bouwsteen van de Digitale Overheid. De keten van alle Digikoppeling-gerelateerde componenten die gegevensuitwisseling voor de Digitale Overheid invullen duiden we in dit document aan als de de Digikoppeling-keten. In dit hoofdstuk worden de vormen van gegevensuitwisseling op procesniveau beschreven.
 
 ## Digikoppeling als bouwsteen van de Digitale Overheid
 
@@ -10,19 +10,25 @@ De basisinfrastructuur bestaat uit bouwstenen voor de dienstverlening aan burger
 
 - Loketten en voorzieningen voor burgers.
 - Loketten en voorzieningen voor bedrijven.
-- Registraties in algemene zin, waaronder het stelsel van basisregistraties, inclusief voorzieningen zoals onder meer Digilevering (abonnementen services) en Digimelding (terugmelding van wijzigingen of fouten aan basisregistraties).
+- Registraties in algemene zin, waaronder het stelsel van basisregistraties, inclusief voorzieningen zoals onder meer
+  - **Digilevering** (abonnementen services / Event Driven Notifications) en 
+  - **Digimelding** (terugmelding van wijzigingen of fouten aan basisregistraties).
 
-In dit document vatten we de loketten en voorzieningen voor burgers en bedrijven samen met het begrip ‘landelijke voorzieningen”. Om deze pijlers als samenhangend geheel te laten functioneren is het nodig dat zij informatie kunnen uitwisselen’.
 
-Digikoppeling maakt het mogelijk om berichten uit te wisselen, databronnen te raadplegen en te bewerken en services aan te roepen en is daarmee een essentiële bouwsteen van de basisinfrastructuur van de Digitale Overheid. Organisaties kunnen via Digikoppeling rechtstreeks (bilateraal) gegevens met elkaar uitwisselen. Vaak zijn er extra schakels betrokken, zoals een sectoraal knooppunt of een intermediair.
+In dit document vatten we de loketten en voorzieningen voor burgers en bedrijven samen met het begrip ‘landelijke voorzieningen’. Om deze pijlers als samenhangend geheel te laten functioneren is het nodig dat zij gegevens kunnen uitwisselen.
 
-Digikoppeling biedt een standaard voor het veilig uitwisselen van berichten en gegevens tussen systemen. Het is dus niet bedoeld om gegevens aan een eindgebruiker te tonen; dat gebeurt via een applicatie bij de eindgebruiker zelf. Digikoppeling standaardiseert de inrichting van gegevensuitwisseling zodat verschillende partijen veilig gegevens kunnen uitwisselen,.
+Digikoppeling maakt het mogelijk om gegevens uit te wisselen, databronnen te raadplegen / bewerken en services aan te roepen. Het is daarmee een essentiële bouwsteen van de basisinfrastructuur van de Digitale Overheid. Organisaties kunnen via Digikoppeling rechtstreeks (bilateraal) infromatie met elkaar uitwisselen. Vaak zijn er extra schakels betrokken, zoals een sectoraal knooppunt of een intermediair.
+
+Digikoppeling biedt een standaard voor het veilig uitwisselen van berichten en gegevens tussen systemen. Het is dus niet bedoeld om gegevens aan een eindgebruiker te tonen; dat gebeurt via een applicatie bij de eindgebruiker zelf. Digikoppeling standaardiseert de inrichting van gegevensuitwisseling zodat verschillende partijen veilig gegevens kunnen uitwisselen.
 
 ## Opbouw van de Digikoppeling-keten
 
 De Digikoppeling-keten bestaat uit:
 
-- Deelnemende publieke organisaties die gegevens met elkaar uitwisselen (partijen). Een partij kan een service of resource aanbieden – in de rol van serviceaanbieder – of een service afnemen – in de rol van serviceafnemer.
+- Deelnemende publieke organisaties die gegevens met elkaar uitwisselen (partijen). Een partij kan 
+  - een service of resource aanbieden – in de rol van **serviceaanbieder** – of 
+
+  - een service afnemen – in de rol van **serviceafnemer**.
 
 - Intermediairs: organisaties die voor deze deelnemende organisaties bemiddelen in de uitwisseling van gegevens. Partijen maken onderling (of via een intermediair) afspraken over de inhoud en vorm van de gegevensuitwisseling.
 
@@ -30,7 +36,7 @@ De Digikoppeling-keten bestaat uit:
 
 ### Partijen en Rollen
 
-Een partij is een (publieke) organisatie die gegevensdiensten via Digikoppeling aanbiedt aan andere organisaties en/of afneemt van andere organisaties. Een partij (in de rol van serviceafnemer of serviceaanbieder) is tevens het eindpunt van de Digikoppeling-keten. Partijen maken onderling of via een intermediair afspraken over de samenwerking en over de gegevensuitwisseling.
+Een partij is een (publieke) organisatie die een service via Digikoppeling aanbiedt aan andere organisaties en/of afneemt van andere organisaties. Een partij (in de rol van serviceafnemer of serviceaanbieder) is tevens het eindpunt van de Digikoppeling-keten. Partijen maken onderling of via een intermediair afspraken over de samenwerking en over de gegevensuitwisseling.
 
 De uitwisseling tussen een serviceaanbieder en een serviceafnemer moet altijd betrouwbaar/vertrouwd zijn, ondanks of dankzij de betrokkenheid van intermediairs.
 
@@ -72,6 +78,11 @@ Tabel 4.1: Componenten van de Digikoppeling-keten
 
 N.B.: De Digikoppeling-voorzieningen (Het Digikoppeling portaal met de
 Compliance Voorziening, het OIN register en het CPA register) vormen geen onderdeel van de Digikoppeling-keten maar ondersteunen tijdens de ontwikkel- en testfasen en bij het uitgifte en raadplegen van OIN's.
+
+In meer detail zijn de componenten uitgewerkt in een referentiemodel voor gegvensuitwisseling. Hierin is de opsplitsing en samenhang weergegeven:
+![Referentiemodel gegevensuitwisseling](media/Referentiemodel_berichtuitwisseling.png "Referentiemodel gegevensuitwisseling")
+
+
 
 ## Uitwisselingsvormen
 
@@ -139,6 +150,10 @@ Digikoppeling biedt twee mogelijkheden voor synchrone uitwisseling aan: bij sync
 
 Synchrone uitwisseling kan worden ingericht op basis van de Digikoppeling-koppelvlakstandaard WUS en het Digikoppeling REST API profiel.
 
+### Notificaties
+
+Een alternatieve vorm van synchrone uitwisseling die steeds vaker voorkomt is te omschrijven als notificatie. Hierbij stuurt de *data provider* via het REST patroon een HTTP POST bericht naar de service van de *data-consumer*. Door toevoeging van dit patroon in de gegevensuitwisseling wordt een zogenaamde *Event Driven Architecture* gerealiseerd. Eind 2022 is de Notificatiestandaard bij Logius in beheer genomen onder de noemer [NL-GOV-profile-for-CloudEvents](https://github.com/Logius-standaarden/NL-GOV-profile-for-CloudEvents).
+
 ### Asynchrone uitwisseling
 
 Een asynchroon verzoek is een enkelvoudig bericht waarop eventueel enige tijd later een retour-melding volgt. Het gebruikte protocol regelt de betrouwbare ontvangst. Bij asynchrone uitwisseling is de betrouwbare aflevering van het bericht essentieel. Als een partij het bericht niet direct kan aannemen, voorzien de protocollen erin dat het bericht nogmaals wordt aangeboden.
@@ -150,6 +165,8 @@ Digikoppeling Koppelvlakstandaard ebMS2 biedt specifieke ondersteuning voor asyn
 Een melding is een enkelvoudig bericht waarop eventueel enige tijd later een retour-melding volgt. Het gebruikte protocol kan de betrouwbare ontvangst en de onweerlegbaarheid (non-repudiation) regelen van een bericht. Bij meldingen kan de betrouwbare aflevering van het bericht essentieel zijn. Als een partij het bericht niet direct kan aannemen, kan een protocol erin voorzien dat het bericht nogmaals wordt aangeboden. 
 
 Naast het uitvoeren van een transactie met een betrouwbaar - *reliable* - protocol als ebMS2, is het ook mogelijk transacties op *business niveau* te borgen. Dubbel verzonden en ontvangen verzoeken - *duplicate requests* worden dienen dan door de business applicatie genegeerd worden.  Een vaak geciteerde bron [[?no-Reliable-messaging]] stelt dat betrouwbare aflevering van berichten enkel op het niveau van de verwerkende busines applicaties kan worden uitgevoerd. Een eis hiervoor is dat voor update requests *Idempotent* methoden worden gebruikt, meer hiervoor zie regel API-03 uit [[?API DESIGN RULES]].
+
+Praktisch gezien resulteert dit meestal in een conversatie. Conversaties zijn een vast onderdeel van het ebMS2 protocol maar kunnen ook op business niveau worden onderkend. Hiervoor worden attributen aan de synchrone uitwisseling toegevoegd waarmee zowel de provider als consumer - 'out-of-band' - de synchrone uitwisseling later kunnen correleren als 1 conversatie en op deze conversatie als geheel dan bijvoorbeeld compenserende handelingen kunnen verrichten.
 
 ### Grote Berichten
 
@@ -174,6 +191,6 @@ Digikoppeling Grote Berichten maakt verschillende vormen van uitwisseling op bus
 
 ## Geen onderscheid meer in gebruik WUS en ebMS2 voor bevragingen en transacties
 
-De Provider bepaalt welk koppelvlak - Restful API, WUS of ebMS- van toepassing is op de door haar geleverde dienst.
+De Provider bepaalt welk koppelvlak - REST API, WUS of ebMS- van toepassing is op de door haar geleverde dienst.
 
 Tot en met 2019 werd in de Digikoppeling Standaard onderscheid gemaakt tussen 'WUS voor bevragingen' en 'ebMS voor meldingen'. In de praktijk bleek dit onderscheid niet altijd goed te werken. Er zijn bijvoorbeeld usecases waarin WUS beter geschikt is voor meldingen dan ebMS. In deze versie van de Digikoppeling Architectuur is dit onderscheid niet meer aanwezig. In plaats daarvan beschrijven welke Digikoppeling koppelvlakken het best passen bij transactiepatronen en use cases uit de praktijk.  

@@ -26,13 +26,13 @@ Bij een melding-bevestiging stuurt een service-requester informatie naar de serv
 |Koppelvlakspecificatie|Omschrijving|Praktijkvoorbeeld|
 |---|---|---|
 |Digikoppeling WUS| Digikoppeling WUS is geschikt als voor de melding een gestructureerde bericht (in XML) nodig is. Digikoppeling heeft profielen voor signing en encryption. Voorwaarde is dat de melding *idempotent* is |...|
-|Digikoppeling REST API| Digikoppeling REST API heet een PUT methode waarmee synchrone requests kunnen uitgevoerd. Digikoppeling REST API kent nog geen gestandaardiseerde versies voor signing of encryptie Het Digikoppeling REST API profiel kent ook een POST methode. POST is niet idempotent en kan dus niet herhaaldelijk worden verzonden| ... |</span>
+|Digikoppeling REST API| Digikoppeling REST API heet een PUT methode waarmee synchrone requests kunnen uitgevoerd. Digikoppeling REST API kent nog geen gestandaardiseerde versies voor signing of encryptie Het Digikoppeling REST API profiel kent ook een POST methode. POST is niet idempotent en kan dus niet herhaaldelijk worden verzonden| Binen Haal-Centraal kan een nieuwe resource worden gecreeerd in de Basisadministratie zoals de BAG of de BRP |
 
 Tabel 5.2: Synchrone Melding
 
 ### Asynchrone Melding-bevestiging
 
-Bij een melding-bevestiging stuurt een service-requester informatie naar de service-provider en ontvangt synchroon een bevestiging dat een bericht is ontvangen. op een later moment kan de ontvanger een bericht sturen dat de melding is verwerkt  
+Bij een melding-bevestiging stuurt een service-requester informatie naar de service-provider en ontvangt synchroon een bevestiging dat een bericht is ontvangen. op een later moment kan de ontvanger een bericht sturen dat de melding is verwerkt.  
 
 ![Asynchroon Request](media/Asynchroon_request.png "Asynchroon Request")
 
@@ -41,7 +41,7 @@ Bij een melding-bevestiging stuurt een service-requester informatie naar de serv
 |---|---|---|
 |Digikoppeling ebMS2| Digikoppeling ebMS heeft reliable profiel (osb-rm) dat de bevestiging van ontvangst borgt | formele overdracht van OLO/DSO naar bevoegd gezag |
 |Digikoppeling WUS| Digikoppeling WUS kent geen reliable profiel. Partijen in de keten moeten met elkaar afspraken hoe een melding wordt bevestigd in een antwoord door de ontvanger op een later tijdstip  |...|
-|Digikoppeling REST API| Digikoppeling REST API heet een PUT en een POST methode waarmee synchrone requests kunnen uitgevoerd. Digikoppeling REST API kent geen reliable profiel. Partijen in de keten moeten met elkaar afspraken hoe een melding wordt bevestigd in een antwoord door de ontvanger op een later tijdstip| ... |</span>
+|Digikoppeling REST API| Digikoppeling REST API heeft een PUT en een POST methode waarmee synchrone requests kunnen uitgevoerd. Digikoppeling REST API kent geen reliable profiel. Partijen in de keten moeten met elkaar afspraken hoe een melding wordt bevestigd in een antwoord door de ontvanger op een later tijdstip. Eventueel als onderdeel van een conversatie op business niveau | Door middel van de PUT methode kan een nieuw bedrijfsadres worden opgegeven bij de KVK API en d.m.v. POST kan het bedrijf worden genotificeerd over de status van de verhuismelding |
 
 Tabel 5.3: Asynchrone Melding-bevestiging
 
@@ -52,7 +52,7 @@ De situatie kan zich voordoen dat een bericht een omvang krijgt die niet meer ef
 
 |Koppelvlakspecificatie|Omschrijving|Praktijkvoorbeeld|
 |---|---|---|
-|Digikoppeling Grote berichten| Bij ‘grote berichten’ worden grotere bestanden uitgewisseld via een van de Digikoppelingkoppelvlakken in combinatie met een (HTTPS-)download vanaf een beveiligde website. Grote berichten vormen een functionele uitbreiding op de Digikoppelvlakstandaarden voor de veilige bestandsoverdracht van berichten groter dan 20 MiB | ... |</span>
+|Digikoppeling Grote berichten| Bij ‘grote berichten’ worden grotere bestanden uitgewisseld via een van de Digikoppelingkoppelvlakken in combinatie met een (HTTPS-)download vanaf een beveiligde website. Grote berichten vormen een functionele uitbreiding op de Digikoppelvlakstandaarden voor de veilige bestandsoverdracht van berichten groter dan 20 MiB | Decentrale overheden uploaden hun archief bestanden bij de grote berichten service van het Nationaal archief en dragen via een Digikoppeling koppelvlak de verantwoordelijkheid voor de archiefstukken over |
 
 Tabel 5.4: Uitwisselen grote bestanden
 

@@ -4,13 +4,13 @@ In dit hoofdstuk opzet beschrijven we de belangrijkste facetten van de nieuwe Di
 
 ## Doel van Digikoppeling
 
-(Overheids)organisaties willen diensten klantgericht, efficiënt, flexibel en rechtmatig aanbieden aan burgers en bedrijven. Daarvoor moeten zij gegevens en documenten op een generieke manier met elkaar kunnen uitwisselen.
+(Overheids)organisaties willen diensten klantgericht, efficiënt, flexibel en rechtmatig aanbieden aan burgers en bedrijven. Daarvoor moeten zij gegevens en documenten op een generieke manier met elkaar kunnen uitwisselen. Ook moeten overheden in staat zijn direct elkaars data bronnen te bevragen indien deze data nodig is bij het uitvoeren van hun taken.
 
 Digikoppeling voorziet hierin door de standaarden voor deze uitwisseling te definiëren. Met deze logistieke standaardisatie bevordert Digikoppeling de interoperabiliteit tussen (overheids)organisaties.
 
 ## Context van Digikoppeling
 
-Voordat we inhoudelijk op Digikopeling en haar onderliggende standaarden en de hierbij horende toepassingsgebieden ingaan, is het belangrijk om aantal begrippen uit het gebied van gevensuitwisseling nader te beschrijven. Zeer belangrijk is ook het toepassings- en werkingsgebied te beschrijven waarmee Digikoppeling op de lijst van verplichte standaarden ('Pas-toe-of-leg-uit') van het Forum Standaardisatie vermeld staat. Met deze ingrediënten  formuleren  we uiteindelijk de scope van Digikoppeling.
+Voordat we inhoudelijk op Digikoppeling en haar onderliggende standaarden en de hierbij horende toepassingsgebieden ingaan, is het belangrijk om aantal begrippen uit het gebied van gegevensuitwisseling nader te beschrijven. Zeer belangrijk is ook het toepassings- en werkingsgebied te beschrijven waarmee Digikoppeling op de lijst van verplichte standaarden ('Pas-toe-of-leg-uit') van het Forum Standaardisatie vermeld staat. Met deze ingrediënten  formuleren  we uiteindelijk de scope van Digikoppeling.
 
 ### Open en Closed Data
 
@@ -27,6 +27,14 @@ Een bron van open data kan een overheidsorganisatie aanbieden via een voor ieder
 - Open Diensten: diensten zonder toegangsbeperking bijvoorbeeld open data.
 - Gesloten Diensten: diensten met toegangsbeperking bijvoorbeeld persoonsgegevens en vertrouwelijke gegevens of diensten voor specifieke partijen.
 
+### Open en Closed Netwerken
+
+Naast het onderscheid tussen open en closed data en diensten is het ook van belang om onderscheid te maken in publieke en afgeschermde netwerken. Voor closed data en diensten is het deels mogelijk deze via een versleutelde verbinding (TLS) op een open netwerken (het internet) aan te bieden. Digikoppeling voorziet hierbij dan in de beveiliging. Open data en open diensten worden bij vanzelfsprekend aangeboden op open netwerken.
+
+Daarnaast is het ook mogelijk om closed data en diensten over een closed netwerk zoals Diginetwerk of een eigen LAN of WAN aan te bieden. 
+
+De aanbieder van de closed data en diensten besluit welke mate van beveiliging wordt toegepast en welke netwerken worden gebruikt.
+
 ## Wanneer moet Digikoppeling toegepast worden
 
 Digikoppeling staat op de lijst *verplichte standaarden* van het Forum Standaardisatie. De lijst beschrijft het *Functioneel* toepassingsgebied en het *organisatorisch* werkingsgebied. Met het functioneel toepassingsgebied bedoelt het Forum de toepassing(en) waarvoor het gebruik van de standaard verplicht is of aanbevolen wordt.
@@ -39,7 +47,7 @@ Het Forum Standaardisatie definieert het *functioneel toepassingsgebied* van Dig
 
 bron: [[Pas-toe-of-leg-uit]]
 
-Daarnaast benoemt het Forum de organisaties waarvoor de verplichting geldt. Dit wordt het *organisatorische werkinggebied* genoemd. Het werkingsgebied is als volgt gedefinieerd:
+Daarnaast benoemt het Forum de organisaties waarvoor de verplichting geldt. Dit wordt het *organisatorische werkingsgebied* genoemd. Het werkingsgebied is als volgt gedefinieerd:
 ## Organisatorisch werkingsgebied
 
 > Nederlandse overheden (Rijk, provincies, gemeenten en waterschappen) en instellingen uit de (semi-) publieke sector.
@@ -48,16 +56,16 @@ Daarnaast benoemt het Forum de organisaties waarvoor de verplichting geldt. Dit 
 bron: [[Pas-toe-of-leg-uit]]
 ## Van *'uitwisseling van gestructureerde berichten'* naar *'gestructureerde gegevensuitwisseling'*
 
-Digikoppeling heeft zich vanaf het begin van haar ontstaan gericht op het uitwisselen van berichten, en dan specifiek op op de 'envelop' van een bericht en  niet op de inhoud. Iedere organisatie die Digikoppeling gebruikt kon daarmee de postverzending onafhankelijk van de inhoud inrichten.
+Digikoppeling heeft zich vanaf het begin van haar ontstaan gericht op het uitwisselen van berichten, en dan specifiek op op de 'envelop' van een bericht en  niet op de inhoud. Iedere organisatie die Digikoppeling gebruikt kon daarmee de gegevensuitwisseling onafhankelijk van de inhoud inrichten.
 
-Met de toevoeging van het Digikoppeling REST API profiel komt de vergelijking met berichten in enveloppen in het gedrang. Envelop en bericht schuiven in elkaar, de metafoor van enveloppen en postverzending werkt niet meer in alle koppelvlakken van de standaard. Echter, het basisprincipe blijft bestaan: Digikoppeling bemoeit zich niet met de inhoud, Digikoppeling heeft *'Geen boodschap aan de boodschap'*.
+Met de toevoeging van het Digikoppeling REST API profiel komt de vergelijking met berichten in enveloppen in het gedrang. Envelop en bericht schuiven in elkaar; de metafoor van enveloppen en postverzending werkt niet meer in alle koppelvlakken van de standaard. Echter, het basisprincipe blijft bestaan: Digikoppeling bemoeit zich niet met de inhoud, Digikoppeling heeft *'Geen boodschap aan de boodschap'*. Het verschil wordt geïllustreerd in onderstaande afbeelding:
 
 ![Verschil SOAP en REST](media/Upwork-Envelop-postcard.png "Soap vs. REST APIs bron upwork.com")
 <div style="font-size:10pt;text-align:center;">bron: <a href="https://www.upwork.com/resources/soap-vs-rest-a-look-at-two-different-api-styles">https://www.upwork.com/resources/soap-vs-rest-a-look-at-two-different-api-styles</a></div>
 
 Het Forum beschrijft dat Digikoppeling gaat over het uitwisselen van gestructureerde berichten. Voor het gebruik van REST API's moet het concept van *berichten* wel erg uitgerekt worden om in deze definitie te passen. Een synchrone JSON response kan als een bericht worden gezien, maar of ook de request die hieraan voorafging als een gestructureerde *bericht* kan worden gezien vergt enige creativiteit. De uitwisseling van gegevens via REST API's is daarentegen in ieder geval wel *gestructureerd*, alleen al omdat elke interactie via een  API volgens een protocol, of standaard verloopt, zoals http [[?rfc7230]], https [[?rfc2818]], OpenAPI Specification [[?openapi]] of de (API Design Rules) [[?API Design Rules]].
 
-Voor Digikoppeling verleggen we daarom de focus van berichtverkeer naar het uitwisselen van gegevens. Vandaar dat we in het vervolg in dit document zullen spreken over gestructeerde *gegevensuitwisseling*, in plaats van gestructureerde berichtuitwisseling.
+Voor Digikoppeling verleggen we daarom de focus van berichtenverkeer naar het uitwisselen van gegevens. Vandaar dat we in het vervolg in dit document zullen spreken over gestructureerde *gegevensuitwisseling*, in plaats van gestructureerde berichtenuitwisseling.
 
 <!-- 
 - https://restfulapi.net/json-vs-xml/, 
