@@ -166,7 +166,7 @@ Een melding is een enkelvoudig bericht waarop eventueel enige tijd later een ret
 
 Naast het uitvoeren van een transactie met een betrouwbaar - *reliable* - protocol als ebMS2, is het ook mogelijk transacties op *business niveau* te borgen. Dubbel verzonden en ontvangen verzoeken - *duplicate requests* worden dienen dan door de business applicatie genegeerd worden.  Een vaak geciteerde bron [[?no-Reliable-messaging]] stelt dat betrouwbare aflevering van berichten enkel op het niveau van de verwerkende busines applicaties kan worden uitgevoerd. Een eis hiervoor is dat voor update requests *Idempotent* methoden worden gebruikt, meer hiervoor zie regel API-03 uit [[?API DESIGN RULES]].
 
-Praktisch gezien resulteerd dit meestal in een conversatie. Conversaties zijn een vast onderdeel van het ebMS2 protocol maar kunnen ook op business niveau worden onderkend. Hiervoor worden attributen aan de synchrone uitwisseling toegevoegd waarmee zowel de provider als consumer - 'out-of-band' - de synchrone uitwisseling later kunnen correleren als 1 conversatie en op deze conversatie als geheel dan bijvoorbeeld compenserende handelingen kunnen verrichten.
+Praktisch gezien resulteert dit meestal in een conversatie. Conversaties zijn een vast onderdeel van het ebMS2 protocol maar kunnen ook op business niveau worden onderkend. Hiervoor worden attributen aan de synchrone uitwisseling toegevoegd waarmee zowel de provider als consumer - 'out-of-band' - de synchrone uitwisseling later kunnen correleren als 1 conversatie en op deze conversatie als geheel dan bijvoorbeeld compenserende handelingen kunnen verrichten.
 
 ### Grote Berichten
 
