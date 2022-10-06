@@ -58,7 +58,7 @@ Digikoppeling per koppelvlakstandaard een aantal standaardprofielen. Elk profiel
 
 De volgende kenmerken zijn onderkend:
 
-tiying-up- Best effort – geschikt voor bevragingen (WUS en REST API)
+ - Best effort – geschikt voor bevragingen (WUS en REST API)
 
 - Betrouwbaar (reliable) – geschikt voor meldingen (ebMS)
 
@@ -231,7 +231,7 @@ Gegevensuitwisseling via Digikoppeling stelt wel enkele eisen aan het transport:
 
 - Standaarden zijn gebaseerd op ‘bindings’ – verbindingen of connecties - naar Uniform Resource Identifiers (URI’s). Het netwerk moet de ‘DNS resolving’ <sup>[33](#f33)</sup>van de domeinnaam uit de URI regelen en de routering naar het resulterende IP-adres. Het netwerk en/of DNS-resolving mag ook een lokaal netwerk/host zijn.
 
-- Digikoppeling past HTTPS. De netwerken (en firewalls) zullen daarom https-transport over TCP/IP moeten toestaan.
+- Digikoppeling past HTTPS toe. De netwerken (en firewalls) zullen daarom https-transport over TCP/IP moeten toestaan.
 
 Om goed te functioneren heeft Digikoppeling dus alleen basale connectiviteit nodig.
 
