@@ -1,6 +1,6 @@
 # De Digikoppeling-keten
 
-Dit hoofdstuk beschrijft de Digikoppeling als bouwsteen van de Digitale Overheid. De keten van alle Digikoppeling-gerelateerde componenten die gegevensuitwisseling voor de Digitale Overheid invullen duiden we in dit document aan als de de Digikoppeling-keten. In dit hoofdstuk worden de vormen van gegevensuitwisseling op procesniveau beschreven.
+Dit hoofdstuk beschrijft Digikoppeling als bouwsteen van de Digitale Overheid. De keten van alle Digikoppeling-gerelateerde componenten die gegevensuitwisseling voor de Digitale Overheid invullen duiden we in dit document aan als de de Digikoppeling-keten. In dit hoofdstuk worden de vormen van gegevensuitwisseling op procesniveau beschreven.
 
 ## Digikoppeling als bouwsteen van de Digitale Overheid
 
@@ -164,9 +164,9 @@ Digikoppeling Koppelvlakstandaard ebMS2 biedt specifieke ondersteuning voor asyn
 
 Een melding is een enkelvoudig bericht waarop eventueel enige tijd later een retour-melding volgt. Het gebruikte protocol kan de betrouwbare ontvangst en de onweerlegbaarheid (non-repudiation) regelen van een bericht. Bij meldingen kan de betrouwbare aflevering van het bericht essentieel zijn. Als een partij het bericht niet direct kan aannemen, kan een protocol erin voorzien dat het bericht nogmaals wordt aangeboden. 
 
-Naast het uitvoeren van een transactie met een betrouwbaar - *reliable* - protocol als ebMS2, is het ook mogelijk transacties op *business niveau* te borgen. Dubbel verzonden en ontvangen verzoeken - *duplicate requests* worden dienen dan door de business applicatie genegeerd worden.  Een vaak geciteerde bron [[?no-Reliable-messaging]] stelt dat betrouwbare aflevering van berichten enkel op het niveau van de verwerkende busines applicaties kan worden uitgevoerd. Een eis hiervoor is dat voor update requests *Idempotent* methoden worden gebruikt, meer hiervoor zie regel API-03 uit [[?API DESIGN RULES]].
+Naast het uitvoeren van een transactie met een betrouwbaar - *reliable* - protocol als ebMS2, is het ook mogelijk transacties op *business niveau* te borgen. Dubbel verzonden en ontvangen verzoeken - *duplicate requests* dienen dan door de business applicatie genegeerd te worden.  Een vaak geciteerde bron [[?no-Reliable-messaging]] stelt dat betrouwbare aflevering van berichten enkel op het niveau van de verwerkende busines applicaties kan worden uitgevoerd. Een eis hiervoor is dat voor update requests *Idempotent* methoden worden gebruikt, meer hiervoor zie regel API-03 uit [[?API DESIGN RULES]].
 
-Praktisch gezien resulteert dit meestal in een conversatie. Conversaties zijn een vast onderdeel van het ebMS2 protocol maar kunnen ook op business niveau worden onderkend. Hiervoor worden attributen aan de synchrone uitwisseling toegevoegd waarmee zowel de provider als consumer - 'out-of-band' - de synchrone uitwisseling later kunnen correleren als 1 conversatie en op deze conversatie als geheel dan bijvoorbeeld compenserende handelingen kunnen verrichten.
+Praktisch gezien resulteert dit meestal in een conversatie bestaande uit meerdere synchrone uitwisselingen. Conversaties zijn een vast onderdeel van het ebMS2 protocol maar kunnen ook op business niveau worden onderkend. Hiervoor worden attributen aan de synchrone uitwisseling toegevoegd waarmee zowel de provider als consumer - 'out-of-band' - de synchrone uitwisseling later kunnen correleren als 1 conversatie en op deze conversatie als geheel dan bijvoorbeeld compenserende handelingen kunnen verrichten.
 
 ### Grote Berichten
 
@@ -193,4 +193,4 @@ Digikoppeling Grote Berichten maakt verschillende vormen van uitwisseling op bus
 
 De Provider bepaalt welk koppelvlak - REST API, WUS of ebMS- van toepassing is op de door haar geleverde dienst.
 
-Tot en met 2019 werd in de Digikoppeling Standaard onderscheid gemaakt tussen 'WUS voor bevragingen' en 'ebMS voor meldingen'. In de praktijk bleek dit onderscheid niet altijd goed te werken. Er zijn bijvoorbeeld usecases waarin WUS beter geschikt is voor meldingen dan ebMS. In deze versie van de Digikoppeling Architectuur is dit onderscheid niet meer aanwezig. In plaats daarvan beschrijven welke Digikoppeling koppelvlakken het best passen bij transactiepatronen en use cases uit de praktijk.  
+Tot en met 2019 werd in de Digikoppeling Standaard onderscheid gemaakt tussen 'WUS voor bevragingen' en 'ebMS voor meldingen'. In de praktijk bleek dit onderscheid niet altijd goed te werken. Er zijn bijvoorbeeld usecases waarin WUS beter geschikt is voor meldingen dan ebMS. In deze versie van de Digikoppeling Architectuur is dit onderscheid niet meer aanwezig. In plaats daarvan beschrijven we welke Digikoppeling koppelvlakken het best passen bij transactiepatronen en use cases uit de praktijk.  
