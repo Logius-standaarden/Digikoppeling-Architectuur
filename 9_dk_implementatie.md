@@ -88,12 +88,14 @@ De aanduiding van de profielen kent de volgende systematiek:
 | best-effort signed |  | 2W-be-S | osb-be-s |
 | best-effort signed/encrypted |  | 2W-be-SE | osb-be-e |
 |  |  |  |  |
-| reliable | 1.0 |  | osb-rm |
+| reliable* |  |  | osb-rm |
 | reliable signed |  |  | osb-rm-s |
 | reliable signed en encrypted |  |  | osb-rm-e |
 
 
 Tabel 9.1: Profielen in relatie tot Digikoppeling-voorschriften
+
+> *Met reliable wordt hier aangegeven of het profiel specifieke functionaliteit biedt voor het herzenden en gegarandeerd afleveren van data als onderdeel van het profiel (dwz bovenop de basisondersteuning van de betrouwbaarheid van het netwerk protocol (TCP/IP) dat voor elk van deze profielen geldt)
 
 *NB: De profielnamen komen uit eerdere versies van de koppelvlakstandaarden. Zij moeten gehandhaafd blijven in verband met het feit dat deze standaarden reeds in gebruik zijn bij vele organisaties. Dit verklaart de verschillen in de gebruikte afkortingen tussen de WUS- en ebMS2-profielen.*
 
