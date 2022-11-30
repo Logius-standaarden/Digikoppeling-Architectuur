@@ -1,6 +1,6 @@
 # Transactiepatronen in Digikoppeling
 
-In dit hoofdstuk beschrijven we de transactiepatronen in gegevensuitwisseling in algemen zin, met een suggestie welk Digikoppeling koppelvlakstandaard hier het best bij aansluit. Voor het opstellen van de volgende transactiepatronen is dankbaar gebruik gemaakt van de conceptversie van de *Edukoppeling Architectuur 2.0*.  
+In dit hoofdstuk beschrijven we de transactiepatronen in gegevensuitwisseling in algemene zin, met een suggestie welk Digikoppeling koppelvlakstandaard hier het best bij aansluit. Voor het opstellen van de volgende transactiepatronen is dankbaar gebruik gemaakt van de conceptversie van de *Edukoppeling Architectuur 2.0*.  
 
 
 ### Synchrone bevraging
@@ -13,7 +13,7 @@ Bij een bevraging (vraag-antwoord) stuurt de service-requester een voorgedefinie
 |Koppelvlakspecificatie|Omschrijving|Praktijkvoorbeeld|
 |---|---|---|
 |Digikoppeling WUS| Digikoppeling WUS is geschikt als voor de bevraging gestructureerde  berichten (in XML) nodig zijn. Digikoppeling heeft profielen voor signing en encryption. |...|
-|Digikoppeling REST API| Digikoppeling REST API heet een GET methode waarmee synchrone requests kunnen uitgevoerd. Digikoppeling REST API kent nog geen gestandaardiseerde versies voor signing of encryptie| Bevragen OIN register via de COR API |</span>
+|Digikoppeling REST API| Digikoppeling REST API heeft een GET methode waarmee synchrone requests kunnen uitgevoerd. Digikoppeling REST API kent nog geen gestandaardiseerde versies voor signing of encryptie| Bevragen OIN register via de COR API |</span>
 
 
 Tabel 5.1: Synchrone bevraging
@@ -26,7 +26,7 @@ Bij een melding-bevestiging stuurt een service-requester informatie naar de serv
 |Koppelvlakspecificatie|Omschrijving|Praktijkvoorbeeld|
 |---|---|---|
 |Digikoppeling WUS| Digikoppeling WUS is geschikt als voor de melding een gestructureerde bericht (in XML) nodig is. Digikoppeling heeft profielen voor signing en encryption. Voorwaarde is dat de melding *idempotent* is |...|
-|Digikoppeling REST API| Digikoppeling REST API heet een PUT methode waarmee synchrone requests kunnen uitgevoerd. Digikoppeling REST API kent nog geen gestandaardiseerde versies voor signing of encryptie Het Digikoppeling REST API profiel kent ook een POST methode. POST is niet idempotent en kan dus niet herhaaldelijk worden verzonden| Binen Haal-Centraal kan een nieuwe resource worden gecreeerd in de Basisadministratie zoals de BAG of de BRP |
+|Digikoppeling REST API| Digikoppeling REST API heeft een PUT methode waarmee synchrone requests kunnen uitgevoerd. Digikoppeling REST API kent nog geen gestandaardiseerde versies voor signing of encryptie Het Digikoppeling REST API profiel kent ook een POST methode. POST is niet idempotent en kan dus niet herhaaldelijk worden verzonden| Binen Haal-Centraal kan een nieuwe resource worden gecreeerd in de Basisadministratie zoals de BAG of de BRP |
 
 Tabel 5.2: Synchrone Melding
 
