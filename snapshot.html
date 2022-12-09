@@ -27,7 +27,7 @@ dfn{cursor:pointer}
   
 <link rel="shortcut icon" type="image/x-icon" href="https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/logius.ico">
   
-<title>Digikoppeling Architectuur 2.1.0</title>
+<title>Digikoppeling Architectuur 2.0.2</title>
   
   
   
@@ -107,7 +107,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   "shortName": "architectuur",
   "publishDate": "2022-08-12",
   "previousPublishDate": "2022-04-11",
-  "publishVersion": "2.1.0",
+  "publishVersion": "2.0.2",
   "previousPublishVersion": "2.0.1",
   "addSectionLinks": true,
   "license": "cc-by-nd",
@@ -304,7 +304,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 
 <body class="h-entry toc-inline"><div class="head">
     <a class="logo" href="https://www.logius.nl/standaarden"><img alt="Logius" height="77" id="Logius" src="https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/figure-logius.svg" width="44">
-  </a> <h1 id="title" class="title">Digikoppeling Architectuur 2.1.0</h1>
+  </a> <h1 id="title" class="title">Digikoppeling Architectuur 2.0.2</h1>
     
     <h2>
       Logius Standaard<br>
@@ -313,7 +313,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     </h2>
     <dl>
       <dt>Deze versie:</dt><dd class="status">
-              <a class="u-url status" href="https://publicatie.centrumvoorstandaarden.nl/dk/architectuur/2.1.0">https://publicatie.centrumvoorstandaarden.nl/dk/architectuur/2.1.0</a>
+              <a class="u-url status" href="https://publicatie.centrumvoorstandaarden.nl/dk/architectuur/2.0.2">https://publicatie.centrumvoorstandaarden.nl/dk/architectuur/2.0.2</a>
             </dd><dt>Laatst gepubliceerde versie:</dt><dd>
               <a href="https://publicatie.centrumvoorstandaarden.nl/dk/architectuur/">https://publicatie.centrumvoorstandaarden.nl/dk/architectuur/</a>
             </dd>
@@ -359,7 +359,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <p>De <em>Architectuur Digikoppeling</em> beschrijft de kaders, de principes en voorschriften, de koppelvlakstandaarden, voorzieningen en de keten waarin via Digikoppeling gegevens worden uitgewisseld (de Digikoppeling keten).</p>
 <p>Digikoppeling is 'backwards compatible'*. Partijen die Digikoppeling gebruiken, voldoen daardoor automatisch aan de nieuwste versie van Digikoppeling. De nieuwe functionaliteiten en profielen zijn dan echter niet beschikbaar. Voor het beheer van de Digikoppeling standaard en documenten wordt waar mogelijk om <a href="https://semver.org/spec/v2.0.0.html">SemVer</a> toegepast</p>
 <p>De aanleiding van de vernieuwing van dit document is tweeledig: in 2019 is een RFC ingediend over relatie van de Digikoppeling profielen met <em>bevragen en melden</em>. Daarnaast is in 2020 een Rest API profiel uitgewerkt en opgenomen in de Digikoppeling Standaard.</p>
-<p>De belangrijkste wijzigingen in de nieuwe Digikoppeling Architectuur versie 2.x.x zijn: </p>
+<p>De belangrijkste wijzigingen in de nieuwe Digikoppeling Architectuur versie 2 zijn: </p>
 <ul>
 <li>Geen onderscheid meer in 'WUS voor bevragingen' en 'ebMS voor meldingen'</li>
 <li>Toevoegen van een Digikoppeling REST API profiel, gebaseerd op de API Design Rules (uit de Nederlandse API Strategie)</li>
@@ -423,7 +423,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 </section><section id="digikoppeling-standaarden"><div class="header-wrapper"><h3 id="x1-5-digikoppeling-standaarden"><bdi class="secno">1.5 </bdi>Digikoppeling standaarden</h3><a class="self-link" href="#digikoppeling-standaarden" aria-label="Permalink for Section 1.5"></a></div>
 <p>De <em>Architectuur Digikoppeling</em> is onderdeel van de Digikoppeling-standaarden.
 De documentatie is als volgt opgebouwd:</p>
-<p><figure id="fig-digikoppeling-standaard"><img src="media/DK_Specificatie_structuur.svg" alt="Overzicht van de onderdelen van de Digikoppeling Standaard, de standaard is onderverdeeld in normatieve en ondersteunende onderdelen" title="Digikoppeling Standaard" height="837" width="1327"><figcaption>Figuur <bdi class="figno">1</bdi> <span class="fig-title">Digikoppeling Standaard</span></figcaption></figure></p>
+<p><figure id="fig-digikoppeling-standaard"><img src="media/DK_Specificatie_structuur.svg" alt="Overzicht van de onderdelen van de Digikoppeling Standaard, de standaard is onderverdeeld in normatieve en ondersteunende onderdelen" title="Digikoppeling Standaard"><figcaption>Figuur <bdi class="figno">1</bdi> <span class="fig-title">Digikoppeling Standaard</span></figcaption></figure></p>
 <details>
     <summary> Tekstalternatief </summary>
 <ul>
@@ -520,7 +520,7 @@ Geautomatiseerde gegevensuitwisseling tussen informatiesystemen op basis van NEN
 </section><section id="van-uitwisseling-van-gestructureerde-berichten-naar-gestructureerde-gegevensuitwisseling"><div class="header-wrapper"><h3 id="x2-6-van-uitwisseling-van-gestructureerde-berichten-naar-gestructureerde-gegevensuitwisseling"><bdi class="secno">2.6 </bdi>Van <em>'uitwisseling van gestructureerde berichten'</em> naar <em>'gestructureerde gegevensuitwisseling'</em></h3><a class="self-link" href="#van-uitwisseling-van-gestructureerde-berichten-naar-gestructureerde-gegevensuitwisseling" aria-label="Permalink for Section 2.6"></a></div>
 <p>Digikoppeling heeft zich vanaf het begin van haar ontstaan gericht op het uitwisselen van berichten, en dan specifiek op de 'envelop' van een bericht en  niet op de inhoud. Iedere organisatie die Digikoppeling gebruikt kon daarmee de gegevensuitwisseling onafhankelijk van de inhoud inrichten.</p>
 <p>Met de toevoeging van het Digikoppeling REST API profiel komt de vergelijking met berichten in enveloppen in het gedrang. Envelop en bericht schuiven in elkaar; de metafoor van enveloppen en postverzending werkt niet meer in alle koppelvlakken van de standaard. Echter, het basisprincipe blijft bestaan: Digikoppeling bemoeit zich niet met de inhoud, Digikoppeling heeft <em>'Geen boodschap aan de boodschap'</em>. Het verschil wordt geïllustreerd in onderstaande afbeelding:</p>
-<p><figure id="fig-soap-vs-rest-apis-bron-upwork-com"><img src="media/Upwork-Envelop-postcard.png" alt="Verschil SOAP en REST" title="Soap vs. REST APIs bron upwork.com" height="300" width="250"><figcaption>Figuur <bdi class="figno">2</bdi> <span class="fig-title">Soap vs. REST APIs bron upwork.com</span></figcaption></figure></p>
+<p><figure id="fig-soap-vs-rest-apis-bron-upwork-com"><img src="media/Upwork-Envelop-postcard.png" alt="Verschil SOAP en REST" title="Soap vs. REST APIs bron upwork.com"><figcaption>Figuur <bdi class="figno">2</bdi> <span class="fig-title">Soap vs. REST APIs bron upwork.com</span></figcaption></figure></p>
 <div style="font-size:10pt;text-align:center;">bron: <a href="https://www.upwork.com/resources/soap-vs-rest-a-look-at-two-different-api-styles">https://www.upwork.com/resources/soap-vs-rest-a-look-at-two-different-api-styles</a></div>
 
 <p>Het Forum beschrijft dat Digikoppeling gaat over het uitwisselen van gestructureerde berichten. Voor het gebruik van REST API's moet het concept van <em>berichten</em> wel erg uitgerekt worden om in deze definitie te passen. Een synchrone JSON response kan als een bericht worden gezien, maar of ook de request die hieraan voorafging als een gestructureerd <em>bericht</em> kan worden gezien vergt enige creativiteit. De uitwisseling van gegevens via REST API's is daarentegen in ieder geval wel <em>gestructureerd</em>, alleen al omdat elke interactie via een  API volgens een protocol, of standaard verloopt, zoals http [<cite><a class="bibref" data-link-type="biblio" href="#bib-rfc7230" title="Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing">rfc7230</a></cite>], https [<cite><a class="bibref" data-link-type="biblio" href="#bib-rfc2818" title="HTTP Over TLS">rfc2818</a></cite>], OpenAPI Specification [<cite><a class="bibref" data-link-type="biblio" href="#bib-openapi" title="OpenAPI Specification">openapi</a></cite>] of de (API Design Rules) [<cite><a class="bibref" data-link-type="biblio" href="#bib-api design rules" title="API Design Rules (Nederlandse API Strategie IIa)">API Design Rules</a></cite>].</p>
@@ -533,18 +533,18 @@ Geautomatiseerde gegevensuitwisseling tussen informatiesystemen op basis van NEN
 
  
 
-<p><figure id="fig-interne-en-externe-gegevensuitwisseling"><img src="media/DK_Intern-extern.svg" alt="Gegevensuitwisseling kan verdeeld worden in Interne en externe uitwisseling" title="Interne en Externe Gegevensuitwisseling" height="347" width="348"><figcaption>Figuur <bdi class="figno">3</bdi> <span class="fig-title">Interne en Externe Gegevensuitwisseling</span></figcaption></figure> </p>
+<p><figure id="fig-interne-en-externe-gegevensuitwisseling"><img src="media/DK_Intern-extern.svg" alt="Gegevensuitwisseling kan verdeeld worden in Interne en externe uitwisseling" title="Interne en Externe Gegevensuitwisseling"><figcaption>Figuur <bdi class="figno">3</bdi> <span class="fig-title">Interne en Externe Gegevensuitwisseling</span></figcaption></figure> </p>
 <p>Digikoppeling is een standaard voor gegevensuitwisseling <em>tussen</em> organisaties, met voorzieningen die onderdeel zijn van de GDI, waaronder de basisregistraties, of die sector-overstijgend is.</p>
 </section><section id="digikoppeling-voor-closed-data-en-open-data-via-closed-diensten"><div class="header-wrapper"><h3 id="x2-8-digikoppeling-voor-closed-data-en-open-data-via-closed-diensten"><bdi class="secno">2.8 </bdi>Digikoppeling voor Closed Data en Open Data via Closed diensten</h3><a class="self-link" href="#digikoppeling-voor-closed-data-en-open-data-via-closed-diensten" aria-label="Permalink for Section 2.8"></a></div>
 <p>Digikoppeling bestaat uit een verzameling standaarden voor elektronisch verkeer tussen overheidsorganisaties. Digikoppeling gaat dus om overheidsgegevens. Openbare informatie van de Rijksoverheid mag worden hergebruikt, bijvoorbeeld op websites en in applicaties. Dit is Open Data.</p>
 <p>Overheidsgegevens zijn actief beschikbaar als open data voor hergebruik van derden. Behalve als er goede redenen zijn om dat niet te doen. In dat geval noemen we dit Closed Data.</p>
-<p><figure id="fig-open-en-closed-overheidsdata"><img src="media/DK_open_closed_data.svg" alt="Externe Gegevensuitwisseling kan verdeeld worden in open diensten en closed diensten" title="Open en Closed OverheidsData" height="364" width="361"><figcaption>Figuur <bdi class="figno">4</bdi> <span class="fig-title">Open en Closed OverheidsData</span></figcaption></figure></p>
+<p><figure id="fig-open-en-closed-overheidsdata"><img src="media/DK_open_closed_data.svg" alt="Externe Gegevensuitwisseling kan verdeeld worden in open diensten en closed diensten" title="Open en Closed OverheidsData"><figcaption>Figuur <bdi class="figno">4</bdi> <span class="fig-title">Open en Closed OverheidsData</span></figcaption></figure></p>
 </section><section id="wie-communiceert-met-wie"><div class="header-wrapper"><h3 id="x2-9-wie-communiceert-met-wie"><bdi class="secno">2.9 </bdi>Wie communiceert met wie</h3><a class="self-link" href="#wie-communiceert-met-wie" aria-label="Permalink for Section 2.9"></a></div>
 <p>Digikoppeling verplicht dat verzender en ontvanger elkaar kennen ([<cite><a class="bibref" data-link-type="biblio" href="#bib-pas-toe-of-leg-uit" title="Lijst Verplichte standaarden">Pas-toe-of-leg-uit</a></cite>] <em>zie Digikoppeling, paragraaf 'Overig/Waarvoor geldt de verplichting</em>). Digikoppeling gaat over communicatie tussen de overheden (G2G) en niet over uitwisseling met burgers (G2C). De communicatie tussen overheid en het bedrijfsleven (G2B) is niet gestandaardiseerd. </p>
-<p><figure id="fig-segmentering-van-de-communicatie"><img src="media/DK_segmentering.svg" alt="Diensten kunnen onderverdeeld worden in G2G, G2B en G2C" title="Segmentering van de communicatie" height="361" width="356"><figcaption>Figuur <bdi class="figno">5</bdi> <span class="fig-title">Segmentering van de communicatie</span></figcaption></figure></p>
+<p><figure id="fig-segmentering-van-de-communicatie"><img src="media/DK_segmentering.svg" alt="Diensten kunnen onderverdeeld worden in G2G, G2B en G2C" title="Segmentering van de communicatie"><figcaption>Figuur <bdi class="figno">5</bdi> <span class="fig-title">Segmentering van de communicatie</span></figcaption></figure></p>
 </section><section id="scope-van-digikoppeling"><div class="header-wrapper"><h3 id="x2-10-scope-van-digikoppeling"><bdi class="secno">2.10 </bdi>Scope van Digikoppeling</h3><a class="self-link" href="#scope-van-digikoppeling" aria-label="Permalink for Section 2.10"></a></div>
 <p>Digikoppeling moet worden toegepast voor geautomatiseerde gegevensuitwisseling tussen informatiesystemen en is verplicht voor Nederlandse overheden (Rijk, provincies, gemeenten en waterschappen) en instellingen uit de (semi-)publieke sector. Digikoppeling moet worden toegepast wanneer gebruikt gemaakt wordt van Gesloten Diensten. Dat wil zeggen diensten waarbij er noodzaak is om de afnemer te authenticeren.</p>
-<p><figure id="fig-digikoppeling-voor-closed-data-g2g-uitwisseling"><img src="media/DK_closed_g2g.svg" alt="Digikoppeling is bedoeld voor Closed Data G2G Uitwisseling" title="Digikoppeling voor Closed Data G2G Uitwisseling" height="371" width="342"><figcaption>Figuur <bdi class="figno">6</bdi> <span class="fig-title">Digikoppeling voor Closed Data G2G Uitwisseling</span></figcaption></figure></p>
+<p><figure id="fig-digikoppeling-voor-closed-data-g2g-uitwisseling"><img src="media/DK_closed_g2g.svg" alt="Digikoppeling is bedoeld voor Closed Data G2G Uitwisseling" title="Digikoppeling voor Closed Data G2G Uitwisseling"><figcaption>Figuur <bdi class="figno">6</bdi> <span class="fig-title">Digikoppeling voor Closed Data G2G Uitwisseling</span></figcaption></figure></p>
 <section id="grijs-gebied"><div class="header-wrapper"><h4 id="x2-10-1-grijs-gebied"><bdi class="secno">2.10.1 </bdi>Grijs gebied</h4><a class="self-link" href="#grijs-gebied" aria-label="Permalink for Section 2.10.1"></a></div>
 <p>De verplichting voor Digikoppeling geldt dus voor communicatie tussen overheden. De praktijk is dat voor communicatie met bedrijven vaak verplichtingen gelden die hun oorsprong hebben in Digikoppeling, zoals het gebruik van het OIN en PKIoverheidscertificaten, of zelfs geïnspireerd zijn op Digikoppeling zoals het Koppelvlak <em>WUS voor Bedrijven</em> van Digipoort.</p>
 <p><figure id="fig-digikoppeling-voor-closed-data-g2b-uitwisseling"><img src="media/DK_closed_b2g.svg" alt="Digikoppeling kan ook gebruikt worden voor Closed Data G2B Uitwisseling " title="Digikoppeling voor Closed Data G2B Uitwisseling"><figcaption>Figuur <bdi class="figno">7</bdi> <span class="fig-title">Digikoppeling voor Closed Data G2B Uitwisseling</span></figcaption></figure></p>
