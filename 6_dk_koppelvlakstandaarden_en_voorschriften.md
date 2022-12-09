@@ -8,9 +8,9 @@ De Digikoppeling Architectuur legde in de eerdere versies grote nadruk op bevrag
 
 Digikoppeling kent vier koppelvlakstandaarden
 
-- WUS voor synchrone uitwisseling van gestructeerde berichten;
+- WUS voor synchrone uitwisseling van gestructureerde berichten;
 
-- ebMS2 voor asynchrone uitwisseling voor betrouwbaar berichtenverkeer ;
+- ebMS2 voor asynchrone uitwisseling voor betrouwbaar berichtenverkeer;
 
 - REST API voor synchrone gegevensuitwisseling met resources;
 
@@ -44,7 +44,7 @@ Door het gebruik van deze profielen worden deze aspecten correct afgehandeld en 
 | Koppelvlakstandaard Grote Berichten | De uitwisseling van grote berichten maakt gebruik van WUS, ebMS2 of (indien gewenst) REST met HTTPS bestandsoverdracht |
 | Beveiligingstandaarden en voorschriften  | Beschrijft de beveiligingstandaarden (TLS, signing en encryption) voor de Digikoppeling profielen WUS, ebMS2 en Grote berichten |
 | Identificatie en Authenticatie | Beschrijft de identificatie van partijen, het opzetten van een tweezijdige beveiligde TLS-verbinding en over het ondertekenen  en versleutelen van berichten en bijlagen. |
-| Overzicht Actuele Documentatie en Compliance | Overzicht van de actuele versie van de  Digikopeling specificaties (normatief en niet-normatief)  |
+| Overzicht Actuele Documentatie en Compliance | Overzicht van de actuele versie van de  Digikoppeling specificaties (normatief en niet-normatief)  |
 | Gebruik en Achtergrond Digikoppeling Certificaten | Beschrijft de werking en gebruik van PKIoverheid Certificaten (niet-normatief) |
 
 
@@ -70,11 +70,11 @@ Tabel 6.2: Digikoppeling-voorschriften
 
 ## REST API's
 
-Het Digikoppeling REST API profiel [[Digikoppeling Koppelvlakstandaard REST API]] is gebaseerd op de REST API Design rules die in 2020 door het Kennisplatform API's zijn ontwikkeld.
+Het Digikoppeling REST API profiel [[Digikoppeling Koppelvlakstandaard REST API]] is gebaseerd op de REST API Design Rules die in 2020 door het Kennisplatform API's zijn ontwikkeld.
 
 Een application programming interface (API) is een gestructureerd en gedocumenteerd koppelvlak voor communicatie tussen applicaties. In de laatste 10 jaar heeft *REpresentational State Transfer* (REST) zich ontwikkeld tot een bepalend principe voor het realiseren van API's.
 
-De standaard REST API Design Rules geeft een verzameling basisregels voor structuur en naamgeving waarmee de overheid op een uniforme en eenduidige manier REST API's aanbiedt. Dit maakt het voor ontwikkelaars gemakkelijker om betrouwbare applicaties met te ontwikkelen met API's van de overheid.
+De standaard REST API Design Rules geeft een verzameling basisregels voor structuur en naamgeving waarmee de overheid op een uniforme en eenduidige manier REST API's aanbiedt. Dit maakt het voor ontwikkelaars gemakkelijker om betrouwbare applicaties te ontwikkelen met API's van de overheid. REST API's kunnen worden gebruikt voor het laagdrempelig bevragen van resources maar ook voor het creëren en muteren van resources.
 
 ### Digikoppeling REST API voor synchrone requests
 
@@ -82,11 +82,12 @@ De standaard REST API Design Rules geeft een verzameling basisregels voor struct
 
 - Vertrouwelijkheid
 - Identificatie en authenticatie van partijen
+- Versleuteling op basis van mTLS conform de Digikoppeling Beveiligings voorschriften
 - (Status)Responsecodes en Foutmeldingen
 
 ### OAS: OpenAPI Specification
 
-Een OpenAPI Specification [[openapi]] beschrijft de eigenschappen van de data die een API als input accepteert en als output teruggeeft. OAS 3.0 specificeert alleen welke attributen de API verwerkt en hun datatypen, niet welke implementatie er achter de API schuilgaat.
+Een OpenAPI Specification [[openapi]] beschrijft de eigenschappen van de data die een API als input accepteert en als output teruggeeft. OAS specificeert alleen welke attributen de API verwerkt en hun datatypen, niet welke implementatie er achter de API schuilgaat.
 
 Voor het beschrijven van DK-Rest API's is het gebruik van OAS verplicht. Op [[Pas-toe-of-leg-uit]] staat beschreven welke versie toegepast moet worden.
 
@@ -135,7 +136,7 @@ De *Digikoppeling-koppelvlakstandaard ebMS2* [[Digikoppeling Koppelvlakstandaard
 
 Het protocol regelt de betrouwbare ontvangst van een bericht en eventueel de onweerlegbaarheid (non-repudiation) in de vorm van een ondertekende ontvangstbevestiging. Hoewel Digikoppeling-meldingen (op de logistieke laag) asynchroon zijn kan de business-laag wel synchroon werken als de verzender wacht op een retourmelding.`
 
-De KVS ebMS2 regelt de volgende functionaliteiten: :
+De Koppelvlakstandaard ebMS2 regelt de volgende functionaliteiten: :
 
 - Identificatie en authenticatie van partijen
 - Versleutelen van transport
@@ -173,9 +174,7 @@ De volgende standaard aanpak wordt hierbij gehanteerd:
 
 Het grote bericht zelf zal vaak volledig in het grote bestand zijn opgenomen; het WUS, ebMS2 of REST-bericht bevat dan alleen metadata (waaronder de link naar het bestand). Maar het kan ook gebeuren dat een klein deel van het oorspronkelijk grote bericht al in het WUS-bericht is opgenomen en de rest (bijvoorbeeld bijlagen bij het bericht) in een of meerdere bestanden is opgenomen.
 
-Het principe dat Digikoppeling grote berichten toepast is het ‘claim-check’ principe. Dit betekent dat het bericht zelf (WUS/ebMS2/REST)
-
-alleen een referentie (claim-check) naar het grote bestand bevat. Deze referentie wordt vervolgens gebruikt om het bestand zelf op te halen.
+Het principe dat Digikoppeling grote berichten toepast is het ‘claim-check’ principe. Dit betekent dat het bericht zelf (WUS/ebMS2/REST) alleen een referentie (claim-check) naar het grote bestand bevat. Deze referentie wordt vervolgens gebruikt om het bestand zelf op te halen.
 
 Een belangrijk voordeel hiervan is dat het grootste deel (het grote bestand zelf) de berichtenuitwisseling niet verstoort doordat het niet door de message-handler afgehandeld hoeft te worden (en deze bijvoorbeeld vertraagt). Maar ook is een voordeel dat de afhandeling van het grote deel op een ander moment in de tijd kan plaatsvinden en daardoor de procesgang van achterliggende informatiesystemen niet verstoord.
 
@@ -183,7 +182,7 @@ De standaard doet geen uitspraak over gegevensstromen waarin kleine en grote ber
 
 ### Standaarden voor grote berichten
 
-De *Digikoppeling Koppelvlakstaard Grote Berichten* [[Digikoppeling Koppelvlakstandaard Grote Berichten]] maakt gebruik van WUS, ebMS2 of REST
+De *Digikoppeling Koppelvlakstandaard Grote Berichten* [[Digikoppeling Koppelvlakstandaard Grote Berichten]] maakt gebruik van WUS, ebMS2 of REST
  voor het verzenden van metadata. Voor ophalen van het grote bestand maakt de standaard gebruik van HTTPS-downloads. Daardoor zijn reliability en security gelijkwaardig aan de andere koppelvlakstandaarden. Ook is het gebruik van transparante intermediairs mogelijk.
 
 [[Digikoppeling Koppelvlakstandaard Grote Berichten]] regelt de volgende functionaliteiten, in aanvulling op WUS of ebMS2

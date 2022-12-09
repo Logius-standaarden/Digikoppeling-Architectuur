@@ -12,16 +12,17 @@ De volgende Digikoppeling-voorzieningen ondersteunen het ontwikkel- en implement
 
 - De Centrale OIN Raadpleegvoorziening (COR) voor het raadplegen van het OIN register. Het OIN staat voor het Organisatie Identificatienummer.
 
-Digikoppeling adapters of applicaties kunnen worden getest op compliance met de koppelvlakstandaarden via de het Digikoppeling Portaal. Al deze voorzieningen zijn bereikbaar via [https://portaal.digikoppeling.nl](https://portaal.digikoppeling.nl).
+Digikoppeling adapters of applicaties kunnen worden getest op compliance met de koppelvlakstandaarden via de Digikoppeling Compliance voorziening. deze is beschikbaar op de [Logius Gitlab](https://gitlab.com/logius/digikoppeling-compliance) omgeving.
 
 
 | Functionaliteit  | Uitleg | Invulling |
 |--------------------------------------------|---|---|
-| Compliance WUS services | WUS services kunnen worden getest op compliance met de Digikoppeling-koppelvlakstandaard WUS.  | Digikoppeling Portaal -Compliancevoorziening WUS |
-| Compliance ebMS2 services  | ebMS2 services kunnen worden getest op compliance met de Digikoppeling-koppelvlakstandaard ebMS2. | Digikoppeling Portaal -Compliancevoorziening ebMS2 |
-| Compliance Grote Berichten | Grote berichten kunnen in combinatie met WUS of ebMS2 services worden getest op compliance met de koppelvlakstandaarden | Digikoppeling Portaal-Compliancevoorziening WUS en ebMS2 |
+| Compliance WUS services | WUS services kunnen worden getest op compliance met de Digikoppeling-koppelvlakstandaard WUS.  | Digikoppeling Compliancevoorziening WUS |
+| Compliance ebMS2 services  | ebMS2 services kunnen worden getest op compliance met de Digikoppeling-koppelvlakstandaard ebMS2. | Digikoppeling Compliancevoorziening ebMS2 |
+| Compliance Grote Berichten | Grote berichten kunnen in combinatie met WUS of ebMS2 services worden getest op compliance met de koppelvlakstandaarden | Digikoppeling Compliancevoorziening WUS en ebMS2 |
 | CPA Register | Een CPA-contract voor ebMS2 services tussen twee partijen kan via het CPA Register worden opgesteld en beheerd. | CPA Register |
 | OIN Register | Het OIN bevat alle uitgegeven Organisatie identificatienummers waarmee organisaties zich uniek identificeren bij het uitwisselen van berichten. | Digikoppeling Portaal – OIN Register (COR)                                   |
+| API Discovery | Op [developer.overheid.nl](https://developer.overheid.nl) zijn alle API's van de Ned. overheid terug te vinden en is ook na te gaan of de API's voldoen aan de eisen van de API Design Rules. Ben je een developer die iets voor of met de overheid ontwikkelt? Dan vind je hier handige bronnen en de community voor de ontwikkeling van jouw digitale services. | Developer.overheid.nl |
 
 
 Tabel 8.1: Ondersteunende functionaliteiten van de Digikoppeling-voorzieningen

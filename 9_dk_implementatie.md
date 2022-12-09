@@ -58,7 +58,7 @@ Digikoppeling per koppelvlakstandaard een aantal standaardprofielen. Elk profiel
 
 De volgende kenmerken zijn onderkend:
 
-tiying-up- Best effort – geschikt voor bevragingen (WUS en REST API)
+ - Best effort – geschikt voor bevragingen (WUS en REST API)
 
 - Betrouwbaar (reliable) – geschikt voor meldingen (ebMS)
 
@@ -88,12 +88,14 @@ De aanduiding van de profielen kent de volgende systematiek:
 | best-effort signed |  | 2W-be-S | osb-be-s |
 | best-effort signed/encrypted |  | 2W-be-SE | osb-be-e |
 |  |  |  |  |
-| reliable |  |  | osb-rm |
+| reliable* |  |  | osb-rm |
 | reliable signed |  |  | osb-rm-s |
 | reliable signed en encrypted |  |  | osb-rm-e |
 
 
 Tabel 9.1: Profielen in relatie tot Digikoppeling-voorschriften
+
+> *Met reliable wordt hier aangegeven of het profiel specifieke functionaliteit biedt voor het herzenden en gegarandeerd afleveren van data als onderdeel van het profiel (dwz bovenop de basisondersteuning van de betrouwbaarheid van het netwerk protocol (TCP/IP) dat voor elk van deze profielen geldt)
 
 *NB: De profielnamen komen uit eerdere versies van de koppelvlakstandaarden. Zij moeten gehandhaafd blijven in verband met het feit dat deze standaarden reeds in gebruik zijn bij vele organisaties. Dit verklaart de verschillen in de gebruikte afkortingen tussen de WUS- en ebMS2-profielen.*
 
@@ -231,7 +233,7 @@ Gegevensuitwisseling via Digikoppeling stelt wel enkele eisen aan het transport:
 
 - Standaarden zijn gebaseerd op ‘bindings’ – verbindingen of connecties - naar Uniform Resource Identifiers (URI’s). Het netwerk moet de ‘DNS resolving’ <sup>[33](#f33)</sup>van de domeinnaam uit de URI regelen en de routering naar het resulterende IP-adres. Het netwerk en/of DNS-resolving mag ook een lokaal netwerk/host zijn.
 
-- Digikoppeling past HTTPS. De netwerken (en firewalls) zullen daarom https-transport over TCP/IP moeten toestaan.
+- Digikoppeling past HTTPS toe. De netwerken (en firewalls) zullen daarom https-transport over TCP/IP moeten toestaan.
 
 Om goed te functioneren heeft Digikoppeling dus alleen basale connectiviteit nodig.
 
@@ -245,10 +247,3 @@ Diginetwerk bestaat uit een aantal gekoppelde besloten (koppel)netwerken van div
 
 Het voordeel daarvan is dat beschikbaarheid en beveiliging onder eigen beheer valt en dat toegang tot het netwerk gecontroleerd is. Door hergebruik van de aansluiting op Diginetwerk is de implementatie van connectiviteit met andere overheidsorganisaties eenvoudig te realiseren. Diginetwerk biedt een beheerde en afgesloten netwerk voor overheden en is dus een goed alternatief (t.o.v. internet) voor connectiviteit binnen de overheid.
 
-### Internet
-
-Internet is een openbaar netwerk waarop velen zijn aangesloten. Het gebruik van TLS en optioneel beveiliging op berichtniveau door Digikoppeling maakt dat het internet goed gebruikt kan worden.
-
-Het voordeel van Internet is dat veel organisaties een aansluiting hierop hebben. Vaak zijn organisaties met vertrouwelijke gegevens en hoge eisen t.a.v. beschikbaarheid en beveiliging terughoudend in het gebruik van Internet hiervoor. Hoewel dus veel organisaties bereikbaar zijn via Internet is toegang tot gegevens niet altijd mogelijk.
-
-De precieze verschillen tussen Diginetwerk en Internet vallen buiten de scope van Digikoppeling en worden hier niet verder beschreven.

@@ -8,15 +8,15 @@ De volgende uitgangspunten vormen de basis voor de uitwerking van deze architect
 
 2. De Digikoppeling-standaarden ondersteunen veilige gegevensuitwisseling voor:
    - synchrone en asynchrone uitwisseling;
-   - berichtverkeer of op resources gebaseerde uitwisseling;
+   - berichtenverkeer of op resources gebaseerde uitwisseling;
    - het uitwisselen van best effort of reliable overdracht;
    - het uitwisselen van grote berichten;
 
-3. Partijen kunnen kiezen welk interactiepatroon nodig is voor gegevensuitwisseling.  afhankelijk van hun behoefte. Partijen bepalen in onderling overleg welke  Digikoppeling profiel ze gebruiken.
+3. Dienstaanbieders kunnen kiezen welk interactiepatroon nodig is voor gegevensuitwisseling.  Afhankelijk van hun behoefte. Dienstaanbieders bepalen in overleg met de afnemers welke Digikoppeling profielen ze gebruiken.
 
-4. Providers, zoals Basisregistraties en landelijke voorzieningen, bepalen welke koppelvlakstandaard gebruikt wordt voor een door hun geleverde dienst. Per dienst kunnen meerdere koppelvlakstandaarden aangeboden worden.
+4. Providers, zoals Basisregistraties en landelijke voorzieningen, bepalen welke Digikoppeling profielen gebruikt wordt voor een door hun geleverde dienst. Per dienst kunnen meerdere Digikoppeling profielen aangeboden worden.
 
-In vorige versies van de Digikoppeling Architectuur werden specifieke profielen gekoppeld aan bevragingen en meldingen. Dit voorschrift bleek in de praktijk niet meer goed bruikbaar. Vandaar dat met ingang van versie `2.0` deze relatie is komen te vervallen.
+In vorige versies van de Digikoppeling Architectuur werden specifieke profielen gekoppeld aan bevragingen en meldingen. Dit voorschrift bleek in de praktijk niet meer goed bruikbaar. Vandaar dat met ingang van versie `2.0.0` deze relatie is komen te vervallen.
 
 ## Architectuurprincipes
 
@@ -26,7 +26,7 @@ De architectuurprincipes geven richting aan de Digikoppeling-standaarden en Digi
 
 2. **Standaardoplossingen:** Het gebruik van standaardoplossingen is mogelijk, met een minimum aan ontwikkelinspanning of maatwerk.
 
-3. **Veiligheid en vertrouwelijkheid:** Gegevens worden veilig uitgewisseld conform de eisen van de toepasselijke wet en regelgeving. Wanneer berichten met persoonsgegevens verstuurd worden, moet de serviceafnemer nagaan of de uitwisseling voldoet aan de wet- en regelgeving (in het bijzonder de AVG ).
+3. **Veiligheid en vertrouwelijkheid:** Gegevens worden veilig uitgewisseld conform de eisen van de toepasselijke wet en regelgeving. Wanneer berichten met persoonsgegevens verstuurd worden, moeten serviceaanbieder en serviceafnemer nagaan of de uitwisseling voldoet aan de wet- en regelgeving (in het bijzonder de AVG).
 
 4. **Betrouwbaarheid:**  Berichtaflevering is betrouwbaar indien nodig.
 
