@@ -22,6 +22,6 @@ var respecConfig = {
   publishDate: "2022-08-12",
   publishVersion: "2.1.0",
   shortName: "architectuur",
-  specStatus: "DEF",
+  specStatus: "WV",
   specType: "ST"
 };
