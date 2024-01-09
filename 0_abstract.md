@@ -6,7 +6,7 @@ Het [OBDO](https://www.digitaleoverheid.nl/nieuws/overheidsbrede-beleidsoverleg-
 
 De *Architectuur Digikoppeling* beschrijft de kaders, de principes en voorschriften, de koppelvlakstandaarden, voorzieningen en de keten waarin via Digikoppeling gegevens worden uitgewisseld (de Digikoppeling keten).
 
-Digikoppeling is 'backwards compatible'\*. Partijen die Digikoppeling gebruiken, voldoen daardoor automatisch aan de nieuwste versie van Digikoppeling. De nieuwe functionaliteiten en profielen zijn dan echter niet beschikbaar. Voor het beheer van de Digikoppeling standaard en documenten wordt waar mogelijk om [SemVer](https://semver.org/spec/v2.0.0.html) toegepast
+Digikoppeling is 'backwards compatible'\*. Partijen die Digikoppeling gebruiken, voldoen daardoor automatisch aan de nieuwste versie van Digikoppeling. De nieuwe functionaliteiten en profielen zijn dan echter niet beschikbaar. Voor het beheer van de Digikoppeling standaard en documenten wordt waar mogelijk [Semantic Versioning](https://semver.org/spec/v2.0.0.html) toegepast.
 
 De aanleiding van de vernieuwing van dit document is tweeledig: in 2019 is een RFC ingediend over relatie van de Digikoppeling profielen met *bevragen en melden*. Daarnaast is in 2020 een Rest API profiel uitgewerkt en opgenomen in de Digikoppeling Standaard.
 
@@ -16,5 +16,6 @@ De belangrijkste wijzigingen in de nieuwe Digikoppeling Architectuur versie 2.x.
 - Toevoegen van een Digikoppeling REST API profiel, gebaseerd op de API Design Rules (uit de Nederlandse API Strategie)
 - De Provider bepaalt welk koppelvlak - REST API, WUS of ebMS van toepassing is op de door haar geleverde dienst.
 
+**De implicatie van deze wijzigingen is dat organisaties bij doorontwikkeling, en nieuwbouw van voorzieningen zelf de keuze kunnen maken welk van de profielen het beste past bij hun ambitie.**
 
 \*(‘Backwards compatibiliteit’ geldt niet voor de security eisen, zie hiervoor de actuele versie van [[Digikoppeling Beveiligingsdocument]])
