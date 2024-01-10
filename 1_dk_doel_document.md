@@ -35,11 +35,11 @@ De *Digikoppeling Architectuur* is mede gebaseerd op:
 
 De architectuur van Digikoppeling wordt regelmatig geactualiseerd om goed te blijven aansluiten op de behoeften van overheden en de wensen van de maatschappij. Actuele ontwikkelingen waarmee de Architectuur in 2024 in lijn wordt gebracht zijn onder andere:
 
-- [De Interbestuurlijke Datastrategie (IBDS)](https://realisatieibds.pleio.nl/)
-- [Het Federatief Datastelsel (FDS)](https://www.noraonline.nl/wiki/FDS_Basis_concept)
-- [De Generieke Digitale Infrastructuur (GDI)](https://pgdi.nl/)
-- [De Architectuur van het Kennisplatform API's](https://geonovum.github.io/KP-APIs/API-strategie-algemeen/Architectuur/)
-- de ontwikkelingen vanuit [Data bij de Bron](https://www.digitaleoverheid.nl/data-bij-de-bron/) en [Common Ground](https://commonground.nl/).
+- [De Interbestuurlijke Datastrategie (IBDS),](https://realisatieibds.pleio.nl/)
+- [Het Federatief Datastelsel (FDS),](https://www.noraonline.nl/wiki/FDS_Basis_concept)
+- [De Generieke Digitale Infrastructuur (GDI),](https://pgdi.nl/)
+- [De Architectuur van het Kennisplatform API's,](https://geonovum.github.io/KP-APIs/API-strategie-algemeen/Architectuur/)
+- De ontwikkelingen vanuit [Data bij de Bron](https://www.digitaleoverheid.nl/data-bij-de-bron/) en [Common Ground](https://commonground.nl/).
 
 ## Digikoppeling standaarden
 
