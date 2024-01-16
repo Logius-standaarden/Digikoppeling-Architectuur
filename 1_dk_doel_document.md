@@ -100,6 +100,8 @@ De documentatie is als volgt opgebouwd:
 
 - Alle goedgekeurde documenten zijn te vinden op de website van Logius, [www.logius.nl/digikoppeling](http://www.logius.nl/digikoppeling).
 
+  (_Opmerking : De Best Practice REST API is in ontwikkeling_)
+
 ## Begrippen
 
 Belangrijke begrippen en afkortingen zijn opgenomen in *Bijlage B: Begrippen*.
