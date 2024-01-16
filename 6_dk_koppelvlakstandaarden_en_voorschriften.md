@@ -70,9 +70,11 @@ Tabel 6.2: Digikoppeling-voorschriften
 
 ## REST API's
 
-Het Digikoppeling REST API profiel [[Digikoppeling Koppelvlakstandaard REST API]] is gebaseerd op de REST API Design Rules die in 2020 door het Kennisplatform API's zijn ontwikkeld.
+Het Digikoppeling REST API profiel [[Digikoppeling Koppelvlakstandaard REST API]] is gebaseerd op de Federated Services Connectivity (FSC) standaard en de REST API Design Rules die in 2020 door het Kennisplatform API's zijn ontwikkeld.
 
 Een application programming interface (API) is een gestructureerd en gedocumenteerd koppelvlak voor communicatie tussen applicaties. In de laatste 10 jaar heeft *REpresentational State Transfer* (REST) zich ontwikkeld tot een bepalend principe voor het realiseren van API's.
+
+De standaard FSC schrijft voor hoe gekoppeld kan worden met een API's, hoe API's in een netwerk gevonden kunnen worden en wanneer en hoe log regels moeten worden weggeschreven. 
 
 De standaard REST API Design Rules geeft een verzameling basisregels voor structuur en naamgeving waarmee de overheid op een uniforme en eenduidige manier REST API's aanbiedt. Dit maakt het voor ontwikkelaars gemakkelijker om betrouwbare applicaties te ontwikkelen met API's van de overheid. REST API's kunnen worden gebruikt voor het laagdrempelig bevragen van resources maar ook voor het creëren en muteren van resources.
 
@@ -83,6 +85,10 @@ De standaard REST API Design Rules geeft een verzameling basisregels voor struct
 - Vertrouwelijkheid
 - Identificatie en authenticatie van partijen
 - Versleuteling op basis van mTLS conform de Digikoppeling Beveiligings voorschriften
+- Mechanisme voor het autoriseren van koppelingen met een API
+- Mechanisme voor het ontdekken van API's op een netwerk
+- Delegatie. I.e. een API aanbieden of consumeren namens een andere organisatie
+- Logging van verzoeken naar API's
 - (Status)Responsecodes en Foutmeldingen
 
 ### OAS: OpenAPI Specification
