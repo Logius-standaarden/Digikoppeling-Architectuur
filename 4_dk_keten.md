@@ -158,7 +158,7 @@ Praktisch gezien resulteert dit meestal in een conversatie bestaande uit meerder
 
 ### Notificaties / Signalen
 
-Een alternatieve vorm van synchrone uitwisseling die steeds vaker voorkomt is te omschrijven als notificatie. Hierbij stuurt de *data provider* via het REST patroon een HTTP POST bericht naar de service van de *data-consumer*. Door toevoeging van dit patroon in de gegevensuitwisseling wordt een zogenaamde *Event Driven Architecture* gerealiseerd. Eind 2022 is de Notificatiestandaard bij Logius in beheer genomen onder de noemer [NL-GOV-profile-for-CloudEvents](https://github.com/Logius-standaarden/NL-GOV-profile-for-CloudEvents).
+Een alternatieve vorm van synchrone uitwisseling die steeds vaker voorkomt is te omschrijven als notificatie. Hierbij stuurt de *data provider* via het REST patroon een HTTP POST bericht naar de _webhook_ van de *data-consumer*. Door toevoeging van dit patroon in de gegevensuitwisseling wordt een zogenaamde *Event Driven Architecture* gerealiseerd. Eind 2022 is de Notificatiestandaard bij Logius in beheer genomen onder de noemer [NL-GOV-profile-for-CloudEvents](https://github.com/Logius-standaarden/NL-GOV-profile-for-CloudEvents).
 
 ### Grote Berichten
 
