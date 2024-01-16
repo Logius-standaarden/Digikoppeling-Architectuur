@@ -45,7 +45,7 @@ De volgende compliancevoorzieningen zijn beschikbaar: <sup>[28](#f28)</sup>
 
 Logius beheert de Centrale OIN Raadpleegvoorziening (COR) waarin uitgegeven Organisatie identificatienummers zijn gepubliceerd. Dit register is openbaar raadpleegbaar en zowel via het web als via een REST API bevraagbaar.
 
-Het OIN register is te vinden op [https://portaal.digikoppeling.nl/registers](https://portaal.digikoppeling.nl/registers/)
+Het OIN register is te vinden op https://oinregister.logius.nl/oin-register.
 
 ## CPA Register
 
