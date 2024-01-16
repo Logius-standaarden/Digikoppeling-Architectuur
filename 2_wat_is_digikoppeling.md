@@ -14,7 +14,7 @@ Voordat we inhoudelijk op Digikoppeling en haar onderliggende standaarden en de 
 
 ### Open en Closed Data
 
-Een concept dat sinds begin 2000 een opmars maakt is het principe van *Open Data*. Open Data zijn gegevens die in een open formaat door iedereen voor alle doeleinden vrij gebruikt, hergebruikt en gedeeld kunnen worden. De nadruk voor Open Data ligt met name bij de gegevens van de overheid. Gegevens die om reden van privacy, veiligheid, wettelijke verplichtingen en dergelijk niet onder de definitie vallen noemen we in dit document *Closed Data*.
+[Open Data zijn gegevens die in een open formaat door iedereen voor alle doeleinden vrij gebruikt, hergebruikt en gedeeld kunnen worden](https://data.overheid.nl/ondersteuning/open-data/wat-is-open-data). De nadruk voor Open Data ligt met name bij de gegevens van de overheid. Gegevens die om reden van privacy, veiligheid, wettelijke verplichtingen en dergelijk niet onder de definitie vallen noemen we in dit document *Closed Data*.
 
 ### Open en Closed Diensten
 
@@ -47,12 +47,11 @@ Geautomatiseerde gegevensuitwisseling tussen informatiesystemen op basis van NEN
 bron: [[Pas-toe-of-leg-uit]]
 
 Daarnaast benoemt het Forum de organisaties waarvoor de verplichting geldt. Dit wordt het *organisatorische werkingsgebied* genoemd. 
+
 ### Organisatorisch werkingsgebied
 
-Het werkingsgebied is als volgt gedefinieerd:
-> Nederlandse overheden (Rijk, provincies, gemeenten en waterschappen) en instellingen uit de (semi-) publieke sector.
+Het werkingsgebied is als volgt gedefinieerd: Nederlandse overheden (Rijk, provincies, gemeenten en waterschappen) en instellingen uit de (semi-) publieke sector. [[Pas-toe-of-leg-uit]]
 
-bron: [[Pas-toe-of-leg-uit]]
 ## Van *'uitwisseling van gestructureerde berichten'* naar *'gestructureerde gegevensuitwisseling'*
 
 Digikoppeling heeft zich vanaf het begin van haar ontstaan gericht op het uitwisselen van berichten, en dan specifiek op de 'envelop' van een bericht en  niet op de inhoud. Iedere organisatie die Digikoppeling gebruikt kon daarmee de gegevensuitwisseling onafhankelijk van de inhoud inrichten.
@@ -76,7 +75,7 @@ Voor Digikoppeling verleggen we daarom de focus van berichtenverkeer naar het ui
 
 ## Digikoppeling voor externe uitwisseling
 
-Digikoppeling richt zich dus van oudsher primair op het uitwisselen van gegevens 'met behulp van gestructureerde berichten' en maakt (tot nu toe) geen duidelijk onderscheid tussen Open en Closed Data. Dit maakt het niet duidelijk wanneer Digikoppeling gebruikt moet worden. Reden om dit beter af te pellen en de scope van Digikoppeling eens langs een andere lat te leggen.
+Digikoppeling richt zich dus primair op het uitwisselen van gegevens 'met behulp van gestructureerde berichten' en maakt (tot nu toe) geen duidelijk onderscheid tussen Open en Closed Data. Dit maakt het niet duidelijk wanneer Digikoppeling gebruikt moet worden. Reden om dit beter af te pellen en de scope van Digikoppeling eens langs een andere lat te leggen.
 
 <!--![Gegevensuitwisseling kan verdeeld worden in Interne en externe uitwisseling](media/DK_Intern-extern.svg "Interne en Externe Gegevensuitwisseling") -->
 

@@ -1,5 +1,7 @@
 # Bijlage C: NORA Architectuurprincipes
 
+**TODO: helemaal vervangen door nieuwe [NORA afsrpaken](https://www.noraonline.nl/wiki/Bindende_Architectuurafspraken)**
+
 De NORA (Nederlandse Overheids Referentie Architectuur) is de bron voor de architectuur principes. NORA definieert 10 basisprincipes<sup>[34](#f34)</sup>
 <br>
 <sup><a name="f34"><dfn>34</dfn></a>:  *Bron: [https://www.noraonline.nl/wiki/Principes](https://www.noraonline.nl/wiki/Principes)*</sup>
