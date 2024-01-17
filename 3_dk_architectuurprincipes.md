@@ -4,7 +4,7 @@
 
 De volgende uitgangspunten vormen de basis voor de uitwerking van deze architectuur:
 
-1. De Digikoppeling standaarden zijn openbaar, vindbaar, transparant, leveranciersonafhankelijk en interoperabel. Zie bijlage D voor uitleg.
+1. De Digikoppeling standaarden zijn openbaar, vindbaar, transparant, leveranciersonafhankelijk en interoperabel. Zie [bijlage D](#bijlage-d-niet-functionele-eisen) voor uitleg.
 
 2. De Digikoppeling-standaarden ondersteunen veilige gegevensuitwisseling voor:
    - synchrone en asynchrone uitwisseling;
@@ -20,7 +20,7 @@ In vorige versies van de Digikoppeling Architectuur werden specifieke profielen 
 
 ## Architectuurprincipes
 
-De architectuurprincipes geven richting aan de Digikoppeling-standaarden en Digikoppeling-voorzieningen en zijn afgeleid van de NORA Principes (zie bijlage C):
+De architectuurprincipes geven richting aan de Digikoppeling-standaarden en Digikoppeling-voorzieningen en zijn afgeleid van de [NORA Principes (zie bijlage C)](#bijlage-c-nora-architectuurprincipes):
 
 1. **Interoperabiliteit:** De interoperabiliteit van diensten is mogelijk door het gebruik van bewezen interoperabele internationale standaarden.
 
