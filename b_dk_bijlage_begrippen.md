@@ -1,4 +1,4 @@
-# Bijlage B: Begrippenlijst
+# Begrippenlijst
 
 Deze begrippenlijst is specifiek voor de *Architectuur Digikoppeling*.
 
