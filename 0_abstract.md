@@ -18,4 +18,4 @@ De belangrijkste wijzigingen in de nieuwe Digikoppeling Architectuur versie 2.x.
 
 **De implicatie van deze wijzigingen is dat organisaties bij doorontwikkeling, en nieuwbouw van voorzieningen zelf de keuze kunnen maken welk van de profielen het beste past bij hun ambitie.**
 
-\*(‘Backwards compatibiliteit’ geldt niet voor de security eisen, zie hiervoor de actuele versie van [[Digikoppeling Beveiligingsdocument]])
+\*(‘Backwards compatibiliteit’ geldt niet voor de security eisen, zie hiervoor de actuele versie van [[[DK-Beveiliging]]])

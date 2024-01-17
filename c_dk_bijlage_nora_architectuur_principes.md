@@ -1,4 +1,4 @@
-# Bijlage C: NORA Architectuurprincipes
+# NORA Architectuurprincipes
 
 Onderstaand wordt de relatie tussen NORA algemene principes en Digikoppeling principes aangegeven.
 Zie [NORA Architectuur afspraken (2023)](https://www.noraonline.nl/wiki/Bindende_Architectuurafspraken)

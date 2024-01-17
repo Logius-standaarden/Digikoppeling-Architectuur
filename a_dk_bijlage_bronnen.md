@@ -1,4 +1,4 @@
-# Bijlage A: Bronnen
+# Bronnen
 
 Alle goedgekeurde Digikoppeling documenten zijn beschikbaar op https://www.logius.nl/diensten/digikoppeling/documentatie
 
@@ -7,18 +7,18 @@ Alle goedgekeurde Digikoppeling documenten zijn beschikbaar op https://www.logiu
 | Documentnaam                                          | Auteur(s)                       |
 |-------------------------------------------------------|---------------------------------|
 | Digikoppeling Architectuur (dit document)             | Logius   |
-| [[Digikoppeling Koppelvlakstandaard REST API]]        | Logius   |
-| [[Digikoppeling Koppelvlakstandaard WUS]]             | Logius   |
-| [[Digikoppeling Koppelvlakstandaard ebMS2]]           | Logius   |
-| [[Digikoppeling Koppelvlakstandaard Grote Berichten]] | Logius   |
-| [[Digikoppeling Beheermodel]]                         | Logius   |
-| [[Digikoppeling Beveiligingsdocument]]                | Logius   |
-| [[Digikoppeling Identificatie-Authenticatie]]         | Logius   |
-| [[Digikoppeling Actuele Documentatie]]                | Logius   |
-| [[?Digikoppeling Gebruik Certificaten]]               | Logius   |
-| [[?Digikoppeling Best Practices WUS]]                 | Logius   |
-| [[?Digikoppeling Best Practices ebMS2]]               | Logius   |
-| [[?Digikoppeling Best Practices Grote Berichten]]     | Logius   |
+| [[[DK-RESTAPI]]]        | Logius   |
+| [[[DK-WUS]]]             | Logius   |
+| [[[DK-ebMS]]]           | Logius   |
+| [[[DK-GB]]] | Logius   |
+| [[[DK-Beheermodel]]]                         | Logius   |
+| [[[DK-Beveiliging]]]                | Logius   |
+| [[[DK-IDAuth]]]         | Logius   |
+| [[[DK-Doc]]]                | Logius   |
+| [[[?DK-gbachtcert]]]               | Logius   |
+| [[[?DK-BPWUS]]]                 | Logius   |
+| [[[?DK-BPebMS]]]               | Logius   |
+| [[[?DK-BPGB]]]     | Logius   |
 
 Tabel 10.1: Digikoppeling-standaarden en gerelateerde documenten
 

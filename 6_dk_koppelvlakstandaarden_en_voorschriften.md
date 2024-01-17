@@ -70,7 +70,7 @@ Tabel 6.2: Digikoppeling-voorschriften
 
 ## REST API's
 
-Het Digikoppeling REST API profiel [[Digikoppeling Koppelvlakstandaard REST API]] is gebaseerd op de REST API Design Rules die in 2020 door het Kennisplatform API's zijn ontwikkeld.
+Het [[[DK-RESTAPI]]] is gebaseerd op de REST API Design Rules die in 2020 door het Kennisplatform API's zijn ontwikkeld.
 
 Een application programming interface (API) is een gestructureerd en gedocumenteerd koppelvlak voor communicatie tussen applicaties. In de laatste 10 jaar heeft *REpresentational State Transfer* (REST) zich ontwikkeld tot een bepalend principe voor het realiseren van API's.
 
@@ -78,7 +78,7 @@ De standaard REST API Design Rules geeft een verzameling basisregels voor struct
 
 ### Digikoppeling REST API voor synchrone requests
 
-[[Digikoppeling Koppelvlakstandaard REST API]] biedt de volgende functionaliteiten:
+[[[DK-RESTAPI]]] biedt de volgende functionaliteiten:
 
 - Vertrouwelijkheid
 - Identificatie en authenticatie van partijen
@@ -87,7 +87,7 @@ De standaard REST API Design Rules geeft een verzameling basisregels voor struct
 
 ### OAS: OpenAPI Specification
 
-Een OpenAPI Specification [[openapi]] beschrijft de eigenschappen van de data die een API als input accepteert en als output teruggeeft. OAS specificeert alleen welke attributen de API verwerkt en hun datatypen, niet welke implementatie er achter de API schuilgaat.
+Een [[[openapi]]] beschrijft de eigenschappen van de data die een API als input accepteert en als output teruggeeft. OAS specificeert alleen welke attributen de API verwerkt en hun datatypen, niet welke implementatie er achter de API schuilgaat.
 
 Voor het beschrijven van DK-Rest API's is het gebruik van OAS verplicht. Op [[Pas-toe-of-leg-uit]] staat beschreven welke versie toegepast moet worden.
 
@@ -103,9 +103,9 @@ Kenmerkend voor de WUS-standaarden die voortkomen uit de Internet-wereld is de 1
 
 ### Digikoppeling WUS voor synchrone bevragingen
 
-De *Digikoppeling-koppelvlakstandaard WUS* [[Digikoppeling Koppelvlakstandaard WUS]] ondersteunt het uitvoeren van synchrone requests tussen geautomatiseerde informatiesystemen.
+De [[[DK-WUS]]] ondersteunt het uitvoeren van synchrone requests tussen geautomatiseerde informatiesystemen.
 
-[[Digikoppeling Koppelvlakstandaard WUS]] biedt de volgende functionaliteiten: 
+[[[DK-WUS]]] biedt de volgende functionaliteiten: 
 
 - Identificatie en authenticatie van partijen
 - Versleutelen van transport
@@ -132,7 +132,7 @@ Kenmerkend voor de ebMS2-standaarden die voortkomen uit de EDIFACT-wereld is de 
 
 ### Digikoppeling ebMS2 voor betrouwbare, asynchone uitwisseling  
 
-De *Digikoppeling-koppelvlakstandaard ebMS2* [[Digikoppeling Koppelvlakstandaard ebMS2]] ondersteunt het uitvoeren van asynchrone berichten tussen geautomatiseerde informatiesystemen.
+De [[[DK-ebMS]]] ondersteunt het uitvoeren van asynchrone berichten tussen geautomatiseerde informatiesystemen.
 
 Het protocol regelt de betrouwbare ontvangst van een bericht en eventueel de onweerlegbaarheid (non-repudiation) in de vorm van een ondertekende ontvangstbevestiging. Hoewel Digikoppeling-meldingen (op de logistieke laag) asynchroon zijn kan de business-laag wel synchroon werken als de verzender wacht op een retourmelding.`
 
@@ -182,10 +182,10 @@ De standaard doet geen uitspraak over gegevensstromen waarin kleine en grote ber
 
 ### Standaarden voor grote berichten
 
-De *Digikoppeling Koppelvlakstandaard Grote Berichten* [[Digikoppeling Koppelvlakstandaard Grote Berichten]] maakt gebruik van WUS, ebMS2 of REST
+De [[[DK-GB]]] maakt gebruik van WUS, ebMS2 of REST
  voor het verzenden van metadata. Voor ophalen van het grote bestand maakt de standaard gebruik van HTTPS-downloads. Daardoor zijn reliability en security gelijkwaardig aan de andere koppelvlakstandaarden. Ook is het gebruik van transparante intermediairs mogelijk.
 
-[[Digikoppeling Koppelvlakstandaard Grote Berichten]] regelt de volgende functionaliteiten, in aanvulling op WUS of ebMS2
+[[[DK-GB]]] regelt de volgende functionaliteiten, in aanvulling op WUS of ebMS2
 
 - Identificatie en authenticatie van partijen (OIN)
 
