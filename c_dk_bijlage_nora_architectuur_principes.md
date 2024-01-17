@@ -3,6 +3,15 @@
 Onderstaand wordt de relatie tussen NORA algemene principes en Digikoppeling principes aangegeven.
 Zie [NORA Architectuur afspraken (2023)](https://www.noraonline.nl/wiki/Bindende_Architectuurafspraken)
 
+In NORA wordt een aantal kernwaarden gedefinieerd voor de digitale dienstverlening. 
+Hiervan is de kernwaarde [_veilig_](https://www.noraonline.nl/wiki/Veilig) in het 
+bijzonder relevant voor Digikoppeling. Uit de kernwaarde _veilig_ volgt een drietal 
+kwaliteitsdoelen: [_beschikbaar_](https://www.noraonline.nl/wiki/Beschikbaar_(Doel)), 
+[_integer_](https://www.noraonline.nl/wiki/Integer_(Doel)) en 
+[_vertrouwelijk_](https://www.noraonline.nl/wiki/Vertrouwelijk_(Doel)). 
+Uit de doelen komen vervolgens weer architectuurprincipes voort die hieronder worden 
+gekoppeld aan de bijbehorende Digikoppeling principes.
+
 ## Digikoppeling Architectuurprincipes
 
 De architectuurprincipes geven richting aan de Digikoppeling-standaarden en Digikoppeling-voorzieningen
