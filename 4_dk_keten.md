@@ -1,6 +1,6 @@
 # De Digikoppeling-keten
 
-Dit hoofdstuk beschrijft Digikoppeling als bouwsteen van de Digitale Overheid. De keten van alle Digikoppeling-gerelateerde componenten die gegevensuitwisseling voor de Digitale Overheid invullen duiden we in dit document aan als de de Digikoppeling-keten. In dit hoofdstuk worden de vormen van gegevensuitwisseling op procesniveau beschreven.
+Dit hoofdstuk beschrijft Digikoppeling als bouwsteen van de Digitale Overheid. De keten van alle Digikoppeling-gerelateerde componenten die gegevensuitwisseling voor de Digitale Overheid invullen duiden we in dit document aan als de Digikoppeling-keten. In dit hoofdstuk worden de vormen van gegevensuitwisseling op procesniveau beschreven.
 
 ## Digikoppeling als bouwsteen van de Digitale Overheid
 
@@ -80,7 +80,7 @@ Tabel 4.1: Componenten van de Digikoppeling-keten
 
 N.B.: De Digikoppeling centrale voorzieningen (Het Digikoppeling portaal met de Compliance Voorziening, het OIN register en het CPA register) vormen geen onderdeel van de Digikoppeling-keten maar ondersteunen tijdens de ontwikkel-, beheer en testfasen en bij uitgifte en raadplegen van OIN's.
 
-In meer detail zijn de Gateway en Adapter componenten uitgewerkt in een referentiemodel voor gegvensuitwisseling. Hierin is de opsplitsing en samenhang weergegeven op basis van Archimate application en technology layer concepts:
+In meer detail zijn de Gateway en Adapter componenten uitgewerkt in een referentiemodel voor gegevensuitwisseling. Hierin is de opsplitsing en samenhang weergegeven op basis van Archimate application en technology layer concepts:
 ![Referentiemodel gegevensuitwisseling](media/Referentiemodel_berichtuitwisseling.png "Referentiemodel gegevensuitwisseling")
 
 ## Uitwisselingsvormen
@@ -132,7 +132,7 @@ Digikoppeling onderscheidt verschillende vormen van uitwisseling:
 
 ### Synchrone uitwisseling
 
-Bij synchrone request-response voor bevraging en bewerking van objecten *data-providers* bieden providers databronnen - of resources-  die *data-consumers* kunnen bevragen en bewerken. Een provider vermeldt locatie van en randvoorwaarden voor toegang van de databron en via gestructureerde benadering kan een consumer de resource bevragen of zelfs bewerken.
+Bij synchrone request-response voor bevraging en bewerking van objecten bieden *data-providers* databronnen - of resources-  die *data-consumers* kunnen bevragen en bewerken. Een provider vermeldt locatie van en randvoorwaarden voor toegang van de databron en via gestructureerde benadering kan een consumer de resource bevragen of zelfs bewerken.
 
 Bij een synchrone request-response met gestructureerde berichtuitwisseling stuurt de service-requester een voorgedefinieerde vraag (request) aan de service-provider, die een antwoord (response) verstrekt. Het initiatief ligt bij de service-requester. Gaat er in de uitwisseling iets mis dan zal de service-requester na een bepaalde tijd de uitwisseling afbreken (time-out).
 
@@ -144,7 +144,7 @@ Synchrone uitwisseling kan worden ingericht op basis van de Digikoppeling-koppel
 
 Bij een asynchrone request-response verstuurt de service-requester een bericht naar de ontvangende partij (ontvanger) en wacht op een (technische) ontvangstbevestiging. De verzendende (business) applicatie vertrouwt er op dat het bericht (betrouwbaar) afgeleverd wordt. De (business)applicatie zal niet wachten op het antwoord: deze applicatie zal het eventuele 'antwoordbericht' als event of signaal op een ander moment ontvangen en moeten correleren aan het oorspronkelijke vraag bericht.
 
-Een asynchroon verzoek is een enkelvoudig bericht waarop eventueel enige tijd later een retour signaal volgt. Het gebruikte protocol regelt de betrouwbare ontvangst. Bij asynchrone uitwisseling is de betrouwbare aflevering van het bericht essentieel. Als een partij het bericht niet direct kan aannemen, voorzien de protocollen erin dat het bericht nogmaals wordt aangeboden. In algemene zin bestaat Asynchrone uitwisseling uit meervoudige synchrone uitwisseling die vanuit meedere zijde wordt geïnitieerd.
+Een asynchroon verzoek is een enkelvoudig bericht waarop eventueel enige tijd later een retour signaal volgt. Het gebruikte protocol regelt de betrouwbare ontvangst. Bij asynchrone uitwisseling is de betrouwbare aflevering van het bericht essentieel. Als een partij het bericht niet direct kan aannemen, voorzien de protocollen erin dat het bericht nogmaals wordt aangeboden. In algemene zin bestaat Asynchrone uitwisseling uit meervoudige synchrone uitwisseling die vanuit meerdere zijden wordt geïnitieerd.
 
 Digikoppeling Koppelvlakstandaard ebMS2 biedt specifieke ondersteuning voor asynchrone uitwisseling. Ook eDelivery biedt specifieke ondersteuning hiervoor.
 
