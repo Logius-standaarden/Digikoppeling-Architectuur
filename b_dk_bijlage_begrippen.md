@@ -34,7 +34,7 @@ TCP/IP, netwerk, etc. Hiervoor kunt u andere bronnen via internet raadplegen.*
 | Conversation id                          | Specifieke element waarde in het ebMS bericht dat gebruikt wordt om meerdere berichten aan een conversatie te koppelen. |
 | CPA                                      | Collaboration Protocol Agreement: Servicecontract voor ebMS services. |
 | ‘createSequence’ bericht                 | Protocol specifieke bericht van WS-RM om de initiële sequentie creatie uit te voeren. |
-| Developer.overheid.nl (DON)              | Developer.overheid.nl is één centraal platform voor de developer die voor of met de overheid ontwikkelt. Het platform focused zich op API's en repositories die developers kunnen gebruiken |
+| Developer.overheid.nl (DON)              | Developer.overheid.nl is één centraal platform voor de developer die voor of met de overheid ontwikkelt. Het platform focused zich op API's en repositories die developers kunnen gebruiken. |
 | Dienst                                   | Een geautomatiseerde gegevensuitwisseling tussen twee partijen in de vorm van een bevraging, melding of groot bericht. |
 | Digikoppeling                            | Digikoppeling faciliteert gegevensuitwisselingen tussen overheidsorganisaties door standaardisatie van koppelvlakken (een overeengekomen set middelen en afspraken). |
 | Digikoppeling Architectuur               | Het geheel aan principes, voorschriften, eisen en modellen die gezamenlijk Digikoppeling beschrijven. |
@@ -71,19 +71,19 @@ TCP/IP, netwerk, etc. Hiervoor kunt u andere bronnen via internet raadplegen.*
 | Identiteit                               | Identiteit verwijst hier naar een gebruiker (partij) in de Digikoppeling-keten |
 | Inhoud (van een bericht)                 | Zie: Payload                                                 |
 | Integriteit                              | De inhoud van het bericht kan niet worden gewijzigd.         |
-| Interactiepatronen                       | Vormen van gegevensuitwisseling tussen twee partijen. `todo` In Digikoppeling: meldingen, bevragingen en grote berichten. |
+| Interactiepatronen                       | Vormen van gegevensuitwisseling tussen twee partijen. |
 | Intermediair                             | Een partij in de keten die berichten doorstuurt naar de volgende schakel in de keten. Zie ook: transparante intermediair of niet-transparante intermediair. |
+| JSON                                     | JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language. https://www.json.org |
 | Knooppunt                                | Een organisatie(onderdeel) waar verschillende functies zijn samengebracht. |
 | Koppelvlak                               | De externe interface van een dienst.                         |
-| Koppelvlakstandaard                      | De Digikoppeling-beschrijving van de ebMS- en WUS-koppelvlakken, die beschrijft hoe deze standaarden in de Nederlandse publieke sector worden gebruikt. |
+| Koppelvlakstandaard                      | De Digikoppeling-beschrijving van de ebMS-, REST en WUS-koppelvlakken, die beschrijft hoe deze standaarden in de Nederlandse publieke sector worden gebruikt. |
 | Landelijke voorziening                   | Digitale overheidsloketten en -voorzieningen voor burgers en bedrijven |
 | Lifecycle berichten                      | Protocol specifieke berichten om de sequence lifecycle te beheren |
 | Logging                                  | Mechanisme om berichten individueel te registreren op datum en tijdstip/(sequence of message)id/ontvangstbevestiging en eventueel foutcodes. |
 | Logistieke standaard                     | Een standaard die de opmaak en de veilige (en zo nodig betrouwbare) verzending en ontvangst van een bericht - met header (envelop), inhoud en evt. bijlagen(n) - regelt. |
 | long running transactions                | Een transactioneel proces dat over een langere periode kan lopen |
-| mapping                                  | dynamische en statische mapping:                             |
-|                                          | ‘bericht mapping’: contract mapping’: Actionmapping: vertaling tussen actions van ebMS en WUS Servicemapping: vertaling tussen services |
-| mapping schema                           | Een vertaaltabel tussen twee protocollen                     |
+| mapping                                  | Een dynamische of statische vertaling tussen actions, services en gegevens.                              |
+| mapping schema                           | Een vertaaltabel tussen twee protocollen en of gegevens sets.                     |
 | Melding                                  | Een verzender stuurt een enkelvoudig bericht naar een ontvanger |
 | Message                                  | Zie: Bericht                                                 |
 | Message exchange patterns                | Zie: Interactiepatronen                                      |
@@ -105,19 +105,16 @@ TCP/IP, netwerk, etc. Hiervoor kunt u andere bronnen via internet raadplegen.*
 | Out-of-band                              | Het sturen van aanvullende informatie naar systemen buiten de normale procesgang ('out-of-band') via Grote Berichten. |
 | Organisatieidentificatienummer (OIN)     | Een uniek identificerend nummer voor organisaties.           |
 | Partij                                   | (Publieke) organisatie die gegevensdiensten in de vorm van berichten via Digikoppeling aanbiedt aan andere organisaties of afneemt van andere organisaties |
-| Payload                                  | De inhoud van het bericht, bestaande uit XML elementen.      |
+| Payload                                  | De inhoud van het bericht, bestaande uit JSON of XML elementen.      |
 | Persistent storage                       | Opslag van berichten                                         |
 | PKIoverheid certificaat                  | Een digitaal certificaat van PKIoverheid (Public Key Infrastructure voor de overheid) waarborgt op basis van Nederlandse wetgeving de betrouwbaarheid van informatie-uitwisseling via e-mail, websites of andere gegevensuitwisseling. |
 | ‘piggy-backing’                          | Specifieke techniek om ‘mee te liften’ op andere berichten om additionele netwerk overhead te voorkomen |
 | Point-to-point                           | De directe uitwisseling tussen twee Digikoppeling endpoints, op basis van een protocol en zonder andere schakels. |
-| Point-to-point security                  | Beveiliging van de transportlaag door middel van tweezijdig TLS |
+| Point-to-point security                  | Beveiliging van de transportlaag door middel van tweezijdig TLS (mTLS) |
 | Private key                              | de geheime sleutel van een PKI sleutelpaar (certificaten), nodig voor de ondertekening en ontcijfering van informatie (asymetrische encryptie) |
-| Private sleutel                          | Zie: Private key                                             |
 | Profiel                                  | Een specifieke invulling van een van de Digikoppeling koppelvlak standaarden die een groep functionele eisen invult. |
 | Protocol                                 | Een set van regels en afspraken voor de representatie van data, signalering, authenticatie en foutdetectie, nodig voor het verzenden van informatie tussen systemen. |
-| protocol-specifiek betrouwbaar verkeer   | Betrouwbaar berichten verkeer realiseren door gebruik te maken van protocol technieken als WS-RM en ebMS |
 | Public key                               | De openbare sleutel van een PKI sleutelpaar (certificaten), nodig voor de vercijfering van informatie (asymetrische encryptie) en controle van de digitale handtekening. |
-| Publieke sleutel                         | De openbare sleutel van een PKI sleutelpaar (certificaten), nodig voor de vercijfering van informatie (asymetrische encryptie) |
 | RelatesTo                                | Element in een WUS-header                                    |
 | Reliability                              | Zie: Betrouwbaarheid                                         |
 | Reliable                                 | Zie: Betrouwbaar                                             |
@@ -128,7 +125,7 @@ TCP/IP, netwerk, etc. Hiervoor kunt u andere bronnen via internet raadplegen.*
 | Service                                  | Een geautomatiseerde uitwisseling van informatie tussen twee systemen op basis van berichten. |
 | Serviceaanbieder                         | De partij die een service aanbiedt.                          |
 | Serviceafnemer                           | De partij die een service afneemt.                           |
-| Servicebus                               | Integratie-infrastructuur (middleware) die nodig is om een SGA (of SOA) te faciliteren. |
+| Servicebus                               | Integratie-infrastructuur (middleware) met een verzameling van functies die gebruikt kunnen worden om verschillende integratiepatronen te faciliteren. |
 | Servicecontract                          | Een technisch formaat voor het vastleggen van afspraken over de inhoud van de gegevensuitwisseling tussen partijen. |
 | Signing                                  | Ondertekening                                                |
 | SOAP                                     | SOAP messaging protocol is een formaat en systematiek voor het opstellen en verwerken van berichten in XML. |
