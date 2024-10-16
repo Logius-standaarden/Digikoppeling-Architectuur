@@ -1,6 +1,6 @@
 # De Digikoppeling-keten
 
-Dit hoofdstuk beschrijft Digikoppeling als bouwsteen van de Digitale Overheid. De keten van alle Digikoppeling-gerelateerde componenten die gegevensuitwisseling voor de Digitale Overheid invullen duiden we in dit document aan als de de Digikoppeling-keten. In dit hoofdstuk worden de vormen van gegevensuitwisseling op procesniveau beschreven.
+Dit hoofdstuk beschrijft Digikoppeling als bouwsteen van de Digitale Overheid. De keten van alle Digikoppeling-gerelateerde componenten die gegevensuitwisseling voor de Digitale Overheid invullen duiden we in dit document aan als de Digikoppeling-keten. In dit hoofdstuk worden de vormen van gegevensuitwisseling op procesniveau beschreven.
 
 ## Digikoppeling als bouwsteen van de Digitale Overheid
 
@@ -10,10 +10,11 @@ De basisinfrastructuur bestaat uit bouwstenen voor de dienstverlening aan burger
 
 - Loketten en voorzieningen voor burgers.
 - Loketten en voorzieningen voor bedrijven.
-- Registraties in algemene zin, waaronder het stelsel van basisregistraties, inclusief voorzieningen zoals onder meer
-  - **Digilevering** (abonnementen services / Event Driven Notifications) en 
-  - **Digimelding** (terugmelding van wijzigingen of fouten aan basisregistraties).
-
+- Registraties in algemene zin, waaronder het stelsel van basisregistraties, inclusief voorzieningen zoals onder meer:
+  - **Digilevering** (abonnementen services / Event Driven Notifications),
+  - **Digimelding** (terugmelding van wijzigingen of fouten aan basisregistraties),
+  - **Developer.overheid.nl** (register van API's en repository's voor de developer die voor of met de overheid ontwikkelt) en
+  - **CPA Register** (tooling voor het aanbieden van ebMS services en het opstellen en onderhouden van Servicecontracten).
 
 In dit document vatten we de loketten en voorzieningen voor burgers en bedrijven samen met het begrip ‘landelijke voorzieningen’. Om deze pijlers als samenhangend geheel te laten functioneren is het nodig dat zij gegevens kunnen uitwisselen.
 
@@ -25,14 +26,17 @@ Digikoppeling biedt een standaard voor het veilig uitwisselen van berichten en g
 
 De Digikoppeling-keten bestaat uit:
 
-- Deelnemende publieke organisaties die gegevens met elkaar uitwisselen (partijen). Een partij kan 
-  - een service of resource aanbieden – in de rol van **serviceaanbieder** – of 
-
+- Deelnemende publieke organisaties die gegevens met elkaar uitwisselen (partijen). Een partij kan  
+  - een service of resource aanbieden – in de rol van **serviceaanbieder** – of  
   - een service afnemen – in de rol van **serviceafnemer**.
 
 - Intermediairs: organisaties die voor deze deelnemende organisaties bemiddelen in de uitwisseling van gegevens. Partijen maken onderling (of via een intermediair) afspraken over de inhoud en vorm van de gegevensuitwisseling.
 
 - Componenten die de Digikoppeling-keten vormgeven.
+  - denk aan centrale componenten zoals registers van serviceaanbieders en servicecontracten.
+  - denk aan decentrale componenten zoals gateways, adapters, firewalls, TLS-handlers, etcetera.
+
+In de onderstaande paragraven worden deze delen van de keten verder uitgewerkt.
 
 ### Partijen en Rollen
 
@@ -58,31 +62,26 @@ Een intermediair zoals een sectoraal knooppunt of SAAS leverancier kan in opdrac
 
 <sup><a name="f19"><dfn>19</dfn></a>: Bericht-niveau versleuteling wordt op applicatieniveau toegepast tussen de verzender en ontvanger; de berichtinhoud wordt versleuteld zodat de intermediair alleen de headers kan lezen.</sup>
 
-## Componenten in de logistieke Digikoppeling-keten
+### Componenten in de logistieke Digikoppeling-keten
 
 De volgende componenten maken onderdeel uit van de Digikoppeling-keten van gegevensuitwisseling.
-
-
 
 | Componenten                            | Toelichting |
 |----------------------------------------|----|
 | Applicatie                             | Een systeem waarmee gegevens worden geproduceerd, vastgelegd en gebruikt.  |
-| Broker of Enterprise Service Bus (ESB) | Een component waarmee berichten worden gegenereerd, aangeboden, afgenomen, gemonitord en verwerkt. Dit type systeem wordt gebruikt in de integratielaag. Een enterprise servicebus, broker of message handler zijn voorbeelden van een dergelijke component.                                                                                                              |
+| API Gateway                            | Een component waarmee API gegevensverbindingen technisch gefaciliteerd, beveiligd en gemonitord worden.  |
+| Broker of Enterprise Service Bus (ESB) | Een component waarmee berichten worden gegenereerd, aangeboden, afgenomen, gemonitord en verwerkt. Dit type systeem wordt gebruikt in de integratielaag. Een enterprise servicebus, broker of message handler zijn voorbeelden van een dergelijke component.   |
 | Digikoppeling-adapter                  | Een software-adapter voor middleware systemen die door een ICT-leverancier wordt geleverd en die de Digikoppeling-koppelvlakstandaarden implementeert. De Digikoppeling-adapter handelt alle aspecten van de berichtverwerking af, inclusief de versleuteling/ontsleuteling, ondertekening etc. Een broker of ESB bevat vaak een (configureerbare) Digikoppeling adapter. |
-| Gegevens                               | Informatie die wordt beheerd en opgeslagen. Gegevens worden voor een specifieke uitwisseling in een bericht geplaatst.                                                                                                                                                                                                          |
-| PKIoverheid certificaten               | Identificatie en authenticatie vindt plaats op basis van het PKIoverheidscertificaat. Zie voor nadere uitleg Digikoppeling Identificatie en Authenticatie en Digikoppeling Gebruik en Achtergrond Certificaten.                                                                                                                            |
+| Gegevens                               | Informatie die wordt beheerd en opgeslagen. Gegevens worden voor een specifieke uitwisseling in een bericht geplaatst.   |
+| PKIoverheid certificaten               | Identificatie en authenticatie vindt plaats op basis van het PKIoverheidscertificaat. Zie voor nadere uitleg Digikoppeling Identificatie en Authenticatie en Digikoppeling Gebruik en Achtergrond Certificaten.   |
 | Servicecontract                        | Een technisch formaat voor het vastleggen van afspraken over de inhoud van de gegevensuitwisseling tussen partijen. Een servicecontract wordt vormgegeven d.m.v. een CPA (voor ebMS2 services), OAS voor Restful APi's,   en een WSDL (voor WUS services) en wordt ingelezen in de Digikoppeling-adapter. voor de CPA stellen partijen samen een servicecontract op.|
-
 
 Tabel 4.1: Componenten van de Digikoppeling-keten
 
-N.B.: De Digikoppeling-voorzieningen (Het Digikoppeling portaal met de
-Compliance Voorziening, het OIN register en het CPA register) vormen geen onderdeel van de Digikoppeling-keten maar ondersteunen tijdens de ontwikkel- en testfasen en bij het uitgifte en raadplegen van OIN's.
+N.B.: De Digikoppeling centrale voorzieningen (Het Digikoppeling portaal met de Compliance Voorziening, het OIN register en het CPA register) vormen geen onderdeel van de Digikoppeling-keten maar ondersteunen tijdens de ontwikkel-, beheer en testfasen en bij uitgifte en raadplegen van OIN's.
 
-In meer detail zijn de componenten uitgewerkt in een referentiemodel voor gegvensuitwisseling. Hierin is de opsplitsing en samenhang weergegeven:
+In meer detail zijn de Gateway en Adapter componenten uitgewerkt in een referentiemodel voor gegevensuitwisseling. Hierin is de opsplitsing en samenhang weergegeven op basis van Archimate application en technology layer concepts:
 ![Referentiemodel gegevensuitwisseling](media/Referentiemodel_berichtuitwisseling.png "Referentiemodel gegevensuitwisseling")
-
-
 
 ## Uitwisselingsvormen
 
@@ -103,70 +102,63 @@ Een aantal proceskenmerken op business-niveau bepaalt welke door Digikoppeling g
 1. De impact op de serviceaanbieder is afhankelijk van de dienst die deze levert:
 
    - alleen informatie, die bevraagd kan worden; dat heeft geen impact op de aanbiedende organisatie;
-
    - het verwerken van een gevraagde transactie; dat heeft wel impact op de aanbiedende  organisatie.
 
 2. Naast deze impact op de service verlenende organisatie kunnen we ook onderscheid maken naar de procesinrichting:
 
    - (het proces en) de applicatie van de afnemer wacht op een 'onmiddellijk' antwoord (de vraagsteller, applicatie/gebruiker houdt de context vast en weet dus direct waar het antwoord op slaat).
-
    - het resultaat is 'uitgesteld, komt enige tijd later (de applicatie moet dan dit antwoord aan de oorspronkelijke vraag koppelen) of wellicht helemaal niet. De applicatie of het business proces wachten niet.
 
 Op basis van deze twee verschillen komen we tot vier primitieve business-interacties, weergegeven in onderstaande tabel.
 
-
-|                | Synchroon                 | Asynchroon                 |
-|----------------|----------------------------------|--------------------------------|
-| Bevraging  | Onmiddellijke bevraging  | Bevraging met uitstel  |
-| Transactie | Onmiddellijke transactie | Transactie met uitstel |
-
+|                | Synchroon                 | Asynchroon             |
+|----------------|---------------------------|------------------------|
+| Bevraging      | Onmiddellijke bevraging   | Bevraging met uitstel  |
+| Transactie     | Onmiddellijke transactie  | Transactie met uitstel |
 
 Tabel 4.2: primitieve business-interacties
 
 Deze businessafspraken worden geïmplementeerd in (bedrijfs)applicaties.
 Combineren van deze primitieve interacties tot meerdere (eventueel over de tijd verspreide interacties) maken complexe business-patronen mogelijk.
 
-### Digikoppeling-aanbod
+## Digikoppeling-aanbod
 
 Digikoppeling onderscheidt verschillende vormen van uitwisseling:
 
 - *synchrone* request-response voor bevraging en bewerking van objecten en in de context van het gebruik van *resources* op basis van het REST patroon.
-
 - *synchrone* request-response met gestructureerde berichtuitwisseling
-
-- *asynchrone* request-response en reliable messaging
-
+- *asynchrone* request-response (in combinatie met events of signalen) en reliable messaging
 - uitwisseling van grote data bestanden en hun metadata
-
-Bij synchrone request-response voor bevraging en bewerking van objecten *data-providers* bieden providers databronnen - of resources-  die *data-consumers* kunnen bevragen en bewerken. Een provider vermeldt locatie van en randvoorwaarden voor toegang van de databron en via gestructureerde benadering kan een consumer de resource bevragen of zelfs bewerken.
-
-Bij een synchrone request-response met gestructureerde berichtuitwisseling stuurt de service-requester een voorgedefinieerde vraag (request) aan de service-provider, die een antwoord (response) verstrekt. Het initiatief ligt bij de service-requester. Gaat er in de uitwisseling iets mis dan zal de service-requester na een bepaalde tijd de uitwisseling afbreken (time-out).
-
-Bij een asynchrone request-response verstuurt de service-requester een bericht naar de ontvangende partij (ontvanger) en wacht op een (technische) ontvangstbevestiging. De verzendende (business) applicatie vertrouwt er op dat het bericht (betrouwbaar) afgeleverd wordt. De (business)applicatie zal niet wachten op het antwoord: deze applicatie zal het eventuele 'antwoordbericht' op een ander moment ontvangen en moeten correleren aan het oorspronkelijke vraag bericht.
 
 ### Synchrone uitwisseling
 
-Digikoppeling biedt twee mogelijkheden voor synchrone uitwisseling aan: bij synchrone uitwisseling wacht het vragende informatiesysteem (de requestor) op een antwoord. Dit wachten heeft een beperkte duur (time-out). Als een (tijdig) antwoord uitblijft moet de vrager besluiten of hij de vraag opnieuw stelt of niet. De snelheid van afleveren is hier vaak belangrijker dan een betrouwbare aflevering.
+Bij synchrone request-response voor bevraging en bewerking van objecten bieden *data-providers* databronnen - of resources-  die *data-consumers* kunnen bevragen en bewerken. Een provider vermeldt locatie van en randvoorwaarden voor toegang van de databron en via gestructureerde benadering kan een consumer de resource bevragen of zelfs bewerken.
+
+Bij een synchrone request-response met gestructureerde berichtuitwisseling stuurt de service-requester een voorgedefinieerde vraag (request) aan de service-provider, die een antwoord (response) verstrekt. Het initiatief ligt bij de service-requester. Gaat er in de uitwisseling iets mis dan zal de service-requester na een bepaalde tijd de uitwisseling afbreken (time-out).
+
+Digikoppeling biedt twee mogelijkheden voor synchrone uitwisseling aan: bij synchrone uitwisseling wacht het vragende informatiesysteem (de requestor) op een antwoord. Dit wachten heeft een beperkte duur (time-out). Als een (tijdig) antwoord uitblijft moet de vrager besluiten of hij de vraag opnieuw stelt of niet. De snelheid van afleveren is hier vaak belangrijker dan de betrouwbaarheid. De requestor kan bij REST API's ook de intentie hebben om een POST of PATCH uit te voeren, in dat geval wil de vragen ook graag gelijk een antwoord of het overdragen van de data is gelukt omdat eventuele vervolgacties hiervan weer afhankelijk zijn.
 
 Synchrone uitwisseling kan worden ingericht op basis van de Digikoppeling-koppelvlakstandaard WUS en het Digikoppeling REST API profiel.
 
-### Notificaties
-
-Een alternatieve vorm van synchrone uitwisseling die steeds vaker voorkomt is te omschrijven als notificatie. Hierbij stuurt de *data provider* via het REST patroon een HTTP POST bericht naar de service van de *data-consumer*. Door toevoeging van dit patroon in de gegevensuitwisseling wordt een zogenaamde *Event Driven Architecture* gerealiseerd. Eind 2022 is de Notificatiestandaard bij Logius in beheer genomen onder de noemer [NL-GOV-profile-for-CloudEvents](https://github.com/Logius-standaarden/NL-GOV-profile-for-CloudEvents).
-
 ### Asynchrone uitwisseling
 
-Een asynchroon verzoek is een enkelvoudig bericht waarop eventueel enige tijd later een retour-melding volgt. Het gebruikte protocol regelt de betrouwbare ontvangst. Bij asynchrone uitwisseling is de betrouwbare aflevering van het bericht essentieel. Als een partij het bericht niet direct kan aannemen, voorzien de protocollen erin dat het bericht nogmaals wordt aangeboden.
+Bij een asynchrone request-response verstuurt de service-requester een bericht naar de ontvangende partij (ontvanger) en wacht op een (technische) ontvangstbevestiging. De verzendende (business) applicatie vertrouwt er op dat het bericht (betrouwbaar) afgeleverd wordt. De (business)applicatie zal niet wachten op het antwoord: deze applicatie zal het eventuele 'antwoordbericht' als event of signaal op een ander moment ontvangen en moeten correleren aan het oorspronkelijke vraag bericht.
 
-Digikoppeling Koppelvlakstandaard ebMS2 biedt specifieke ondersteuning voor asynchrone uitwisseling.
+Een asynchroon verzoek is een enkelvoudig bericht waarop eventueel enige tijd later een retour signaal volgt. Het gebruikte protocol regelt de betrouwbare ontvangst. Bij asynchrone uitwisseling is de betrouwbare aflevering van het bericht essentieel. Als een partij het bericht niet direct kan aannemen, voorzien de protocollen erin dat het bericht nogmaals wordt aangeboden. In algemene zin bestaat Asynchrone uitwisseling uit meervoudige synchrone uitwisseling die vanuit meerdere zijden wordt geïnitieerd.
+
+Digikoppeling Koppelvlakstandaard ebMS2 biedt specifieke ondersteuning voor asynchrone uitwisseling. Ook eDelivery biedt specifieke ondersteuning hiervoor.
 
 ### Melding (Transactie)
 
-Een melding is een enkelvoudig bericht waarop eventueel enige tijd later een retour-melding volgt. Het gebruikte protocol kan de betrouwbare ontvangst en de onweerlegbaarheid (non-repudiation) regelen van een bericht. Bij meldingen kan de betrouwbare aflevering van het bericht essentieel zijn. Als een partij het bericht niet direct kan aannemen, kan een protocol erin voorzien dat het bericht nogmaals wordt aangeboden. 
+Een melding is een enkelvoudig bericht waarop eventueel enige tijd later een retour-melding volgt. Het gebruikte protocol kan de betrouwbare ontvangst en de onweerlegbaarheid (non-repudiation) regelen van een bericht. Bij meldingen kan de betrouwbare aflevering van het bericht essentieel zijn. Als een partij het bericht niet direct kan aannemen, kan een protocol erin voorzien dat het bericht nogmaals wordt aangeboden.
 
-Naast het uitvoeren van een transactie met een betrouwbaar - *reliable* - protocol als ebMS2, is het ook mogelijk transacties op *business niveau* te borgen. Dubbel verzonden en ontvangen verzoeken - *duplicate requests* dienen dan door de business applicatie genegeerd te worden.  Een vaak geciteerde bron [[?no-Reliable-messaging]] stelt dat betrouwbare aflevering van berichten enkel op het niveau van de verwerkende business applicaties kan worden uitgevoerd. Een eis hiervoor is dat voor update requests *Idempotent* methoden worden gebruikt, meer hiervoor zie regel API-03 uit [[?API DESIGN RULES]].
+Naast het uitvoeren van een transactie met een betrouwbaar - *reliable* - protocol als ebMS2, is het ook mogelijk transacties op *business niveau* te borgen. Dubbel verzonden en ontvangen verzoeken - *duplicate requests* dienen dan door de business applicatie genegeerd te worden.  Een vaak geciteerde bron [[?no-Reliable-messaging]] stelt dat betrouwbare aflevering van berichten enkel op het niveau van de verwerkende business applicaties kan worden uitgevoerd. Een eis hiervoor is dat voor update requests *Idempotent* methoden worden gebruikt, meer hiervoor zie regel "/core/http-methods" uit [[[ADR]]].
 
 Praktisch gezien resulteert dit meestal in een conversatie bestaande uit meerdere synchrone uitwisselingen. Conversaties zijn een vast onderdeel van het ebMS2 protocol maar kunnen ook op business niveau worden onderkend. Hiervoor worden attributen aan de synchrone uitwisseling toegevoegd waarmee zowel de provider als consumer - 'out-of-band' - de synchrone uitwisseling later kunnen correleren als 1 conversatie en op deze conversatie als geheel dan bijvoorbeeld compenserende handelingen kunnen verrichten.
+
+### Notificaties / Signalen
+
+Een alternatieve vorm van synchrone uitwisseling die steeds vaker voorkomt is te omschrijven als notificatie. Hierbij stuurt de *data provider* via het REST patroon een HTTP POST bericht naar de _webhook_ van de *data-consumer*. Door toevoeging van dit patroon in de gegevensuitwisseling wordt een zogenaamde *Event Driven Architecture* gerealiseerd. Eind 2022 is de Notificatiestandaard bij Logius in beheer genomen onder de noemer [[[?NLGOV-CloudEvents]]].
 
 ### Grote Berichten
 
@@ -187,7 +179,6 @@ Digikoppeling Grote Berichten maakt verschillende vormen van uitwisseling op bus
 • Multi-distributie - grote hoeveelheid gegevens aan meerdere ontvangers versturen.
 
 <br><sup><a name="f24"><dfn>24</dfn></a>: 1 MiB=1024<sup>2</sup> bytes : Voorheen stond hier 20MB. We gebruiken de term MiB om geen enkele verwarring te scheppen over de drempelwaarde. Het verschil tussen 20Mb en 20Mib is echter te verwaarlozen.</sup>
-
 
 ## Geen onderscheid meer in gebruik WUS en ebMS2 voor bevragingen en transacties
 
