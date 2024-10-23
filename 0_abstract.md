@@ -10,7 +10,7 @@ Digikoppeling is 'backwards compatible'\*. Partijen die Digikoppeling gebruiken,
 
 De aanleiding van de vernieuwing van dit document is tweeledig: in 2019 is een RFC ingediend over relatie van de Digikoppeling profielen met *bevragen en melden*. Daarnaast is in 2020 een Rest API profiel uitgewerkt en opgenomen in de Digikoppeling Standaard.
 
-De belangrijkste wijzigingen in de nieuwe Digikoppeling Architectuur versie 2.x.x zijn: 
+De belangrijkste wijzigingen in de nieuwe Digikoppeling Architectuur versie 2 zijn: 
 
 - Geen onderscheid meer in 'WUS voor bevragingen' en 'ebMS voor meldingen'
 - Toevoegen van een Digikoppeling REST API profiel, gebaseerd op de API Design Rules (uit de Nederlandse API Strategie)
