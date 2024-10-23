@@ -37,6 +37,6 @@ var respecConfig = {
   publishDate: "2024-01-16",
   publishVersion: "2.0.3",
   shortName: "architectuur",
-  specStatus: "WV",
+  specStatus: "VV",
   specType: "ST"
 };
