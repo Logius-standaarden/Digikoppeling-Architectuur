@@ -37,7 +37,7 @@ De volgende compliancevoorzieningen zijn beschikbaar: <sup>[28](#f28)</sup>
 
 - Digikoppeling-ebMS2 compliancevoorziening voor het testen van asynchroon berichtenverkeer op basis van ebMS2, inclusief grote berichten.
 
->Informatie over de compliancevoorzieningen staat op [[?Digikoppeling Compliance Voorziening]].
+>Informatie over de compliancevoorzieningen staat op [[?DK-CV]].
 
 <sup><a name="f28"><dfn>28</dfn></a>: *Digikoppeling Koppelvlakstandaard WUS*</sup>
 
@@ -45,7 +45,7 @@ De volgende compliancevoorzieningen zijn beschikbaar: <sup>[28](#f28)</sup>
 
 Logius beheert de Centrale OIN Raadpleegvoorziening (COR) waarin uitgegeven Organisatie identificatienummers zijn gepubliceerd. Dit register is openbaar raadpleegbaar en zowel via het web als via een REST API bevraagbaar.
 
-Het OIN register is te vinden op [https://portaal.digikoppeling.nl/registers](https://portaal.digikoppeling.nl/registers/)
+Het OIN register is te vinden op https://oinregister.logius.nl/oin-register.
 
 ## CPA Register
 
