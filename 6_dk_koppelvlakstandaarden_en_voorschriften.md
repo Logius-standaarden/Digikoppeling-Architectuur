@@ -87,7 +87,7 @@ De standaard REST API Design Rules geeft een verzameling basisregels voor struct
 - Versleuteling op basis van mTLS conform de Digikoppeling Beveiligings voorschriften
 - Mechanisme voor het autoriseren van koppelingen met een API
 - Mechanisme voor het ontdekken van API's op een netwerk
-- Delegatie. I.e. een API aanbieden of consumeren namens een andere organisatie
+- Delegatie: een API aanbieden of consumeren namens een andere organisatie
 - Logging van verzoeken naar API's
 - (Status)Responsecodes en Foutmeldingen
 
