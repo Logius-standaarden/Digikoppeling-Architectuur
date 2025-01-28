@@ -31,12 +31,12 @@ var respecConfig = {
       }
     ],
   github: "https://github.com/Logius-standaarden/Digikoppeling-Architectuur",
-  previousPublishDate: "2022-08-12",
-  previousPublishVersion: "2.0.2",
+  previousPublishDate: "2024-01-16",
+  previousPublishVersion: "2.0.3",
   pubDomain: "dk",
-  publishDate: "2024-01-16",
-  publishVersion: "2.0.3",
+  publishDate: "2025-01-30",
+  publishVersion: "2.1.0",
   shortName: "architectuur",
-  specStatus: "WV",
+  specStatus: "DEF",
   specType: "ST"
 };
