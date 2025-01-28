@@ -7,9 +7,15 @@
   <link rel="shortcut icon" type="image/x-icon"
     href="https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/logius.ico" />
   <title>Digikoppeling Architectuur</title>
-  <script src="js/config.js" class="remove"></script>
-  <script src="https://publicatie.centrumvoorstandaarden.nl/respec/builds/respec-logius.js" class="remove" async></script>
-  <!-- <script src="http://localhost:8081/builds/respec-logius.js" class="remove" async></script> -->
+  <script class="remove" src="https://gitdocumentatie.logius.nl/publicatie/respec/organisation-config.js">
+  </script>
+  <script class="remove" src="js/config.js">
+  </script>
+  <script class="remove">
+   respecConfig = {...organisationConfig, ...respecConfig};
+  </script>
+  <script async="" class="remove" src="https://gitdocumentatie.logius.nl/publicatie/respec/builds/respec-nlgov.js">
+  </script>
 </head>
 
 <body>
