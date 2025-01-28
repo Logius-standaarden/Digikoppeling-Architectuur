@@ -1,4 +1,4 @@
-# Bijlage D: Niet-functionele eisen
+# Niet-functionele eisen
 
 Standaarden op de Pas-toe of leg uit lijst dienen te voldoen aan enkele niet-functionele eisen.
 

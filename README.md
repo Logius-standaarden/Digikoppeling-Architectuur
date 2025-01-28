@@ -1,8 +1,8 @@
 # Digikoppeling Architectuur 2.0
 
-- HTML-versie: [Architectuur2.0-metRestfulAPI](https://logius-standaarden.github.io/Digikoppeling-Architectuur/)
-- HTML-versie(static): [Architectuur2.0-metRestfulAPI](https://logius-standaarden.github.io/Digikoppeling-Architectuur/snapshot.html)
-- PDF-versie: [Architectuur2.0-metRestfulAPI](Digikoppeling-Architectuur.pdf)
+- Gepubliceerde versie: https://gitdocumentatie.logius.nl/publicatie/dk/architectuur/
+- Werkversie: https://logius-standaarden.github.io/Digikoppeling-Architectuur/
+- PDF: https://gitdocumentatie.logius.nl/publicatie/dk/architectuur/Digikoppeling-Architectuur.pdf
 
 Een nieuwe versie van het Digikoppeling Architectuur document is ontwikkeld. De aanleiding van de vernieuwing is tweeledig: in 2019 is een RFC ingediend over relatie van de Digikoppeling profielen met *bevragen en melden*. Daarnaast wordt in 2020 een Rest API profiel uitgewerkt en opgenomen in de Digikoppeling Standaard.
 
