@@ -73,7 +73,7 @@ TCP/IP, netwerk, etc. Hiervoor kunt u andere bronnen via internet raadplegen.*
 | Integriteit                              | De inhoud van het bericht kan niet worden gewijzigd.         |
 | Interactiepatronen                       | Vormen van gegevensuitwisseling tussen twee partijen. |
 | Intermediair                             | Een partij in de keten die berichten doorstuurt naar de volgende schakel in de keten. Zie ook: transparante intermediair of niet-transparante intermediair. |
-| JSON                                     | JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language. https://www.json.org |
+| JSON                                     | JSON (JavaScript Object Notation) is een breed ondersteund gegevensuitwisselingsformaat dat voor zowel mens als machine eenvoudig leesbaar is. |
 | Knooppunt                                | Een organisatie(onderdeel) waar verschillende functies zijn samengebracht. |
 | Koppelvlak                               | De externe interface van een dienst.                         |
 | Koppelvlakstandaard                      | De Digikoppeling-beschrijving van de ebMS-, REST en WUS-koppelvlakken, die beschrijft hoe deze standaarden in de Nederlandse publieke sector worden gebruikt. |
