@@ -47,7 +47,7 @@ De *Architectuur Digikoppeling* is onderdeel van de Digikoppeling-standaarden.
 De documentatie is als volgt opgebouwd:
 
 <figure>
-  <object data="media/DK_Specificatie_structuur.svg" type="image/svg+xml" id="infographic">Overzicht van de onderdelen van de Digikoppeling Standaard, de standaard is onderverdeeld in normatieve en ondersteunende onderdelen</object>
+  <object data="https://gitdocumentatie.logius.nl/publicatie/dk/actueel/media/DK_Specificatie_structuur.svg" type="image/svg+xml" id="infographic">Overzicht van de onderdelen van de Digikoppeling Standaard, de standaard is onderverdeeld in normatieve en ondersteunende onderdelen</object>
   <figcaption>Opbouw documentatie Digikoppeling</figcaption>
 </figure>
 
