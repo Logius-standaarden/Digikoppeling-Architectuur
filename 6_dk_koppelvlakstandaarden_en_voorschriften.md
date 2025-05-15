@@ -99,6 +99,15 @@ Voor het beschrijven van DK-Rest API's is het gebruik van OAS verplicht. Op [[Pa
 
 ## WUS
 
+> **In het kader van Life-Cycle Management van de Koppelvlakstandaarden krijgt het DK WUS Koppelvlak de status "Uit te faseren" als volgt:**
+> 
+> | Koppelvlak Standaard | Status         | Toelichting                                     | Einde Ondersteuning | Einde Gebruik |
+> |----------------------|----------------|-------------------------------------------------|---------------------|---------------|
+> | Digikoppeling WUS    | Uit te faseren | Het DK WUS koppelvlak dient te worden uit gefaseerd | 01-01-2028          | 01-01-2033    |
+> 
+> - Na 01-01-2028 is gebruik nog toegestaan voor legacy applicaties tot 01-01-2033 — echter de organisatie is zelf verantwoordelijk voor functionele en security updates.
+
+
 ### WUS familie van standaarden
 
 Digikoppeling maakt gebruik van een familie van standaarden die we binnen Digikoppeling de naam “WUS” geven. Deze familie van standaarden is gebaseerd op webservice standaarden uit de profielen van de OASIS “Web Services – Basic Reliable and Secure Profiles” Technical Committee (WS-BRSP)<sup>[27](#f27)</sup>. De naam WUS staat voor WSDL, UDDI en SOAP, drie belangrijke deelstandaarden. Hoewel Digikoppeling geen gebruik van UDDI maakt is deze term inmiddels gebruikelijk.
