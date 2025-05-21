@@ -99,14 +99,14 @@ Voor het beschrijven van DK-Rest API's is het gebruik van OAS verplicht. Op [[Pa
 
 ## WUS
 
-> **In het kader van Life-Cycle Management van de Koppelvlakstandaarden krijgt het DK WUS Koppelvlak de status "Uit te faseren" als volgt:**
-> 
-> | Koppelvlak Standaard | Status         | Toelichting                                     | Einde Ondersteuning | Einde Gebruik |
-> |----------------------|----------------|-------------------------------------------------|---------------------|---------------|
-> | Digikoppeling WUS    | Uit te faseren | Het DK WUS koppelvlak dient te worden uit gefaseerd | 01-01-2028          | 01-01-2033    |
-> 
-> - Na 01-01-2028 is gebruik nog toegestaan voor legacy applicaties tot 01-01-2033 — echter de organisatie is zelf verantwoordelijk voor functionele en security updates.
-
+<p class="note" title="Uitfasering">
+  In het kader van Life-Cycle Management wordt het DK WUS-koppelvlak gemarkeerd als "Uit te faseren".
+  <ul>
+    <li>Einde ondersteuning: 01-01-2028</li>
+    <li>Einde gebruik: 01-01-2033</li>
+    <li>Legacygebruik is toegestaan tot 01-01-2033, maar organisaties zijn na 2028 zelf verantwoordelijk voor functionele en security-updates.</li>
+  </ul>
+</p>
 
 ### WUS familie van standaarden
 
