@@ -59,7 +59,7 @@ Dit kan een hele valide reden zijn om voor een bepaalde variant te kiezen, ook a
 
 ### Overdracht van verantwoordelijkheid
 
-Bij deze case gaat het om een overdracht van verantwoordelijkheden, zoals het bevoegd gezag -  bevoegd om besluiten te nemen over een onderwerp - van een overheidsorganisatie naar een andere organsatie. Hierbij is het essentieel dat beide partijen zekerheid over de de overdracht, omdat er bepaalde wettelijke termijnen kunnen bestaan waarin besluiten genomen moeten worden.  
+Bij deze case gaat het om een overdracht van verantwoordelijkheden, zoals het bevoegd gezag -  bevoegd om besluiten te nemen over een onderwerp - van een overheidsorganisatie naar een andere organisatie. Hierbij is het essentieel dat beide partijen zekerheid over de overdracht, omdat er bepaalde wettelijke termijnen kunnen bestaan waarin besluiten genomen moeten worden.  
 
 
 |Koppelvlakspecificatie|Omschrijving|Praktijkvoorbeeld|
@@ -79,7 +79,7 @@ Deze case is bedoeld voor ketens die authentieke informatie willen 'halen bij de
 |Koppelvlakspecificatie|Omschrijving|Praktijkvoorbeeld|
 |---|---|---|
 |Digikoppeling ebMS|Digikoppeling ebMS heeft reliable profiel (osb-rm) dat de bevestiging van ontvangst borgt. Hiermee heeft de aanbiedende partij de zekerheid dat een notificatie door de ontvanger is ontvanger| Digilevering ontvangt gebeurtenisberichten van basisregistraties en zendt deze door naar geabonneerde overheidsorganisaties |
-|Digikoppeling REST API| Een client abonneert zich met POST request op wijzingen in een bepaalde bron van een Provider (en kan muteren met PUT of DELETE request). Een bronhouder informeert een abonnee met een POST request bij een wijzingen. De afnemer haalt de wijzingen op via een GET reequest.| VNG werkt aan afspraken voor decentrale notificatieservices |
+|Digikoppeling REST API| Een client abonneert zich met POST request op wijzingen in een bepaalde bron van een Provider (en kan muteren met PUT of DELETE request). Een bronhouder informeert een abonnee met een POST request bij een wijzingen. De afnemer haalt de wijzingen op via een GET request.| VNG werkt aan afspraken voor decentrale notificatieservices |
 
 
 Tabel 7.2: Notification request
@@ -91,7 +91,7 @@ Een bericht wordt beveiligd tussen de uiteindelijke consumer en de uiteindelijke
 
 |Koppelvlakspecificatie|Omschrijving|Praktijkvoorbeeld|
 |---|---|---|
-| Digikoppeling ebMS | Digikoppeling ebMS kent profielen voor signing en encryption. Digikoppeling ebMS ondersteunt ook de mogeijkheid van onweerlegbaarheid (non-repudiation) in de vorm van een ondertekende ontvangstbevestiging | |
+| Digikoppeling ebMS | Digikoppeling ebMS kent profielen voor signing en encryption. Digikoppeling ebMS ondersteunt ook de mogelijkheid van onweerlegbaarheid (non-repudiation) in de vorm van een ondertekende ontvangstbevestiging | |
 | Digikoppeling WUS | Digikoppeling WUS kent profielen voor signing en encryption ||
 
 
