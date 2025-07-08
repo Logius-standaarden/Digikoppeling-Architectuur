@@ -47,7 +47,7 @@ Hier kan Digikoppeling REST API gebruikt worden. Digikoppeling WUS is hiervoor o
 ## Andere overwegingen voor een keuze van een koppelvlak  
 ### Capabiliteit van een organisatie, bestaande infrastructuur
 
-Wat zijn de capabiliteiten van de organisaties die met elkaar gegevens uitwisselen. Bijvoorbeeld wordt er al gebruik gemaakt van Digikoppeling WUS of ebMS, of juist niet. beschikt de organisatie over eigen ontwikkelteam, of maakthet gebruik van een partner of leverancier.
+Wat zijn de capabiliteiten van de organisaties die met elkaar gegevens uitwisselen. Bijvoorbeeld wordt er al gebruik gemaakt van Digikoppeling WUS of ebMS, of juist niet. beschikt de organisatie over eigen ontwikkelteam, of maakt het gebruik van een partner of leverancier.
 
 - Zijn er al koppelingen in gebruik tussen partijen?.
 
