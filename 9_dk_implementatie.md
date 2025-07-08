@@ -48,7 +48,7 @@ Denk hierbij aan de volgende onderwerpen:
 Organisaties die beschikken over eigen middleware (een enterprise servicebus, een broker of message handler, of een maatwerk applicatie) kunnen de Digikoppeling aansluiting in het algemeen realiseren door de juiste configuratie van deze producten. Anderen kunnen eenvoudig een van de vele Digikoppeling-adapters die in de markt worden geleverd aanschaffen.
 
 ICT-leveranciers leveren standaard producten en/of diensten voor Digikoppeling. Ook bestaan er open source-oplossingen. Meestal bieden deze producten een Digikoppeling-adapter die vaak automatisch kan worden geconfigureerd conform de eisen van de Digikoppeling-koppelvlakstandaarden en Digikoppeling-profielen.
-(Voor de Digikoppeling REST API Koppelvakstandaard kan de API-Gateway worden gezien als Digikoppeling-adapter) 
+(Voor de Digikoppeling REST API Koppelvlakstandaard kan de API-Gateway worden gezien als Digikoppeling-adapter) 
 
 Per gegevensuitwisseling moet worden bepaald welk profiel het meest geschikt is. Als het profiel is gekozen (meestal door de serviceaanbieder) kan de keuze in een servicebeschrijving worden vastgelegd. Deze servicebeschrijving kunnen serviceaanbieder en (meerdere) serviceafnemers gebruiken om hun Digikoppeling-adapter automatisch te configureren. De volgende paragrafen gaan verder in op profielen en servicebeschrijvingen.
 
@@ -139,7 +139,7 @@ Daarom geldt:
 
 - Digikoppeling-koppelvlakstandaarden gelden (uiteraard) voor zowel productie als test.
 
-<br><sup><a name="f30"><dfn>30</dfn></a>: Voorzover het de voorzieningen betreft die voor partijen benaderbaar zijn.</sup>
+<br><sup><a name="f30"><dfn>30</dfn></a>: Voor zover het de voorzieningen betreft die voor partijen benaderbaar zijn.</sup>
 
 ## Relatie met de inhoudelijke laag
 
