@@ -110,6 +110,6 @@ Digikoppeling moet worden toegepast voor geautomatiseerde gegevensuitwisseling t
 
 ### Grijs gebied
 
-De verplichting voor Digikoppeling geldt dus voor communicatie tussen overheden. De praktijk is dat voor communicatie met bedrijven vaak verplichtingen gelden die hun oorsprong hebben in Digikoppeling, zoals het gebruik van het OIN en PKIoverheidscertificaten, of zelfs geïnspireerd zijn op Digikoppeling zoals het Koppelvlak *WUS voor Bedrijven* van Digipoort.
+De verplichting voor Digikoppeling geldt dus voor communicatie tussen overheden. De praktijk is dat voor communicatie met bedrijven vaak verplichtingen gelden die hun oorsprong hebben in Digikoppeling, zoals het gebruik van het OIN en PKIOverheids-certificaten, of zelfs geïnspireerd zijn op Digikoppeling zoals het Koppelvlak *WUS voor Bedrijven* van Digipoort.
 
 ![Digikoppeling kan ook gebruikt worden voor Closed Data G2B Uitwisseling ](media/DK_closed_b2g.svg "Digikoppeling voor Closed Data G2B Uitwisseling")
