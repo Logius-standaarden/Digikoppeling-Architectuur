@@ -43,7 +43,7 @@ Door het gebruik van deze profielen worden deze aspecten correct afgehandeld en 
 |Koppelvlakstandaard REST API| Het gebruik van REST APIs voor het synchroon raadplegen en bewerken van resources|
 | Koppelvlakstandaard Grote Berichten | De uitwisseling van grote berichten maakt gebruik van WUS, ebMS2 of (indien gewenst) REST met HTTPS bestandsoverdracht |
 | Beveiligingstandaarden en voorschriften  | Beschrijft de beveiligingstandaarden (TLS, signing en encryption) voor de Digikoppeling profielen WUS, ebMS2 en Grote berichten |
-| Identificatie en Authenticatie | Beschrijft de identificatie van partijen, het opzetten van een tweezijdige beveiligde TLS-verbinding en over het ondertekenen  en versleutelen van berichten en bijlagen. |
+| Identificatie en Authenticatie | Beschrijft de identificatie van partijen, het opzetten van een tweezijdige beveiligde TLS-verbinding en het ondertekenen  en versleutelen van berichten en bijlagen. |
 | Overzicht Actuele Documentatie en Compliance | Overzicht van de actuele versie van de  Digikoppeling specificaties (normatief en niet-normatief)  |
 | Gebruik en Achtergrond Digikoppeling Certificaten | Beschrijft de werking en gebruik van PKIoverheid Certificaten (niet-normatief) |
 

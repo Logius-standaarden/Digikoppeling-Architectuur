@@ -36,7 +36,7 @@ De Digikoppeling-keten bestaat uit:
   - denk aan centrale componenten zoals registers van serviceaanbieders en servicecontracten.
   - denk aan decentrale componenten zoals gateways, adapters, firewalls, TLS-handlers, etcetera.
 
-In de onderstaande paragraven worden deze delen van de keten verder uitgewerkt.
+In de onderstaande paragrafen worden deze delen van de keten verder uitgewerkt.
 
 ### Partijen en Rollen
 

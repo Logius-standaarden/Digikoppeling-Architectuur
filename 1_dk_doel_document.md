@@ -33,8 +33,9 @@ De *Digikoppeling Architectuur* is mede gebaseerd op:
 
 ## Samenhang
 
-De architectuur van Digikoppeling wordt regelmatig geactualiseerd om goed te blijven aansluiten op de behoeften van overheden en de wensen van de maatschappij. Actuele ontwikkelingen waarmee de Architectuur in 2024 in lijn wordt gebracht zijn onder andere:
+De architectuur van Digikoppeling wordt regelmatig geactualiseerd om goed te blijven aansluiten op de behoeften van overheden en de wensen van de maatschappij. Actuele ontwikkelingen waarmee de Architectuur in 2025 in lijn wordt gebracht zijn onder andere:
 
+- [De Nederlandse Digitaliseringsstrategie](https://www.rijksoverheid.nl/actueel/nieuws/2025/07/04/nederland-versnelt-met-vernieuwde-digitaliseringsstrategie)
 - [De Interbestuurlijke Datastrategie (IBDS),](https://realisatieibds.pleio.nl/)
 - [Het Federatief Datastelsel (FDS),](https://www.noraonline.nl/wiki/FDS_Basis_concept)
 - [De Generieke Digitale Infrastructuur (GDI),](https://pgdi.nl/)
