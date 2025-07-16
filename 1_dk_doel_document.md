@@ -29,12 +29,13 @@ De *Digikoppeling Architectuur* is mede gebaseerd op:
 
 - De *Digikoppeling-koppelvlakstandaarden.* Onderdelen uit deze documenten zijn hier samengevat om voor de lezer duidelijk te maken.
 
-- Het hoofdstuk over *de Digikoppeling keten* bevat elementen uit [*De Architectuurschets*](https://www.earonline.nl/index.php/Overzicht_Architectuurschets_van_het_stelsel_voor_gegevensuitwisseling), de context voor gegevensuitwisseling binnen de overheid in algemene zin en voor Digikoppeling in het bijzonder. *De Architectuurschets* is een  verouderd product uit 2012; de essentiële elementen van *De Architectuurschets* zijn gaandeweg ook opgenomen in de NORA en met name het het [*NORA Katern Verbinden*](https://www.noraonline.nl/wiki/Katern_Verbinden).
+- Het hoofdstuk over *de Digikoppeling keten* bevat elementen uit [*De Architectuurschets*](https://www.earonline.nl/index.php/Overzicht_Architectuurschets_van_het_stelsel_voor_gegevensuitwisseling), de context voor gegevensuitwisseling binnen de overheid in algemene zin en voor Digikoppeling in het bijzonder. *De Architectuurschets* is een  verouderd product uit 2012; de essentiële elementen van *De Architectuurschets* zijn gaandeweg ook opgenomen in de NORA en met name het [*NORA Katern Verbinden*](https://www.noraonline.nl/wiki/Katern_Verbinden).
 
 ## Samenhang
 
-De architectuur van Digikoppeling wordt regelmatig geactualiseerd om goed te blijven aansluiten op de behoeften van overheden en de wensen van de maatschappij. Actuele ontwikkelingen waarmee de Architectuur in 2024 in lijn wordt gebracht zijn onder andere:
+De architectuur van Digikoppeling wordt regelmatig geactualiseerd om goed te blijven aansluiten op de behoeften van overheden en de wensen van de maatschappij. Actuele ontwikkelingen waarmee de Architectuur in 2025 in lijn wordt gebracht zijn onder andere:
 
+- [De Nederlandse Digitaliseringsstrategie](https://www.rijksoverheid.nl/actueel/nieuws/2025/07/04/nederland-versnelt-met-vernieuwde-digitaliseringsstrategie)
 - [De Interbestuurlijke Datastrategie (IBDS),](https://realisatieibds.pleio.nl/)
 - [Het Federatief Datastelsel (FDS),](https://www.noraonline.nl/wiki/FDS_Basis_concept)
 - [De Generieke Digitale Infrastructuur (GDI),](https://pgdi.nl/)
