@@ -1,4 +1,14 @@
-# Digikoppeling Architectuur 2.0
+
+# Toelichting Digikoppeling Architectuur 
+
+- Gepubliceerde versie: https://gitdocumentatie.logius.nl/publicatie/dk/architectuur/
+- Werkversie: https://logius-standaarden.github.io/Digikoppeling-Architectuur/
+- PDF: https://gitdocumentatie.logius.nl/publicatie/dk/architectuur/Digikoppeling-Architectuur.pdf
+
+
+# Archief 
+
+## Toelichting Digikoppeling Architectuur 2.0
 
 - Gepubliceerde versie: https://gitdocumentatie.logius.nl/publicatie/dk/architectuur/
 - Werkversie: https://logius-standaarden.github.io/Digikoppeling-Architectuur/
@@ -8,20 +18,20 @@ Een nieuwe versie van het Digikoppeling Architectuur document is ontwikkeld. De 
 
 De huidige versie van de Digikoppeling Architectuur dient als basis. Bij de bespreking van de RFC over melden en bevragen werd al geconcludeerd dat de impact van deze change op het bestaande architectuurdocument groot was. Omdat in 2020 op verzoek van het Technisch Overleg Digikoppeling een [*Rest API profiel*](https://logius-standaarden.github.io/Digikoppeling-Koppelvlakstandaard-REST-API/) wordt opgenomen in de standaard is, is besloten om deze beide grote onderdelen in één keer in een nieuw document te verwerken.
 
-## Versie is vastgesteld door het Technisch Overleg
+### Versie is vastgesteld door het Technisch Overleg
 
 Deze versie is in maart 2021 vastgesteld door het TO. Logius stemt af met het Bureau Forum Standaardisatie of deze versie tezamen met het Digikoppeling REST API profiel kan worden verheven tot de meest recente versie.
 
 Commentaar blijft overigens altijd welkom. Maak een issue aan in deze repository. Eerste keer? Hoe een issue moet worden aangemaakt vindt u [hier](https://github.com/Logius-standaarden/Openbare-Consultaties#issues-en-pull-requests-opmerkingen-maken-of-tekstvoorstellen-indienen).
 
-## Wat wijzigt in de Digikoppeling Architectuur
+### Wat wijzigt in de Digikoppeling Architectuur
 
 - opheffen onderscheid tussen 'WUS voor bevragingen' en 'ebMS voor meldingen' 
 - toevoegen profiel voor [Rest API](https://logius-standaarden.github.io/Digikoppeling-Koppelvlakstandaard-REST-API/)
 
 verder zijn kleine verbeteringen en updates doorgevoerd 
 
-## Wat is er nieuw in de Digikoppeling Architectuur
+### Wat is er nieuw in de Digikoppeling Architectuur
 
 - Overzicht transactiepatronen 
 - Overzicht use cases
