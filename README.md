@@ -1,5 +1,5 @@
 
-# Toelichting Digikoppeling Architectuur 
+# Digikoppeling Architectuur 
 
 - Gepubliceerde versie: https://gitdocumentatie.logius.nl/publicatie/dk/architectuur/
 - Werkversie: https://logius-standaarden.github.io/Digikoppeling-Architectuur/
