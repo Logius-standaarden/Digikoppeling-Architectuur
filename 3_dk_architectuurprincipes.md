@@ -4,7 +4,7 @@
 
 De volgende uitgangspunten vormen de basis voor de uitwerking van deze architectuur:
 
-1. De Digikoppeling standaarden zijn openbaar, vindbaar, transparant, leveranciersonafhankelijk en interoperabel. Zie [[[##niet-functionele-eisen]]] voor uitleg.
+1. De Digikoppeling standaarden zijn openbaar, vindbaar, transparant, leveranciersonafhankelijk en interoperabel. Zie [[[#niet-functionele-eisen]]] voor uitleg.
 
 2. De Digikoppeling-standaarden ondersteunen veilige gegevensuitwisseling voor:
    - synchrone en asynchrone uitwisseling;
