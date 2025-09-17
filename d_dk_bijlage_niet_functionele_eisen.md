@@ -26,7 +26,7 @@ De Digikoppeling-keten heeft geen actieve logistieke componenten tussen de adapt
 
 Om de interoperabiliteit te kunnen waarborgen is het essentieel dat
 Digikoppeling en de koppelvlakstandaarden onafhankelijk zijn van
-ICT-leveranciers. Dit is nodig om een ‘vendor lock-in’ en maatwerk te voorkomen: de functionaliteit wordt zoveel mogelijk geïmplementeerd met op de markt beschikbare software. Daarom worden de open standaarden van OASIS en W3C gebruikt. Deze organisaties beheren wereldwijde open standaarden, waaronder ebMS en WUS. Zie [www.oasis-open.org](http://www.oasis-open.org) voor meer informatie.
+ICT-leveranciers. Dit is nodig om een ‘vendor lock-in’ en maatwerk te voorkomen: de functionaliteit wordt zoveel mogelijk geïmplementeerd met op de markt beschikbare software. Daarom worden de open standaarden van OASIS en W3C gebruikt. Deze organisaties beheren wereldwijde open standaarden, waaronder ebMS en WUS. Zie [www.oasis-open.org](https://www.oasis-open.org) voor meer informatie.
 
 ## Interoperabiliteit
 
