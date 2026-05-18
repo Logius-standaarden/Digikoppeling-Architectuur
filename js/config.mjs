@@ -1,6 +1,18 @@
 import { loadRespecWithConfiguration } from "https://logius-standaarden.github.io/publicatie/respec/organisation-config.mjs";
 
 loadRespecWithConfiguration({
+  authors: [
+      {
+        "company" : "Logius",
+        "companyURL" : "https://www.logius.nl",
+        "name" : "Peter Haasnoot"
+      },
+      {
+        "company" : "Logius",
+        "companyURL" : "https://www.logius.nl",
+        "name" : "Pieter Hering"
+      }
+  ],
   editors: [ 
       { 
         "company" : "Logius",
