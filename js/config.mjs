@@ -4,27 +4,27 @@ loadRespecWithConfiguration({
   editors: [ 
       { 
         "company" : "Logius",
-        "companyURL" : "http://www.logius.nl/",
+        "companyURL" : "https://www.logius.nl",
         "name" : "Alexander Green"
       },
       { 
         "company" : "Logius",
-        "companyURL" : "http://www.logius.nl/",
+        "companyURL" : "https://www.logius.nl",
         "name" : "Edwin Wisse"
       },
       { 
         "company" : "Logius",
-        "companyURL" : "http://www.logius.nl/",
+        "companyURL" : "https://www.logius.nl",
         "name" : "Martin van der Plas"
       },
       { 
         "company" : "Logius",
-        "companyURL" : "http://www.logius.nl/",
+        "companyURL" : "https://www.logius.nl",
         "name" : "Peter Haasnoot"
       },
       { 
         "company" : "Logius",
-        "companyURL" : "http://www.logius.nl/",
+        "companyURL" : "https://www.logius.nl",
         "name" : "Pieter Hering"
       }
     ],
