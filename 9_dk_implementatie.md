@@ -96,7 +96,8 @@ De aanduiding van de profielen kent de volgende systematiek:
 
 Tabel 9.1: Profielen in relatie tot Digikoppeling-voorschriften
 
-> *Met reliable wordt hier aangegeven of het profiel specifieke functionaliteit biedt voor het herzenden en gegarandeerd afleveren van data als onderdeel van het profiel (dwz bovenop de basisondersteuning van de betrouwbaarheid van het netwerk protocol (TCP/IP) dat voor elk van deze profielen geldt)
+> *Met reliable wordt hier aangegeven of het profiel specifieke functionaliteit biedt voor het herzenden en gegarandeerd afleveren van data als onderdeel van het profiel (dwz bovenop de basisondersteuning van de betrouwbaarheid van het netwerk protocol (TCP/IP) dat voor elk van deze profielen geldt).<BR>
+Hoewel REST op protocolniveau geen 'reliable' profiel bevat  zoals ebMS2 (ten behoeve van gegarandeerde aflevering van berichten), is het echter een dusdanig robuust communicatieprotocol dat met toevoeging van bijvoorbeeld conversatie- en/of publish-subscribe patronen (en technologie) zeer betrouwbare communicatie kan worden gerealiseerd.
 
 *NB: De profielnamen komen uit eerdere versies van de koppelvlakstandaarden. Zij moeten gehandhaafd blijven in verband met het feit dat deze standaarden reeds in gebruik zijn bij vele organisaties. Dit verklaart de verschillen in de gebruikte afkortingen tussen de WUS- en ebMS2-profielen.*
 
