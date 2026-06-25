@@ -59,6 +59,6 @@ Het CPA Register ondersteunt partijen bij het maken van een CPA (Collaboration P
 
 - Het biedt zekerheid dat beide partijen dezelfde instellingen gebruiken.
 
-De wijze waarop een CPA wordt toegepast staat beschreven in Digikoppeling Best Practices ebMS2. Het CPA Register is beschreven in de Gebruikershandleiding. Het CPA register is te vinden op [https://cparegister.minvenj.nl](https://cparegister.minvenj.nl)
+De wijze waarop een CPA wordt toegepast staat beschreven in Digikoppeling Best Practices ebMS2. Het CPA Register is beschreven in de Gebruikershandleiding. Het CPA register is te vinden op [https://cparegister.nl](https://cparegister.nl)
 
 <br><sup><a name="f29"><dfn>29</dfn></a>: *Digikoppeling Best Practices ebMS*</sup
