@@ -42,7 +42,7 @@ loadRespecWithConfiguration({
     ],
   github: "https://github.com/Logius-standaarden/Digikoppeling-Architectuur",
   previousPublishDate: "2024-01-16",
-  previousPublishVersion: "2.0.3",
+  previousPublishVersion: "2.0.2",
   pubDomain: "dk",
   publishDate: "2025-01-30",
   publishVersion: "2.1.0",
