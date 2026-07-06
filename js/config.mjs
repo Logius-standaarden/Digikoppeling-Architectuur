@@ -1,32 +1,42 @@
-var respecConfig = {
-  alternateFormats: [ { 
-        "label" : "pdf",
-        "uri" : "Digikoppeling-Architectuur.pdf"
-      } ],
+import { loadRespecWithConfiguration } from "https://logius-standaarden.github.io/publicatie/respec/organisation-config.mjs";
+
+loadRespecWithConfiguration({
+  authors: [
+      {
+        "company" : "Logius",
+        "companyURL" : "https://www.logius.nl",
+        "name" : "Peter Haasnoot"
+      },
+      {
+        "company" : "Logius",
+        "companyURL" : "https://www.logius.nl",
+        "name" : "Pieter Hering"
+      }
+  ],
   editors: [ 
       { 
         "company" : "Logius",
-        "companyURL" : "http://www.logius.nl/",
+        "companyURL" : "https://www.logius.nl",
         "name" : "Alexander Green"
       },
       { 
         "company" : "Logius",
-        "companyURL" : "http://www.logius.nl/",
+        "companyURL" : "https://www.logius.nl",
         "name" : "Edwin Wisse"
       },
       { 
         "company" : "Logius",
-        "companyURL" : "http://www.logius.nl/",
+        "companyURL" : "https://www.logius.nl",
         "name" : "Martin van der Plas"
       },
       { 
         "company" : "Logius",
-        "companyURL" : "http://www.logius.nl/",
+        "companyURL" : "https://www.logius.nl",
         "name" : "Peter Haasnoot"
       },
       { 
         "company" : "Logius",
-        "companyURL" : "http://www.logius.nl/",
+        "companyURL" : "https://www.logius.nl",
         "name" : "Pieter Hering"
       }
     ],
@@ -39,4 +49,4 @@ var respecConfig = {
   shortName: "architectuur",
   specStatus: "DEF",
   specType: "ST"
-};
+});
