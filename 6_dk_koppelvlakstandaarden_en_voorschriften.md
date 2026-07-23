@@ -4,7 +4,7 @@
 
 De Digikoppeling Architectuur legde in de eerdere versies grote nadruk op bevragingen en meldingen en legde een verband tussen deze interactiepatronen en de onderliggende standaarden, ('WUS voor bevragingen, ebMS voor meldingen en kennisgevingen'). Dit verband bleek in de praktijk niet altijd werkbaar of wenselijk. In 2020 is daarom besloten om de richtlijnen voor het toepassen van de Digikoppeling standaarden te wijzigen.
 
-![Overzicht Digikoppeling Koppelvlakken](media/fig-structuurv2.png "Overzicht Digikoppeling Koppelvlakken")
+![Overzicht Digikoppeling Koppelvlakken](media/fig-structuur.png "Overzicht Digikoppeling Koppelvlakken")
 
 Digikoppeling kent vier koppelvlakstandaarden
 
