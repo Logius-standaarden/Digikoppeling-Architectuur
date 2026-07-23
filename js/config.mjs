@@ -22,22 +22,12 @@ loadRespecWithConfiguration({
       { 
         "company" : "Logius",
         "companyURL" : "https://www.logius.nl",
-        "name" : "Edwin Wisse"
-      },
-      { 
-        "company" : "Logius",
-        "companyURL" : "https://www.logius.nl",
-        "name" : "Martin van der Plas"
-      },
-      { 
-        "company" : "Logius",
-        "companyURL" : "https://www.logius.nl",
         "name" : "Peter Haasnoot"
       },
       { 
         "company" : "Logius",
         "companyURL" : "https://www.logius.nl",
-        "name" : "Pieter Hering"
+        "name" : "Nil Barua"
       }
     ],
   github: "https://github.com/Logius-standaarden/Digikoppeling-Architectuur",
