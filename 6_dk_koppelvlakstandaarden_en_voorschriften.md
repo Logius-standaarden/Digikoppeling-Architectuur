@@ -191,7 +191,7 @@ De standaard doet geen uitspraak over gegevensstromen waarin kleine en grote ber
 De [[[DK-GB]]] maakt gebruik van WUS, ebMS2 of REST
  voor het verzenden van metadata. Voor ophalen van het grote bestand maakt de standaard gebruik van HTTPS-downloads. Daardoor zijn reliability en security gelijkwaardig aan de andere koppelvlakstandaarden. Ook is het gebruik van transparante intermediairs mogelijk.
 
-[[[DK-GB]]] regelt de volgende functionaliteiten, in aanvulling op WUS of ebMS2
+[[[DK-GB]]] regelt de volgende functionaliteiten:
 
 - Identificatie en authenticatie van partijen (OIN)
 
