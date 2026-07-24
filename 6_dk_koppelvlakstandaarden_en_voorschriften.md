@@ -4,7 +4,7 @@
 
 De Digikoppeling Architectuur legde in de eerdere versies grote nadruk op bevragingen en meldingen en legde een verband tussen deze interactiepatronen en de onderliggende standaarden, ('WUS voor bevragingen, ebMS voor meldingen en kennisgevingen'). Dit verband bleek in de praktijk niet altijd werkbaar of wenselijk. In 2020 is daarom besloten om de richtlijnen voor het toepassen van de Digikoppeling standaarden te wijzigen.
 
-![Overzicht Digikoppeling Koppelvlakken](media/fig-structuur.png "Overzicht Digikoppeling Koppelvlakken")
+![Overzicht Digikoppeling Koppelvlakken](media/DK_structuur.svg "Overzicht Digikoppeling Koppelvlakken")
 
 Digikoppeling kent vier koppelvlakstandaarden
 
@@ -70,11 +70,12 @@ Tabel 6.2: Digikoppeling-voorschriften
 
 ## REST API's
 
-Het [[[DK-RESTAPI]]] is gebaseerd op de Federated Services Connectivity (FSC) standaard en de REST API Design Rules die in 2020 door het Kennisplatform API's zijn ontwikkeld.
+Het [[[DK-RESTAPI]]] is gebaseerd op de REST API Design Rules die in 2020 door het Kennisplatform API's zijn ontwikkeld.
+Voor de afspraken met betrekking tot toegang tot API's maakt het profiel gebruik van de Federated Services Connectivity (FSC) standaard.
 
 Een application programming interface (API) is een gestructureerd en gedocumenteerd koppelvlak voor communicatie tussen applicaties. In de laatste 10 jaar heeft *REpresentational State Transfer* (REST) zich ontwikkeld tot een bepalend principe voor het realiseren van API's.
 
-De standaard FSC schrijft voor hoe gekoppeld kan worden met een API's, hoe API's in een netwerk gevonden kunnen worden en wanneer en hoe log regels moeten worden weggeschreven. 
+De standaard [FSC](https://fsc-standaard.nl/) schrijft voor hoe gekoppeld kan worden met een API's, hoe API's in een netwerk gevonden kunnen worden en wanneer en hoe log regels moeten worden weggeschreven. 
 
 De standaard REST API Design Rules geeft een verzameling basisregels voor structuur en naamgeving waarmee de overheid op een uniforme en eenduidige manier REST API's aanbiedt. Dit maakt het voor ontwikkelaars gemakkelijker om betrouwbare applicaties te ontwikkelen met API's van de overheid. REST API's kunnen worden gebruikt voor het laagdrempelig bevragen van resources maar ook voor het creëren en muteren van resources.
 
@@ -191,7 +192,7 @@ De standaard doet geen uitspraak over gegevensstromen waarin kleine en grote ber
 De [[[DK-GB]]] maakt gebruik van WUS, ebMS2 of REST
  voor het verzenden van metadata. Voor ophalen van het grote bestand maakt de standaard gebruik van HTTPS-downloads. Daardoor zijn reliability en security gelijkwaardig aan de andere koppelvlakstandaarden. Ook is het gebruik van transparante intermediairs mogelijk.
 
-[[[DK-GB]]] regelt de volgende functionaliteiten, in aanvulling op WUS of ebMS2
+[[[DK-GB]]] regelt de volgende functionaliteiten:
 
 - Identificatie en authenticatie van partijen (OIN)
 

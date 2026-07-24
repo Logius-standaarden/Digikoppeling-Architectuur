@@ -10,7 +10,7 @@ Digikoppeling voorziet hierin door de standaarden voor deze uitwisseling te defi
 
 ## Context van Digikoppeling
 
-Voordat we inhoudelijk op Digikoppeling en haar onderliggende standaarden en de hierbij horende toepassingsgebieden ingaan, is het belangrijk om aantal begrippen uit het gebied van gegevensuitwisseling nader te beschrijven. Belangrijk is ook het [functionele toepassingsgebied](#functioneel-toepassingsgebied) en [organisatorisch werkingsgebied](#organisatorisch-werkingsgebied) te beschrijven waarmee Digikoppeling op de lijst van verplichte standaarden ('Pas-toe-of-leg-uit') van het Forum Standaardisatie vermeld staat. Met deze ingrediënten formuleren  we uiteindelijk de scope van Digikoppeling.
+Voordat we inhoudelijk op Digikoppeling en haar onderliggende standaarden en de hierbij horende toepassingsgebieden ingaan, is het belangrijk om een aantal begrippen uit het gebied van gegevensuitwisseling nader te beschrijven. Belangrijk is ook het [functionele toepassingsgebied](#functioneel-toepassingsgebied) en [organisatorisch werkingsgebied](#organisatorisch-werkingsgebied) te beschrijven waarmee Digikoppeling op de lijst van verplichte standaarden ('Pas-toe-of-leg-uit') van het Forum Standaardisatie vermeld staat. Met deze ingrediënten formuleren  we uiteindelijk de scope van Digikoppeling.
 
 ### Open en Closed Data
 
