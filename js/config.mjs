@@ -37,6 +37,6 @@ loadRespecWithConfiguration({
   publishDate: "2025-01-30",
   publishVersion: "2.1.1",
   shortName: "architectuur",
-  specStatus: "DEF",
+  specStatus: "WV",
   specType: "ST"
 });
